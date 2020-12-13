@@ -1,0 +1,738 @@
+* {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #F8F0EE;
+    text-align: center;
+    height: 100%;
+    z-index: 99;
+}
+
+#menuburger {
+    font-size: 8.5vw;
+    text-align: right;
+    color: #742E07;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu li {
+    display: block;
+    margin: 2vw;
+    padding: 2vw;
+}
+
+#menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu a:hover {
+    color: #F2AB9B;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav_hide {
+    height: auto;
+}
+
+#logo {
+    position: absolute;
+    width: 17vw;
+    left: 2vw;
+    top: 0;
+}
+
+#splash {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+#velkommen {
+    position: relative;
+    margin: auto;
+    top: 0;
+    width: 100%;
+    height: 896px;
+    text-align: center;
+}
+
+#velkommen h1,
+#velkommen p {
+    position: relative;
+    top: 400px;
+}
+
+#splash #pil {
+    position: absolute;
+    width: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+
+    animation-name: pil_kf;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pil_kf {
+    0% {
+        top: 760px;
+    }
+
+    100% {
+        top: 765px;
+    }
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    line-height: 6.5vw;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 8vw;
+}
+
+.billedtekst {
+    font-family: 'Playfair Display', serif;
+    /*    text-align: center;*/
+}
+
+#groen {
+    position: absolute;
+    background-color: #CAD2C6;
+    width: 20vw;
+    height: 80vw;
+    opacity: 0.3;
+}
+
+#gul {
+    position: absolute;
+    background-color: #F4DAA8;
+    width: 70vw;
+    height: 60vw;
+    top: 340vw;
+    right: 0;
+    opacity: 0.3;
+}
+
+#blaa {
+    position: absolute;
+    background-color: #ACCCDB;
+    width: 65vw;
+    height: 40vw;
+    top: 470vw;
+    opacity: 0.3;
+}
+
+#forside_behandlinger {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vw;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    font-size: 8vw;
+    padding: 2vw;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    padding: 2vw;
+}
+
+#forside_behandlinger p {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 4vw;
+
+}
+
+/* Ikoner under behandlinger */
+
+#forside_behandlinger img {
+    width: 35vw;
+    height: 100%;
+    margin: 5vw;
+}
+
+#forside_behandlinger .negle {
+    width: 17vw;
+}
+
+#forside_behandleren {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vw;
+}
+
+#behandleren {
+    position: relative;
+    background-color: #F8EFED;
+    margin: auto;
+    width: 80%;
+    height: 60vw;
+}
+
+#behandleren h3 {
+    color: #742E07;
+    padding: 5vw;
+}
+
+#behandleren p {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.skygge_laes_mere {
+    position: absolute;
+    background-color: #F2AB9B;
+    width: 34vw;
+    height: 10vw;
+    right: 4vw;
+    bottom: -4vw;
+}
+
+.laes_mere {
+    position: absolute;
+    background-color: white;
+    width: 34vw;
+    height: 10vw;
+    right: 3vw;
+    bottom: -3vw;
+}
+
+.laes_mere a {
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3vw;
+}
+
+#skygge_video {
+    position: absolute;
+    background-color: #CAD2C6;
+    width: 75%;
+    height: 82vw;
+    top: 110vw;
+    right: 6vw;
+}
+
+#behandleren_video {
+    position: relative;
+    background-color: #F8EFED;
+    margin: auto;
+    top: 15vw;
+    width: 80%;
+    height: 100vw;
+}
+
+#anmeldelser {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 25vw;
+}
+
+#skygge_anmeldelser {
+    display: none;
+}
+
+
+#anmeldelser_intro {
+    position: relative;
+    background-color: #F8EFED;
+    margin: auto;
+    width: 80%;
+    height: 60vw;
+}
+
+#anmeldelser_intro p {
+    padding: 5vw;
+}
+
+
+#lyseroed {
+    position: absolute;
+    background-color: #F2AB9B;
+    width: 58%;
+    height: 100vw;
+    top: 100vw;
+    opacity: 0.3;
+}
+
+.kunder {
+    position: relative;
+    margin: auto;
+    margin-bottom: 4vw;
+    width: 80%;
+}
+
+.kundebillede {
+    margin: 4vw;
+    width: 15vw;
+}
+
+.kunde_info {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+#popop p {
+    display: none;
+}
+
+
+footer {
+    margin-top: 5vw;
+    padding: 5vw;
+    background-color: #F8EFED;
+    margin: auto;
+    max-width: 100%;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+#gavekort {
+    display: none;
+}
+
+footer p {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+footer img {
+    width: 10vw;
+}
+
+#aabningstider,
+#besoeg_os,
+#kontakt_os {
+    display: none;
+}
+
+.all_rights_reserved {
+    margin-top: 4vw;
+    font-size: 2.5vw;
+}
+
+@media only screen and (min-width: 800px) {
+
+    nav {
+        padding: 2vw;
+        height: auto;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+
+    #menu {
+        text-align: right;
+    }
+
+    #menu li {
+        display: inline;
+        padding: 0.1vw;
+        margin: 0;
+        margin-right: 2vw;
+    }
+
+    #logo {
+        width: 9vw;
+    }
+
+    #menuburger {
+        display: none;
+    }
+
+    #menu a {
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.3vw;
+        font-size: 1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #menu a:hover {
+        color: #F2AB9B;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    p {
+        line-height: 2.3vw;
+    }
+
+    /*    Splash */
+
+    #velkommen h1,
+    #velkommen p {
+        position: relative;
+        top: 400px;
+    }
+
+
+    /*    Behandlinger */
+
+    h2 {
+        font-size: 4vw;
+    }
+
+
+    #skygge_behandlinger {
+        position: absolute;
+        background-color: #F2AB9B;
+        width: 34vw;
+        height: 30vw;
+        right: 4vw;
+        bottom: -1vw;
+    }
+
+    #sectionwrapper {
+        position: relative;
+        margin: auto;
+        background-color: #F8EFED;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        width: 90%;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #forside_behandlinger img,
+    #forside_behandlinger .negle {
+        width: 8vw;
+        height: auto;
+        margin: auto;
+        padding-top: 3vw;
+    }
+
+    #forside_behandlinger .negle {
+        width: 4vw;
+    }
+
+    #forside_behandlinger p {
+        margin: 0;
+        padding: 1vw;
+        padding-bottom: 3vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+        padding: 1vw;
+        color: #742E07;
+    }
+
+    #gul {
+        width: 30vw;
+        height: 60vw;
+        top: 150vw;
+        left: 0;
+        opacity: 0.3;
+    }
+
+    #groen {
+        position: absolute;
+        height: 60vw;
+        right: 0;
+        top: 200vw;
+        opacity: 0.3;
+    }
+
+    #forside_behandleren {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        /*        Undersøg evt hvorfor den driller her*/
+        height: 60vw;
+    }
+
+    #behandleren {
+        margin-left: 15%;
+        width: 50%;
+        height: 35vw;
+    }
+
+    #behandleren h3 {
+        padding: 2vw;
+        margin-right: 8vw;
+        font-size: 3vw;
+    }
+
+    #behandleren p {
+        margin: auto;
+        margin-right: 13vw;
+        width: 62%;
+    }
+
+    .skygge_laes_mere {
+        position: absolute;
+        background-color: #F2AB9B;
+        width: 20vw;
+        height: 5vw;
+        right: 3vw;
+        bottom: 3vw;
+        z-index: 1;
+    }
+
+    .laes_mere {
+        position: absolute;
+        background-color: white;
+        width: 20vw;
+        height: 5vw;
+        right: 2vw;
+        bottom: 4vw;
+        z-index: 1;
+    }
+
+    .laes_mere a {
+        padding: 1.6vw;
+    }
+
+    #skygge_video {
+        background-color: #ACCCDB;
+        width: 20vw;
+        height: 30vw;
+        top: 7vw;
+        right: 10vw;
+        opacity: 0.6;
+    }
+
+    #behandleren_video {
+        position: relative;
+        background-color: seashell;
+        top: -36vw;
+        left: 58vw;
+        width: 30%;
+        height: 40vw;
+        margin: 0;
+    }
+
+    #anmeldelser {
+        margin-top: 0vw;
+    }
+
+    #skygge_anmeldelser {
+        display: block;
+        position: absolute;
+        background-color: #F2AB9B;
+        width: 30%;
+        left: 4vw;
+        height: 12vw;
+        top: 8vw;
+    }
+
+    #anmeldelser_intro {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2vw;
+    }
+
+    .sectionwrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: auto;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kundebillede {
+        margin: auto;
+        padding: 2.5vw;
+        width: 10vw;
+    }
+
+    .kunde_info {
+        font-size: 1.5vw;
+    }
+
+    #blaa {
+        display: none;
+    }
+
+    #lyseroed {
+        background-color: #ACCCDB;
+        width: 37vw;
+        height: 42vw;
+        top: 45vw;
+        opacity: 0.3;
+        z-index: -1;
+    }
+
+    #gavekort {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 10vw;
+    }
+
+    #gavekort .sectionwrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        position: relative;
+        background-color: #F8EFED;
+        margin-bottom: 3vw;
+        padding: 3vw;
+    }
+
+    .form_felt {
+        margin: 2vw;
+    }
+
+    /*
+    input {
+        width: 30vw;
+    }
+
+    input[type=text]
+*/
+
+    .send {
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        width: 8vw;
+        height: 2vw;
+        background-color: white;
+        border: none;
+    }
+
+    .send:hover {
+        background-color: #F2AB9B;
+        cursor: pointer;
+    }
+
+    #popop {
+        position: fixed;
+        width: 200px;
+        text-align: center;
+        background-color: #F2AB9B;
+        padding: 40px;
+        top: 700px;
+        right: 5vw;
+        z-index: 1;
+    }
+
+    #popop p {
+        display: block;
+    }
+
+    #luk p {
+        position: absolute;
+        bottom: 110px;
+        right: 12px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: white;
+    }
+
+    #luk p:hover {
+        color: black;
+    }
+
+
+    #aabningstider,
+    #besoeg_os,
+    #kontakt_os {
+        display: block;
+    }
+
+    footer .sectionwrapper {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: auto;
+        margin: 0;
+    }
+
+    .col {
+        margin: 1vw;
+    }
+
+    h5 {
+        font-size: 2vw;
+    }
+
+    #kontakt {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    #kontakt img,
+    #kontakt a {
+        margin-right: 1vw;
+    }
+
+    footer #some img {
+        margin-right: 1vw;
+        width: 5vw;
+    }
+
+    footer address,
+    footer a {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-family: 'Playfair Display',
+            serif;
+        font-style: normal;
+        color: black;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #F2AB9B;
+    }
+
+    .all_rights_reserved {
+        margin-top: 4vw;
+        font-size: 1.2vw;
+    }
+}
