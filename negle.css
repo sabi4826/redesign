@@ -1,0 +1,196 @@
+                    * {
+                    margin: 0;
+                    padding: 0;
+                }
+                header {
+                    position: absolute;
+                    background-color: #F8F0EE;
+                    width: 100vw;
+                    height: 10vw;
+                    top: 0vw;
+                    right: 0;
+                }
+                body {
+                    margin-top: 33vw;
+                }
+                h1 {
+                    font-family: 'Montserrat', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 8vw;
+                    text-align: center;
+                    padding-bottom: 7vw;
+                }
+                p {
+                    font-family: 'Playfair Display', serif;
+                    margin-left: 6vw;
+                    margin-right: 6vw;
+                    margin-bottom: 4vw;
+                    text-align: center;
+                    line-height: 7vw;
+                }
+                .skygge_section {
+                    position: relative;
+                    top: 13vw;
+                    left: 10vw;
+                    height: 165vw;
+                    width: 75vw;
+                    background-color: #F6D5CE;
+                }
+                .sectionwrapper {
+                    position: relative;
+                    top: -147vw;
+                    right: -15vw;
+                    height: 165vw;
+                    width: 75vw;
+                    background-color: #F8F0EE;
+                    display: grid;
+                    grid-template-columns: 3fr 1fr;
+                }
+                .col_left {
+                    font-family: 'Playfair Display', serif;
+                    margin-left: 6vw;
+                    margin-right: 6vw;
+                    margin-bottom: 4vw;
+                    text-align: left;
+                    line-height: 9vw;
+                    font-size: 3vw;
+                    margin-top: 4vw;
+                }
+                .col_left .linje {
+                    line-height: 3.5vw;
+                    padding-top: 2vw;
+                    padding-bottom: 2vw;
+                }
+                .col_right {
+                    font-family: 'Playfair Display', serif;
+                    margin-left: 6vw;
+                    margin-right: 6vw;
+                    margin-bottom: 4vw;
+                    text-align: right;
+                    line-height: 9vw;
+                    font-size: 3vw;
+                    margin-top: 4vw;
+                }
+                .col_right .linje {
+                    padding-top: 0.5vw;
+                    padding-bottom: 1.5vw;
+                }
+                .skygge_book_nu {
+                    position: relative;
+                    top: -152vw;
+                    left: 42vw;
+                    height: 13vw;
+                    width: 42vw;
+                    background-color: #F2AB9B;
+                }
+                .book_nu {
+                    position: relative;
+                    top: -167vw;
+                    left: 44vw;
+                    height: 13vw;
+                    width: 42vw;
+                    background-color: white;
+                    cursor: pointer;
+                }
+                .book_nu .tekst {
+                    font-family: 'Montserrat', sans-serif;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding-top: 4vw;
+                    color: black;
+                }
+                a:link {
+                    text-decoration: none;
+                }
+                @media only screen and (min-width: 800px) {
+                    h1 {
+                        font-size: 2.5vw;
+                        padding-bottom: 5vw;
+                    }
+                    body {
+                        margin-top: 15vw;
+                    }
+                    p {
+                        line-height: 3vw;
+                        font-size: 1.5vw;
+                        padding-left: 10vw;
+                        padding-right: 10vw;
+                        padding-bottom: 7vw;
+                    }
+                    .skygge_section {
+                        display: none;
+                    }
+                    .sectionwrapper {
+                        position: relative;
+                        top: 0vw;
+                        left: 12.5vw;
+                        width: 75vw;
+                        height: 52vw;
+                    }
+                    dl {
+                        line-height: 3vw;
+                        font-size: 1.2vw;
+                        padding-left: 10vw;
+                        padding-right: 10vw;
+                        padding: 0;
+                    }
+                    .col_left .linje {
+                        line-height: 3vw;
+                        padding-top: 0vw;
+                        padding-bottom: 0vw;
+                    }
+                    dt br {
+                        display: none;
+                    }
+                    .col_right .linje {
+                        line-height: 3vw;
+                        padding-top: 0vw;
+                        padding-bottom: 0vw;
+                    }
+                    .skygge_book_nu {
+                        position: relative;
+                        top: -2vw;
+                        left: 64.5vw;
+                        height: 4vw;
+                        width: 17vw;
+                    }
+                    .book_nu {
+                        position: relative;
+                        top: -7vw;
+                        left: 65.5vw;
+                        height: 4vw;
+                        width: 17vw;
+                    }
+                    .book_nu .tekst {
+                        font-size: 1.5vw;
+                    }
+                    .orange {
+                        position: absolute;
+                        top: 30vw;
+                        right: 0vw;
+                        width: 24vw;
+                        height: 63vw;
+                        background-color: #F2AB9B;
+                        filter: opacity(50%);
+                    }
+                    .blaa {
+                        position: absolute;
+                        top: 59.5vw;
+                        left: 11vw;
+                        width: 51vw;
+                        height: 33vw;
+                        background-color: #ACCCDB;
+                        filter: opacity(50%)
+                    }
+                    .groen {
+                        position: absolute;
+                        top: 83vw;
+                        left: 0vw;
+                        width: 51vw;
+                        height: 38vw;
+                        background-color: #CAD2C6;
+                        filter: opacity(50%);
+                    }
+                    .book_nu .tekst {
+                        padding-top: 1vw;
+                    }

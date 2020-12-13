@@ -1,0 +1,334 @@
+* {
+    margin 0;
+    padding: 0;
+}
+#splash_behandlinger {
+    position: relative;
+    width: 100%;
+}
+#splash_billede {
+    position: absolute;
+    width: 100%;
+    height: 896px;
+    background-color: beige;
+}
+#velkommen {
+    position: relative;
+    margin: auto;
+    top: 80vw;
+    width: 100%;
+    height: 896px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 8vw;
+    text-align: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    padding: 2vw;
+    margin-top: 1vw;
+    text-align: center;
+    padding-top: 10vw;
+}
+.brynogvipper_ikon {
+    position: relative;
+    top: 5vw;
+    left: 14vw;
+    height: 27vw;
+    width: 43vw;
+}
+.haarfjerning_ikon {
+    position: relative;
+    top: 0vw;
+    left: 22vw;
+    height: 29vw;
+    width: 43vw;
+}
+.spraytan_ikon {
+    position: relative;
+    top: 1vw;
+    left: 16vw;
+    height: 42vw;
+    width: 45vw;
+}
+.spraytan_container h3 {
+    padding: 1vw;
+}
+.negle_ikon {
+    position: relative;
+    top: 0vw;
+    left: 27vw;
+    height: 34vw;
+    width: 22vw;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    line-height: 6.5vw;
+    text-align: center;
+    padding-top: 0;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.brynogvipper_container {
+    position: relative;
+    background-color: #F8F0EE;
+    margin: 10vw;
+    margin-bottom: 20vw;
+    height: 130vw;
+}
+.haarfjerning_container {
+    position: relative;
+    background-color: #F8F0EE;
+    margin: 10vw;
+    margin-bottom: 20vw;
+    height: 130vw;
+}
+.spraytan_container {
+    position: relative;
+    background-color: #F8F0EE;
+    margin: 10vw;
+    margin-bottom: 20vw;
+    height: 130vw;
+}
+.negle_container {
+    position: relative;
+    background-color: #F8F0EE;
+    margin: 10vw;
+    margin-bottom: 20vw;
+    height: 130vw;
+}
+.right_skygge_laes_mere {
+    position: relative;
+    top: 4vw;
+    left: 28vw;
+    height: 13vw;
+    width: 42vw;
+    z-index: 1;
+    background-color: #F2AB9B;
+}
+.right_laes_mere {
+    position: relative;
+    top: -11vw;
+    left: 30vw;
+    height: 13vw;
+    width: 42vw;
+    background-color: white;
+    z-index: 2;
+}
+.left_skygge_laes_mere {
+    position: relative;
+    top: 6vw;
+    left: 28vw;
+    height: 13vw;
+    width: 42vw;
+    background-color: #F2AB9B;
+    z-index: 1;
+}
+.left_laes_mere {
+    position: relative;
+    top: -9vw;
+    left: 30vw;
+    height: 13vw;
+    width: 42vw;
+    background-color: white;
+    z-index: 2;
+}
+.tekst {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 4vw;
+    color: black;
+    cursor: pointer;
+}
+a:link {
+    text-decoration: none;
+}
+@media only screen and (min-width: 800px) {
+    #velkommen {
+        top: 10vw;
+    }
+    #splash_behandlinger {
+        width: 90vw;
+        height: 40vw;
+        margin: 5vw;
+    }
+    #splash_billede {
+        width: 90vw;
+        height: 40vw;
+    }
+    h1 {
+        font-size: 2.5vw;
+        padding-bottom: 5vw;
+    }
+    p {
+        line-height: 3vw;
+        font-size: 1vw;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    .billedtekst {
+        line-height: 3vw;
+        font-size: 1.5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom: 7vw;
+    }
+    .brynogvipper_container {
+        height: 20vw;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin-bottom: 5vw;
+    }
+    .brynogvipper_container .right {
+        border-left: 0.1vw solid #742E07;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+    .haarfjerning_container {
+        height: 20vw;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin-bottom: 5vw;
+    }
+    .haarfjerning_container .right {
+        border-right: 0.1vw solid #742E07;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+    .spraytan_container {
+        height: 20vw;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin-bottom: 5vw;
+    }
+    .spraytan_container .right {
+        border-left: 0.1vw solid #742E07;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+    .negle_container {
+        height: 20vw;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin-bottom: 5vw;
+    }
+    .negle_container .right {
+        border-right: 0.1vw solid #742E07;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+    .ikon {
+        height: 20vw;
+        width: 20vw;
+        top: 0vw;
+        left: 0vw;
+    }
+    h3 {
+        font-size: 2vw;
+        padding: 0vw;
+        text-align: center;
+        margin: 3vw;
+        margin-top: 1.5vw;
+        color: #742E07;
+    }
+    .right_skygge_laes_mere {
+        position: relative;
+        top: -6vw;
+        left: 40.5vw;
+        height: 4vw;
+        width: 17vw;
+    }
+    .right_laes_mere {
+        position: relative;
+        top: -7vw;
+        left: 21.5vw;
+        height: 4vw;
+        width: 17vw;
+    }
+    .left_skygge_laes_mere {
+        position: relative;
+        top: -6vw;
+        left: 22.5vw;
+        height: 4vw;
+        width: 17vw;
+    }
+    .left_laes_mere {
+        position: relative;
+        top: -7vw;
+        left: -37vw;
+        height: 4vw;
+        width: 17vw;
+    }
+    .tekst {
+        padding-top: 1.5vw;
+    }
+    #behandlinger p {
+        margin: 0;
+        margin-top: -2.5vw;
+        line-height: 2vw;
+        margin-right: 0vw;
+        margin-left: 0vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+    .orange {
+        position: absolute;
+        top: 3.5vw;
+        left: 4.5vw;
+        width: 31vw;
+        height: 31vw;
+        background-color: #F2AB9B;
+        filter: opacity(50%);
+    }
+    .groen {
+        position: absolute;
+        top: 37vw;
+        right: 0vw;
+        width: 28vw;
+        height: 60vw;
+        background-color: #CAD2C6;
+        filter: opacity(50%)
+    }
+    .gul {
+        position: absolute;
+        top: 56vw;
+        left: 54.5vw;
+        width: 36vw;
+        height: 20vw;
+        background-color: #F4DAA8;
+        filter: opacity(50%);
+    }
+    .blaa {
+        position: absolute;
+        top: 99vw;
+        left: 0vw;
+        width: 45vw;
+        height: 53vw;
+        background-color: #ACCCDB;
+        filter: opacity(50%);
+    }
+    .orange2 {
+        position: absolute;
+        top: 120vw;
+        left: 75.5vw;
+        width: 15vw;
+        height: 16vw;
+        background-color: #F2AB9B;
+        filter: opacity(50%);
+    }
+    .gul2 {
+        position: absolute;
+        top: 144vw;
+        left: 9.5vw;
+        width: 52vw;
+        height: 20vw;
+        background-color: #F4DAA8;
+        filter: opacity(50%);
+    }
+}

@@ -1,0 +1,464 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: absolute;
+            background-color: #F8F0EE;
+            width: 100vw;
+            height 20vw;
+            top: 0vw;
+        }
+        body {
+            margin-top: 33vw;
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-size: 8vw;
+            text-align: center;
+            padding-bottom: 7vw;
+        }
+        p {
+            font-family: 'Playfair Display', serif;
+            margin-left: 6vw;
+            margin-right: 6vw;
+            margin-bottom: 4vw;
+            text-align: center;
+            line-height: 7vw;
+            padding-bottom: 8vw;
+        }
+        #sugaring h2 {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-size: 5vw;
+            text-align: center;
+            padding-bottom: 7vw;
+        }
+        #sugaring .skygge_section {
+            position: relative;
+            top: 0vw;
+            left: 10vw;
+            height: 170vw;
+            width: 75vw;
+            background-color: #F6D5CE;
+        }
+        #sugaring .sectionwrapper {
+            position: relative;
+            top: -165vw;
+            right: -15vw;
+            height: 170vw;
+            width: 75vw;
+            background-color: #F8F0EE;
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr;
+        }
+        #sugaring .overskrifter {
+            position: absolute;
+            top: 4vw;
+            right: 0vw;
+            height: 50vw;
+            width: 78vw;
+            font-family: 'Playfair Display', serif;
+            display: grid;
+            grid-template-columns: 3fr 2.5fr 3fr;
+            font-size: 3vw;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #sugaring .col_left {
+            font-family: 'Playfair Display', serif;
+            margin-left: 6vw;
+            margin-right: 6vw;
+            margin-bottom: 4vw;
+            text-align: left;
+            line-height: 9vw;
+            font-size: 3vw;
+            margin-top: 20vw;
+        }
+        #sugaring .col_left .linje {
+            line-height: 3.5vw;
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+        }
+        #sugaring .col_right {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 4vw;
+            text-align: left;
+            line-height: 9vw;
+            font-size: 3vw;
+            margin-top: 4vw;
+            margin-top: 20vw;
+        }
+        #sugaring .col_right .linje {
+            padding-top: 0.5vw;
+            padding-bottom: 1.5vw;
+        }
+        #sugaring .col_middle {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 4vw;
+            text-align: left;
+            line-height: 9vw;
+            font-size: 3vw;
+            margin-top: 4vw;
+            margin-top: 20vw;
+        }
+        #sugaring .col_middle .linje {
+            padding-top: 0.5vw;
+            padding-bottom: 1.5vw;
+        }
+        #sugaring .skygge_book_nu {
+            position: relative;
+            top: -171vw;
+            left: 42vw;
+            height: 13vw;
+            width: 42vw;
+            background-color: #F2AB9B;
+        }
+        #sugaring .book_nu {
+            position: relative;
+            top: -186vw;
+            left: 44vw;
+            height: 13vw;
+            width: 42vw;
+            background-color: white;
+            cursor: pointer;
+        }
+        #sugaring .book_nu .tekst {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 4vw;
+            color: black;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        #voks .rubrik {
+            position: relative;
+            top: 17vw;
+        }
+        #voks h2 {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-size: 5vw;
+            text-align: center;
+            padding-bottom: 7vw;
+        }
+        #voks .skygge_section {
+            position: relative;
+            top: 14vw;
+            left: 10vw;
+            height: 240vw;
+            width: 75vw;
+            background-color: #F6D5CE;
+        }
+        #voks .sectionwrapper {
+            position: relative;
+            top: -221vw;
+            right: -15vw;
+            height: 240vw;
+            width: 75vw;
+            background-color: #F8F0EE;
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr;
+        }
+        #voks .overskrifter {
+            position: absolute;
+            top: 4vw;
+            right: 0vw;
+            height: 50vw;
+            width: 78vw;
+            font-family: 'Playfair Display', serif;
+            display: grid;
+            grid-template-columns: 3fr 2.5fr 3fr;
+            font-size: 3vw;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #voks .col_left .linje {
+            line-height: 3.5vw;
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+        }
+        #voks .col_left {
+            font-family: 'Playfair Display', serif;
+            margin-left: 6vw;
+            margin-right: 6vw;
+            margin-bottom: 4vw;
+            text-align: left;
+            line-height: 9vw;
+            font-size: 3vw;
+            margin-top: 21vw;
+        }
+        #voks .col_middle {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 4vw;
+            text-align: left;
+            line-height: 9vw;
+            font-size: 3vw;
+            margin-top: 21vw;
+        }
+        #voks .col_right {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 4vw;
+            text-align: left;
+            line-height: 9vw;
+            font-size: 3vw;
+            margin-top: 21vw;
+        }
+        #voks .linje {
+            padding-top: 0.5vw;
+            padding-bottom: 1.5vw;
+        }
+        #voks .linje2 {
+            padding-top: 0vw;
+            padding-bottom: 1vw;
+            line-height: 3.5vw;
+            margin-top: 2.5vw;
+        }
+        #voks .linje3 {
+            padding-bottom: -0.5vw;
+            line-height: 9vw;
+            padding-top: 1vw;
+            margin-top: 4.5vw;
+            margin-left: 0.5vw;
+        }
+        #voks .linje4 {
+            padding-bottom: -0.5vw;
+            line-height: 9vw;
+            padding-top: 1vw;
+            margin-top: 4.5vw;
+            margin-left: 0.5vw;
+        }
+        #voks .skygge_book_nu {
+            position: relative;
+            top: -226vw;
+            left: 42vw;
+            height: 13vw;
+            width: 42vw;
+            background-color: #F2AB9B;
+        }
+        #voks .book_nu {
+            position: relative;
+            top: -241vw;
+            left: 44vw;
+            height: 13vw;
+            width: 42vw;
+            background-color: white;
+            cursor: pointer;
+        }
+        #voks .book_nu .tekst {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 4vw;
+            color: black;
+        }
+        @media only screen and (min-width: 800px) {
+            h1 {
+                font-size: 2vw;
+                padding-bottom: 5vw;
+            }
+            #sugaring h2 {
+                font-size: 1.5vw;
+                padding-bottom: 5vw;
+            }
+            #voks h2 {
+                top: 0vw;
+                font-size: 1.5vw;
+                padding-bottom: 5vw;
+            }
+            body {
+                margin-top: 15vw;
+            }
+            p {
+                line-height: 3vw;
+                font-size: 1.5vw;
+                padding-left: 10vw;
+                padding-right: 10vw;
+                padding-bottom: 7vw;
+            }
+            dt {
+                line-height: 3vw;
+                font-size: 1.2vw;
+                padding-left: 10vw;
+                padding-right: 10vw;
+                padding: 0;
+            }
+            dt br {
+                display: none;
+            }
+            .skygge_section {
+                display: none;
+            }
+            #sugaring .sectionwrapper {
+                position: relative;
+                top: -3vw;
+                left: 12.5vw;
+                width: 75vw;
+                height: 50vw;
+            }
+            #sugaring .col_left {
+                margin-top: 10vw;
+            }
+            #sugaring .col_middle {
+                margin-top: 10vw;
+            }
+            #sugaring .col_right {
+                margin-top: 10vw;
+            }
+            #sugaring .col_left .linje {
+                line-height: 3vw;
+                padding-top: 0vw;
+                padding-bottom: 0vw;
+            }
+            #sugaring .col_middle .linje {
+                line-height: 3vw;
+                padding-top: 0vw;
+                padding-bottom: 0vw;
+            }
+            #sugaring .col_right .linje {
+                line-height: 3vw;
+                padding-top: 0vw;
+                padding-bottom: 0vw;
+            }
+            #sugaring .skygge_book_nu {
+                position: relative;
+                top: -4vw;
+                left: 64.5vw;
+                height: 4vw;
+                width: 17vw;
+            }
+            #sugaring .book_nu {
+                position: relative;
+                top: -9vw;
+                left: 65.5vw;
+                height: 4vw;
+                width: 17vw;
+            }
+            #sugaring .book_nu .tekst {
+                font-size: 1.5vw;
+                padding-top: 1vw;
+            }
+            #voks {
+                position: relative;
+                top: 98vw;
+            }
+            #voks .rubrik {
+                top: -102vw;
+                left: 0vw;
+            }
+            #voks h2 {
+                padding-bottom: 0vw;
+            }
+            #voks .sectionwrapper {
+                position: relative;
+                top: -98vw;
+                left: 12.5vw;
+                width: 75vw;
+                height: 72vw;
+            }
+            #voks p {
+                position: relative;
+                top: -101vw;
+                left 0vw;
+            }
+            #voks .col_left {
+                margin-top: 10vw;
+            }
+            #voks .col_middle {
+                margin-top: 10vw;
+            }
+            #voks .col_right {
+                margin-top: 10vw;
+            }
+            #voks .col_left .linje {
+                line-height: 3vw;
+                padding-top: 0vw;
+                padding-bottom: 0vw;
+            }
+            #voks .col_middle .linje {
+                line-height: 3vw;
+                padding-top: 0vw;
+                padding-bottom: 0vw;
+            }
+            #voks .col_right .linje {
+                line-height: 3vw;
+                padding-top: 0vw;
+                padding-bottom: 0vw;
+            }
+            #voks .linje2 {
+                line-height: 3vw;
+                margin: 0vw;
+                padding: 0vw;
+            }
+            #voks .linje3 {
+                line-height: 3vw;
+                margin: 0vw;
+                padding: 0vw;
+            }
+            #voks .linje4 {
+                line-height: 3vw;
+                margin: 0vw;
+                padding-top: 1.5vw;
+                padding-bottom: 1.5vw;
+            }
+            #voks .skygge_book_nu {
+                position: relative;
+                top: -99vw;
+                left: 64.5vw;
+                height: 4vw;
+                width: 17vw;
+            }
+            #voks .book_nu {
+                position: relative;
+                top: -104vw;
+                left: 65.5vw;
+                height: 4vw;
+                width: 17vw;
+            }
+            #voks .book_nu .tekst {
+                font-size: 1.5vw;
+                padding-top: 1vw;
+            }
+            .blaa {
+                position: absolute;
+                top: 6vw;
+                right: 0vw;
+                width: 30vw;
+                height: 60vw;
+                background-color: #ACCCDB;
+                filter: opacity(50%);
+            }
+            .groen {
+                position: absolute;
+                top: 45vw;
+                left: 11vw;
+                width: 50vw;
+                height: 24vw;
+                background-color: #CAD2C6;
+                filter: opacity(50%)
+            }
+            .orange {
+                position: absolute;
+                top: 91vw;
+                left: 0vw;
+                width: 42vw;
+                height: 39vw;
+                background-color: #F2AB9B;
+                filter: opacity(50%)
+            }
+            .gul {
+                position: absolute;
+                top: 148.5vw;
+                left: 38vw;
+                width: 51vw;
+                height: 36vw;
+                background-color: #F4DAA8;
+                filter: opacity(50%);
+            }
+            .book_nu .tekst {
+                padding-top: 1vw;
+            }
+        }
