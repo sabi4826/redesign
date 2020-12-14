@@ -14,6 +14,9 @@ function sidenVises() {
 
     // Tryk på burgermenu
     document.querySelector("#menuburger").addEventListener("click", toggelmenu);
+
+    // Tryk på "behandlinger og priser"
+    document.querySelector("#behandlinger_knap").addEventListener("click", toggelDropdown);
 }
 
 function visPopop() {
@@ -52,5 +55,12 @@ function toggelmenu() {
     } else {
         document.querySelector("#menuburger").textContent = "X";
     }
+}
+
+function toggelDropdown() {
+    console.log("toggelDropdown");
+    document.querySelector("#dropdown").classList.toggle("hide");
+    document.querySelector("#dropdown").classList.toggle("hidden");
+
 
 }

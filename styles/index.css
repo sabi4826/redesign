@@ -22,6 +22,7 @@ nav {
     display: block;
     margin: 2vw;
     padding: 2vw;
+    width: 80%;
 }
 
 #menu a {
@@ -49,6 +50,40 @@ nav {
     width: 17vw;
     left: 2vw;
     top: 0;
+}
+
+#behandlinger_knap {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #F8F0EE;
+    border: none;
+}
+
+#dropdown {
+    position: relative;
+    background-color: #F8F0EE;
+    width: 80%;
+}
+
+#dropdown li {
+    position: relative;
+    background-color: #F8F0EE;
+    width: 80%;
+    margin: 2vw;
+}
+
+#dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.behandlinger_knap:hover,
+#dropdown a:hover {
+    color: #F2AB9B;
+    cursor: pointer;
 }
 
 #splash {
@@ -390,6 +425,42 @@ footer img {
         color: #F2AB9B;
     }
 
+    #behandlinger_knap {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #F8F0EE;
+        border: none;
+    }
+
+    #dropdown {
+        position: absolute;
+        background-color: #F8F0EE;
+        width: 20vw;
+        height: 18vw;
+        top: 0vw;
+        right: 35.5vw;
+        z-index: -1;
+    }
+
+    #dropdown a {
+        text-decoration: none;
+        color: black;
+        padding: 1vw;
+    }
+
+    #dropdown li {
+        top: 6vw;
+    }
+
+    #behandlinger_knap:hover,
+    #dropdown a:hover {
+        color: #F2AB9B;
+        cursor: pointer;
+    }
+
     .hide {
         display: none;
     }
@@ -654,7 +725,7 @@ footer img {
         text-align: center;
         background-color: #F2AB9B;
         padding: 40px;
-        top: 580px;
+        top: 700px;
         right: 5vw;
         z-index: 1;
     }
@@ -665,7 +736,7 @@ footer img {
 
     #luk p {
         position: absolute;
-        bottom: 100px;
+        bottom: 110px;
         right: 12px;
 
         font-family: 'Montserrat', sans-serif;
