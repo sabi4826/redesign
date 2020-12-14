@@ -654,7 +654,7 @@ footer img {
         text-align: center;
         background-color: #F2AB9B;
         padding: 40px;
-        top: 700px;
+        top: 580px;
         right: 5vw;
         z-index: 1;
     }
@@ -665,7 +665,7 @@ footer img {
 
     #luk p {
         position: absolute;
-        bottom: 110px;
+        bottom: 100px;
         right: 12px;
 
         font-family: 'Montserrat', sans-serif;

@@ -1,0 +1,456 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: #F8F0EE;
+	text-align: center;
+	height: 100%;
+	z-index: 99;
+}
+
+#menuburger {
+	font-size: 8.5vw;
+	text-align: right;
+	color: #742E07;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#menu li {
+	display: block;
+	margin: 2vw;
+	padding: 2vw;
+}
+
+#menu a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5vw;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#menu a:hover {
+	color: #F2AB9B;
+}
+
+.hidden {
+	display: none;
+}
+
+.nav_hide {
+	height: auto;
+}
+
+img {
+	max-width: 85%;
+}
+
+/*Header*/
+header {
+	position: fixed;
+	background-color: #F8F0EE;
+	width: 100vw;
+	height: 20vw;
+	top: 0vw;
+	right: 0;
+	z-index: 1;
+}
+
+body {
+	margin-top: 33vw;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 8vw;
+	text-align: center;
+	padding-bottom: 7vw;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	margin-bottom: 4vw;
+	text-align: center;
+	line-height: 7vw;
+	padding-bottom: 8vw;
+}
+
+.blaa {
+	position: absolute;
+	background-color: #ACCCDB;
+	width: 50vw;
+	height: 145vw;
+	top: 25vw;
+	z-index: -2;
+}
+
+.green {
+	position: absolute;
+	background-color: #CAD2C6;
+	width: 75vw;
+	height: 40vw;
+	top: 210vw;
+	right: 0;
+}
+
+.yellow {
+	position: absolute;
+	background-color: #F4DAA8;
+	width: 40vw;
+	height: 105vw;
+	top: 420vw;
+	z-index: -1;
+}
+
+#om_os {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 10vw;
+}
+
+#skyggeboks_1 {
+	position: absolute;
+	top: 73.5vw;
+	left: 9vw;
+	right: 13vw;
+	height: 55vw;
+	width: 82vw;
+	background-color: #F6D5CE;
+	z-index: -1;
+}
+
+#skyggeboks_2 {
+	position: absolute;
+	top: 430vw;
+	left: 3vw;
+	right: 20vw;
+	height: 30vw;
+	width: 60vw;
+	background-color: #F6D5CE;
+	z-index: -1;
+}
+
+footer {
+	position: absolute;
+	top: 520vw;
+	margin-top: 5vw;
+	padding: 5vw;
+	background-color: #F8EFED;
+	margin: 0;
+	max-width: 100%;
+}
+
+footer p {
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+
+footer img {
+	width: 10vw;
+}
+
+#aabningstider,
+#besoeg_os,
+#kontakt_os {
+	display: none;
+}
+
+.all_rights_reserved {
+	margin-top: 4vw;
+	font-size: 2.5vw;
+}
+
+/* MEDIA QUERIES*/
+@media (min-width: 500px) {
+	header {
+		height: 15vw;
+	}
+
+	.blaa {
+		height: 130vw;
+	}
+
+	.green {
+		top: 285vw;
+	}
+
+	.yellow {
+		top: 410vw;
+	}
+
+	#skyggeboks_1 {
+		top: 60vw;
+	}
+
+	#skyggeboks_2 {
+		top: 385vw;
+	}
+
+	footer {
+		top: 500vw;
+	}
+}
+
+@media (min-width: 600px) {
+
+	header {
+		height: 12vw;
+	}
+
+	h1 {
+		font-size: 6vw;
+	}
+
+	p {
+		line-height: 5vw;
+	}
+
+	.blaa {
+		height: 115vw;
+	}
+
+	.green {
+		top: 200vw;
+	}
+
+	.yellow {
+		top: 320vw;
+		height: 60vw;
+	}
+
+	#skyggeboks_1 {
+		top: 48vw;
+	}
+
+	#skyggeboks_2 {
+		top: 285vw;
+	}
+
+	footer {
+		width: 100%;
+		top: 380vw;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+
+	nav {
+		padding: 2vw;
+		height: auto;
+	}
+
+	.hidden {
+		display: block;
+	}
+
+
+	#menu {
+		text-align: right;
+	}
+
+	#menu li {
+		display: inline;
+		padding: 0.1vw;
+		margin: 0;
+		margin-right: 2vw;
+	}
+
+	/*#logo {
+        width: 9vw;
+    }*/
+
+	#menuburger {
+		display: none;
+	}
+
+	#menu a {
+		font-family: 'Montserrat', sans-serif;
+		padding: 1.3vw;
+		font-size: 1vw;
+		color: black;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	#menu a:hover {
+		color: #F2AB9B;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	img {
+		max-width: 65%;
+	}
+
+	p {
+		line-height: 3.5vw;
+	}
+
+	h1 {
+		font-size: 5vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+
+	h3 {
+		font-size: 2vw;
+		padding: 1vw;
+		color: #742E07;
+	}
+
+	header {
+		height: 9vw;
+	}
+
+	.blaa {
+		height: 95vw;
+	}
+
+	.green {
+		top: 150vw;
+		width: 60vw;
+		height: 25vw;
+	}
+
+	.yellow {
+		top: 230vw;
+		height: 50vw;
+	}
+
+	#skyggeboks_1 {
+		top: 37vw;
+		left: 18vw;
+		right: 20vw;
+		height: 42vw;
+		width: 64vw;
+	}
+
+	#skyggeboks_2 {
+		top: 198vw;
+		left: 15vw;
+		right: 20vw;
+		height: 30vw;
+		width: 60vw;
+	}
+
+	/*FOOTER*/
+	footer {
+		width: 100%;
+		top: 280vw;
+	}
+
+	#aabningstider,
+	#besoeg_os,
+	#kontakt_os {
+		display: block;
+	}
+
+	footer .sectionwrapper {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		width: auto;
+		margin: 0;
+	}
+
+	.col {
+		margin: 1vw;
+	}
+
+	h5 {
+		font-size: 2vw;
+	}
+
+	#kontakt {
+		display: grid;
+		grid-template-columns: 1fr 4fr;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+
+	#kontakt img {
+		margin-right: 1vw;
+	}
+
+	footer #some img {
+		margin-right: 1vw;
+		width: 5vw;
+	}
+
+	footer address,
+	footer a {
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		font-family: 'Playfair Display',
+			serif;
+		font-style: normal;
+		color: black;
+		text-decoration: none;
+	}
+
+	footer a:hover {
+		color: #F2AB9B;
+	}
+
+	.all_rights_reserved {
+		margin-top: 4vw;
+		font-size: 1.2vw;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+
+	header {
+		height: 5vw;
+	}
+
+	.green {
+		top: 150vw;
+		width: 55vw;
+		height: 23vw;
+	}
+
+	.yellow {
+		top: 210vw;
+		height: 50vw;
+	}
+
+	#skyggeboks_1 {
+		top: 35vw;
+	}
+
+	#skyggeboks_2 {
+		top: 170vw;
+		left: 15vw;
+		right: 20vw;
+		height: 30vw;
+		width: 60vw;
+	}
+
+	footer {
+		top: 260vw;
+		/*height: 40vw;*/
+	}
+
+	footer p {
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+
+	.all_rights_reserved {
+		margin-top: 1vw;
+		font-size: 2.5vw;
+		margin-bottom: none;
+	}
+}
