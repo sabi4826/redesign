@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Om os-side</title>
-	<link rel="stylesheet" href="styles/om_os.css">
+	<link rel="stylesheet" href="om_os.css">
 	<!--    fonte -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -16,7 +16,16 @@
 		<div id="menuburger">☰</div>
 		<a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
 		<ul id="menu" class="hidden">
-			<li><a href="behandlinger_og_priser.html">Behandlinger og priser</a></li>
+			<li><button id="behandlinger_knap" href="behandlinger_og_priser.html">Behandlinger og priser ⌄</button></li>
+			<div id="dropdown" class="hidden hide">
+				<ul>
+					<li><a href="behandlinger_og_priser.html">Alle behandlinger</a></li>
+					<li><a href="bryn_og_vipper.html">Bryn og vipper</a></li>
+					<li><a href="haarfjerning.html">Hårfjerning</a></li>
+					<li><a href="negle.html">Negle</a></li>
+					<li><a href="spraytan.html">Spraytan</a></li>
+				</ul>
+			</div>
 			<li><a href="om_os.html">Om os</a></li>
 			<li><a href="kontakt.html">Kontakt</a></li>
 			<li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
@@ -28,12 +37,16 @@
 	<div class="blaa"></div>
 	<div class="green"></div>
 	<div class="yellow"></div>
+	<div class="lyseroed"></div>
+	<div id="lyseroed_2"></div>
+	<div class="roed"></div>
+	<div class="roed_2"></div>
 	<section id="om_os">
 		<div>
 			<h1>Om os</h1>
 			<p>Hos Wild Orchid kan du få effektive og lækre skønhedsbehandlinger inden for negle, hårfjerning, spraytan samt bryn og vipper. Vi sørger for, at du får en lækker og grundig behandling i hyggelige omgivelser, hvor du kan slappe af og nyde en stund for dig selv.</p>
 			<div id="skyggeboks_1"></div>
-			<img src="" alt="Julia, ejer">
+			<img src="" alt="Julia Kurkova, ejer">
 			<br>
 			<br>
 			<br>
@@ -44,18 +57,38 @@
 		<div>
 			<h1>Julia - en hyggelig perfektionist!
 			</h1>
-			<p>Julia Kurkova er ejer af klinikken, og hun flyttede i sensommeren 2020 ind i nye lokaler på Rolighedsvej på Frederiksberg. Her er det nemt at komme til på både cykel, i bil og med offentlig transport, og med en central placering i København håber hun at tiltrække kunder fra hele København. Hun har arbejdet med skønhed siden 2014 og er efterhånden en ekspert inden for de behandlinger, hun tilbyder. Julia har mange faste kunder, der også fortsat kommer til behandlinger, efter hun har fået nye lokaler på Frederiksberg.
+			<p>Julia Kurkova har arbejdet med skønhed siden 2014 og er efterhånden en ekspert inden for de behandlinger, hun tilbyder. Julia har mange faste kunder, der elsker den hyggelige stemning og de grundige behandlinger hos Wild Orchid.
 				<br>
 				<br>
-				“Jeg er meget åben over for mine kunder. Jeg fortæller om mit liv, og de fortæller mig om deres. Danskerne er slet ikke så lukkede, som man siger! Mine behandlinger er gode og tilfredsstillende, og jeg er meget grundig. Jeg kan finde på at tage resten af de hår, der skal fjernes, med en pincet, hvis jeg ikke er tilfreds. Derfor kalder flere af mine kunder mig for perfektionist. Det er meget vigtigt for mig, at mine kunder er tilfredse,” fortæller Julia Kurkova, der kommer fra Rusland.
+				“Jeg er meget åben over for mine kunder. Jeg fortæller om mit liv, og de fortæller mig om deres. Mine behandlinger er gode og tilfredsstillende, og jeg er meget grundig. Jeg kan finde på at tage resten af de hår, der skal fjernes, med en pincet, hvis jeg ikke er tilfreds. Derfor kalder flere af mine kunder mig for perfektionist,” fortæller Julia Kurkova, der kommer fra Rusland.
 				<br>
 				<br>
-				Hos Wild Orchid er du sikker på at få en god og grundig behandling - uanset hvilken du vælger. Julia Kurkova elsker sit arbejde med skønhedsbehandlinger og går op i at levere en god service og fantastiske behandlinger hver gang. Når du kommer i klinikken, kan du være sikker på, at du også får en hyggelig snak og en afslappende stund for dig selv.
+				Hos Wild Orchid er du sikker på at få en god og grundig behandling - uanset hvilken du vælger. Julia Kurkova elsker sit arbejde med skønhedsbehandlinger og går op i at levere en god service og fantastiske behandlinger hver gang.
 			</p>
 			<div id="skyggeboks_2"></div>
 			<img src="" alt="Julia, ejer af Wild Orchid">
 		</div>
-
+	</section>
+	<section id="om_os_video">
+		<h1>Om os</h1>
+		<div id="skygge_video"></div>
+		<div>
+			<video src="http://sophiespang.dk/kea/05_content/wild_orchid_indhold/interview/interview_video.mp4" controls></video>
+		</div>
+		<div class="tekst_1">
+			<p>Julia Kurkova har arbejdet med skønhed siden 2014 og er efterhånden en ekspert inden for de behandlinger, hun tilbyder. Julia har mange faste kunder, der elsker den hyggelige stemning og de grundige behandlinger hos Wild Orchid.</p>
+		</div>
+	</section>
+	<section id="om_os_billede">
+		<div id="skygge_img"></div>
+		<div class="tekst_2">
+			<p>“Jeg er meget åben over for mine kunder. Jeg fortæller om mit liv, og de fortæller mig om deres. Mine behandlinger er gode og tilfredsstillende, og jeg er meget grundig. Jeg kan finde på at tage resten af de hår, der skal fjernes, med en pincet, hvis jeg ikke er tilfreds. Derfor kalder flere af mine kunder mig for perfektionist,” fortæller Julia Kurkova, der kommer fra Rusland. Hos Wild Orchid er du sikker på at få en god og grundig behandling - uanset hvilken du vælger. Julia Kurkova elsker sit arbejde med skønhedsbehandlinger og går op i at levere en god service og fantastiske behandlinger hver gang.
+			</p>
+		</div>
+		<div class="placeholder">
+			<img src="" alt="">
+		</div>
+		<div id="skyggetekst"></div>
 	</section>
 	<script src="javascript/script.js"></script>
 </body>

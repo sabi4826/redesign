@@ -3,6 +3,15 @@
 	padding: 0;
 }
 
+#om_os_video,
+#om_os_billede {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
 nav {
 	position: fixed;
 	width: 100%;
@@ -37,6 +46,30 @@ nav {
 	color: #F2AB9B;
 }
 
+#dropdown {
+	position: relative;
+	background-color: #F8F0EE;
+	width: 80%;
+}
+
+#dropdown li {
+	position: relative;
+	background-color: #F8F0EE;
+	width: 80%;
+	margin: 2vw;
+}
+
+#dropdown a {
+	text-decoration: none;
+	color: black;
+}
+
+.behandlinger_knap:hover,
+#dropdown a:hover {
+	color: #F2AB9B;
+	cursor: pointer;
+}
+
 .hidden {
 	display: none;
 }
@@ -45,16 +78,22 @@ nav {
 	height: auto;
 }
 
+#logo {
+	position: absolute;
+	width: 17vw;
+	left: 4vw;
+	top: 0;
+}
+
 img {
 	max-width: 85%;
 }
 
-/*Header*/
 header {
 	position: fixed;
 	background-color: #F8F0EE;
 	width: 100vw;
-	height: 20vw;
+	height: 10vw;
 	top: 0vw;
 	right: 0;
 	z-index: 1;
@@ -104,8 +143,8 @@ p {
 	position: absolute;
 	background-color: #F4DAA8;
 	width: 40vw;
-	height: 105vw;
-	top: 420vw;
+	height: 100vw;
+	top: 400vw;
 	z-index: -1;
 }
 
@@ -129,7 +168,7 @@ p {
 
 #skyggeboks_2 {
 	position: absolute;
-	top: 430vw;
+	top: 410vw;
 	left: 3vw;
 	right: 20vw;
 	height: 30vw;
@@ -140,7 +179,7 @@ p {
 
 footer {
 	position: absolute;
-	top: 520vw;
+	top: 500vw;
 	margin-top: 5vw;
 	padding: 5vw;
 	background-color: #F8EFED;
@@ -149,8 +188,8 @@ footer {
 }
 
 footer p {
-	padding-top: 2vw;
-	padding-bottom: 2vw;
+	padding-top: 0vw;
+	padding-bottom: 0vw;
 }
 
 footer img {
@@ -169,78 +208,8 @@ footer img {
 }
 
 /* MEDIA QUERIES*/
-@media (min-width: 500px) {
-	header {
-		height: 15vw;
-	}
 
-	.blaa {
-		height: 130vw;
-	}
-
-	.green {
-		top: 285vw;
-	}
-
-	.yellow {
-		top: 410vw;
-	}
-
-	#skyggeboks_1 {
-		top: 60vw;
-	}
-
-	#skyggeboks_2 {
-		top: 385vw;
-	}
-
-	footer {
-		top: 500vw;
-	}
-}
-
-@media (min-width: 600px) {
-
-	header {
-		height: 12vw;
-	}
-
-	h1 {
-		font-size: 6vw;
-	}
-
-	p {
-		line-height: 5vw;
-	}
-
-	.blaa {
-		height: 115vw;
-	}
-
-	.green {
-		top: 200vw;
-	}
-
-	.yellow {
-		top: 320vw;
-		height: 60vw;
-	}
-
-	#skyggeboks_1 {
-		top: 48vw;
-	}
-
-	#skyggeboks_2 {
-		top: 285vw;
-	}
-
-	footer {
-		width: 100%;
-		top: 380vw;
-	}
-}
-
-@media only screen and (min-width: 800px) {
+@media (min-width: 800px) {
 
 	nav {
 		padding: 2vw;
@@ -250,7 +219,6 @@ footer img {
 	.hidden {
 		display: block;
 	}
-
 
 	#menu {
 		text-align: right;
@@ -263,9 +231,9 @@ footer img {
 		margin-right: 2vw;
 	}
 
-	/*#logo {
-        width: 9vw;
-    }*/
+	#logo {
+		width: 9vw;
+	}
 
 	#menuburger {
 		display: none;
@@ -284,65 +252,195 @@ footer img {
 		color: #F2AB9B;
 	}
 
+	#behandlinger_knap {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.1vw;
+		color: black;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #F8F0EE;
+		border: none;
+	}
+
+	#dropdown {
+		position: absolute;
+		background-color: #F8F0EE;
+		width: 20vw;
+		height: 18vw;
+		top: 0vw;
+		right: 35.5vw;
+		z-index: -1;
+	}
+
+	#dropdown a {
+		text-decoration: none;
+		color: black;
+		padding: 1vw;
+	}
+
+	#dropdown li {
+		top: 6vw;
+	}
+
+	#behandlinger_knap:hover,
+	#dropdown a:hover {
+		color: #F2AB9B;
+		cursor: pointer;
+	}
+
 	.hide {
 		display: none;
 	}
 
-	img {
-		max-width: 65%;
-	}
-
-	p {
-		line-height: 3.5vw;
+	header {
+		height: 12vw;
 	}
 
 	h1 {
-		font-size: 5vw;
+		font-size: 6vw;
 	}
 
-	h2 {
-		font-size: 4vw;
+	p {
+		line-height: 5vw;
 	}
 
-	h3 {
-		font-size: 2vw;
-		padding: 1vw;
-		color: #742E07;
+	#om_os {
+		display: none;
 	}
 
-	header {
-		height: 9vw;
+	#om_os_video,
+	#om_os_billede {
+		display: initial;
+		position: relative;
 	}
 
-	.blaa {
-		height: 95vw;
+	video {
+		max-width: 70%;
+		align-content: center;
+		margin-left: 20%;
+	}
+
+	h1 {
+		font-size: 6vw;
+		padding-bottom: 4vw;
+	}
+
+	p {
+		line-height: 5vw;
 	}
 
 	.green {
-		top: 150vw;
-		width: 60vw;
-		height: 25vw;
+		display: none;
 	}
 
 	.yellow {
-		top: 230vw;
-		height: 50vw;
+		display: none;
 	}
 
-	#skyggeboks_1 {
-		top: 37vw;
-		left: 18vw;
-		right: 20vw;
-		height: 42vw;
-		width: 64vw;
+	.blaa {
+		position: absolute;
+		top: 65vw;
+		height: 150vw;
+		width: 35vw;
+		right: 0;
+		z-index: -3;
 	}
 
-	#skyggeboks_2 {
-		top: 198vw;
-		left: 15vw;
-		right: 20vw;
-		height: 30vw;
-		width: 60vw;
+	.roed {
+		position: absolute;
+		background-color: #F2AB9B;
+		top: 74vw;
+		height: 22vw;
+		width: 25vw;
+		z-index: -2;
+	}
+
+	.roed_2 {
+		position: absolute;
+		background-color: #F2AB9B;
+		top: 242vw;
+		right: 4vw;
+		height: 22vw;
+		width: 25vw;
+		z-index: -2;
+	}
+
+	.lyseroed {
+		position: absolute;
+		background-color: #F8EFED;
+		top: 90vw;
+		left: 10vw;
+		height: 40vw;
+		width: 45vw;
+		z-index: -1;
+	}
+
+	.lyseroed_2 {
+		position: absolute;
+		background-color: #F8EFED;
+		top: 120vw;
+		right: 6vw;
+		height: 106vw;
+		width: 45vw;
+		z-index: 1;
+	}
+
+	#skygge_video {
+		/*den grønne boks*/
+		position: absolute;
+		background-color: #CAD2C6;
+		top: 11vw;
+		left: 22vw;
+		height: 28vw;
+		width: 68vw;
+		z-index: -2;
+	}
+
+	#skygge_img {
+		/*den gule boks*/
+		position: absolute;
+		background-color: #F4DAA8;
+		top: 60vw;
+		left: 0vw;
+		height: 15vw;
+		width: 15vw;
+		z-index: -2;
+	}
+
+	#skyggetekst {
+		position: absolute;
+		background-color: #F2AB9B;
+		top: 225vw;
+		right: 8vw;
+		height: 35vw;
+		width: 30vw;
+		z-index: -1;
+	}
+
+	.tekst_1 {
+		position: absolute;
+		top: 62vw;
+		left: 10vw;
+		height: 55vw;
+		width: 45vw;
+		z-index: 1;
+	}
+
+	.tekst_2 {
+		position: absolute;
+		top: 125vw;
+		right: 10vw;
+		z-index: 1;
+	}
+
+	.placeholder {
+		position: absolute;
+		background-color: aquamarine;
+		top: 62vw;
+		left: 2vw;
+		height: 55vw;
+		width: 40vw;
+		z-index: 1;
 	}
 
 	/*FOOTER*/
@@ -364,8 +462,12 @@ footer img {
 		margin: 0;
 	}
 
+	footer #aabningstider p {
+		text-align: right;
+	}
+
 	.col {
-		margin: 1vw;
+		margin: 0vw;
 	}
 
 	h5 {
@@ -411,36 +513,52 @@ footer img {
 
 @media only screen and (min-width: 1000px) {
 
+	img {
+		max-width: 65%;
+	}
+
+	p {
+		line-height: 4.4vw;
+		font-size: 2vw;
+	}
+
+	footer p {
+		font-size: initial;
+		line-height: normal;
+	}
+
+	h1 {
+		font-size: 5vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+
+	h3 {
+		font-size: 2vw;
+		padding: 1vw;
+		color: #742E07;
+	}
+
+	header {
+		height: 9vw;
+	}
+
+	.blaa {
+		height: 95vw;
+	}
+}
+
+/*@media only screen and (min-width: ?000px) {
+
 	header {
 		height: 5vw;
 	}
 
-	.green {
-		top: 150vw;
-		width: 55vw;
-		height: 23vw;
-	}
-
-	.yellow {
-		top: 210vw;
-		height: 50vw;
-	}
-
-	#skyggeboks_1 {
-		top: 35vw;
-	}
-
-	#skyggeboks_2 {
-		top: 170vw;
-		left: 15vw;
-		right: 20vw;
-		height: 30vw;
-		width: 60vw;
-	}
-
-	footer {
+	/*footer {
 		top: 260vw;
-		/*height: 40vw;*/
+		/*height: 40vw;
 	}
 
 	footer p {
@@ -453,4 +571,4 @@ footer img {
 		font-size: 2.5vw;
 		margin-bottom: none;
 	}
-}
+}*/
