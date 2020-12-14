@@ -93,6 +93,7 @@ nav {
     position: relative;
     width: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 #video_splash {
@@ -129,8 +130,6 @@ nav {
     opacity: 0.7;
     color: #742E07;
 }
-
-
 
 #splash #pil {
     position: absolute;
@@ -302,13 +301,19 @@ h3 {
     right: 6vw;
 }
 
-#behandleren_video {
+#behandleren_img {
     position: relative;
     background-color: #F8EFED;
     margin: auto;
     top: 15vw;
     width: 80%;
     height: 100vw;
+    overflow: hidden;
+}
+
+#behandleren_img img {
+    width: 100%;
+    height: auto;
 }
 
 #anmeldelser {
@@ -706,7 +711,7 @@ footer img {
         opacity: 0.6;
     }
 
-    #behandleren_video {
+    #behandleren_img {
         position: relative;
         background-color: seashell;
         top: -36vw;
