@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/* Menu mobil */
 nav {
     position: fixed;
     width: 100%;
@@ -86,10 +87,26 @@ nav {
     cursor: pointer;
 }
 
+/*Menu slut*/
+
 #splash {
     position: relative;
     width: 100%;
-    margin: 0;
+    margin: auto;
+}
+
+#video_splash {
+    display: none;
+}
+
+#splash #billede {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: 25% 10%;
+    overflow: hidden;
 }
 
 #velkommen {
@@ -105,7 +122,15 @@ nav {
 #velkommen p {
     position: relative;
     top: 400px;
+    background-color: #F8F0EE;
+    width: 70%;
+    margin: auto;
+    padding: 0.5vw;
+    opacity: 0.7;
+    color: #742E07;
 }
+
+
 
 #splash #pil {
     position: absolute;
@@ -132,7 +157,8 @@ nav {
 
 p {
     font-family: 'Playfair Display', serif;
-    line-height: 6.5vw;
+    line-height: 5vw;
+    font-size: 3vw;
 }
 
 h1 {
@@ -302,21 +328,60 @@ h3 {
     background-color: #F8EFED;
     margin: auto;
     width: 80%;
-    height: 60vw;
+    height: 20vw;
 }
 
 #anmeldelser_intro p {
     padding: 5vw;
 }
 
+/*    Anmeldelse slide*/
+
+#anmeldelser_slideshow {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 85vw;
+}
+
+.kunde {
+    display: none;
+    padding: 5vw;
+}
+
+.frem,
+.tilbage {
+    cursor: pointer;
+    position: absolute;
+    color: #F2AB9B;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.frem {
+
+    right: 1vw;
+    top: 12vw;
+}
+
+.tilbage {
+    left: 1vw;
+    top: 12vw;
+}
+
 
 #lyseroed {
+    /*
     position: absolute;
     background-color: #F2AB9B;
     width: 58%;
     height: 100vw;
     top: 100vw;
     opacity: 0.3;
+    z-index: -1;
+*/
+
+    display: none;
 }
 
 .kunder {
@@ -324,6 +389,7 @@ h3 {
     margin: auto;
     margin-bottom: 4vw;
     width: 80%;
+    margin-top: 0;
 }
 
 .kundebillede {
@@ -361,6 +427,10 @@ h5 {
     display: none;
 }
 
+.border {
+    border-right: 0.1vw solid #742E07;
+}
+
 footer p {
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -376,6 +446,10 @@ footer img {
     display: none;
 }
 
+#kontakt img {
+    width: 2vw;
+}
+
 .all_rights_reserved {
     margin-top: 4vw;
     font-size: 2.5vw;
@@ -383,6 +457,8 @@ footer img {
 
 @media only screen and (min-width: 800px) {
 
+
+    /*    Menu desktop */
     nav {
         padding: 2vw;
         height: auto;
@@ -453,6 +529,7 @@ footer img {
 
     #dropdown li {
         top: 6vw;
+        display: block;
     }
 
     #behandlinger_knap:hover,
@@ -465,8 +542,11 @@ footer img {
         display: none;
     }
 
+    /*    Menu slut */
+
     p {
         line-height: 2.3vw;
+        font-size: 1.3vw;
     }
 
     /*    Splash */
@@ -475,6 +555,25 @@ footer img {
     #velkommen p {
         position: relative;
         top: 400px;
+        background-color: #F8F0EE;
+        width: 70%;
+        margin: auto;
+        padding: 0.5vw;
+        opacity: 0.7;
+        color: #742E07;
+    }
+
+
+    #video_splash {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: auto;
+        height: 100%;
+    }
+
+    #splash #billede {
+        display: none;
     }
 
 
@@ -483,7 +582,6 @@ footer img {
     h2 {
         font-size: 4vw;
     }
-
 
     #skygge_behandlinger {
         position: absolute;
@@ -506,7 +604,6 @@ footer img {
     .col {
         display: flex;
         flex-direction: column;
-
     }
 
     #forside_behandlinger img,
@@ -545,8 +642,9 @@ footer img {
         position: absolute;
         height: 60vw;
         right: 0;
-        top: 200vw;
+        top: 240vw;
         opacity: 0.3;
+        z-index: -1;
     }
 
     #forside_behandleren {
@@ -638,6 +736,15 @@ footer img {
         margin-bottom: 2vw;
     }
 
+    #anmeldelser_slideshow {
+        height: 30vw;
+    }
+
+    .frem,
+    .tilbage {
+        font-size: 50px;
+    }
+
     .sectionwrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -673,6 +780,25 @@ footer img {
         z-index: -1;
     }
 
+    #skygge_gavekort_1 {
+        position: absolute;
+        background-color: #F4DAA8;
+        width: 20vw;
+        height: 10vw;
+        top: -1vw;
+        left: 11vw;
+
+    }
+
+    #skygge_gavekort_2 {
+        position: absolute;
+        background-color: #F2AB9B;
+        width: 20vw;
+        height: 20vw;
+        bottom: -1vw;
+        right: 11vw;
+    }
+
     #gavekort {
         display: block;
         position: relative;
@@ -696,13 +822,14 @@ footer img {
         margin: 2vw;
     }
 
-    /*
     input {
-        width: 30vw;
+        width: 20vw;
+        height: 2.5vh;
+        border: 0;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
     }
-
-    input[type=text]
-*/
 
     .send {
         color: black;
@@ -717,6 +844,9 @@ footer img {
     .send:hover {
         background-color: #F2AB9B;
         cursor: pointer;
+        border: none;
+        width: 8vw;
+        height: 2vw;
     }
 
     #popop {
@@ -747,7 +877,6 @@ footer img {
     #luk p:hover {
         color: black;
     }
-
 
     #aabningstider,
     #besoeg_os,
