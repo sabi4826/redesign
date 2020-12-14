@@ -4,65 +4,101 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="styles" href="kontakt.css">
+    <title>Kontakt os</title>
+    <link rel="stylesheet" href="kontakt.css">
     <!--    fonte -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
-<header>
-    <nav id="nav" class="nav_hide">
-        <div id="menuburger">☰</div>
-        <a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
-        <ul id="menu" class="hidden">
-            <li><a href="behandlinger_og_priser.html">Behandlinger og priser</a></li>
-            <li><a href="om_os.html">Om os</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
-        </ul>
-    </nav>
-</header>
+<nav id="nav" class="nav_hide">
 
+    <div id="menuburger">☰</div>
+
+    <a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
+
+    <ul id="menu" class="hidden">
+
+        <li><button id="behandlinger_knap" href="behandlinger_og_priser.html">Behandlinger og priser ⌄</button></li>
+
+        <div id="dropdown" class="hidden hide">
+
+            <ul>
+
+                <li><a href="behandlinger_og_priser.html">Alle behandlinger</a></li>
+
+                <li><a href="bryn_og_vipper.html">Bryn og vipper</a></li>
+
+                <li><a href="haarfjerning.html">Hårfjerning</a></li>
+
+                <li><a href="negle.html">Negle</a></li>
+
+                <li><a href="spraytan.html">Spraytan</a></li>
+
+            </ul>
+
+        </div>
+
+        <li><a href="om_os.html">Om os</a></li>
+
+        <li><a href="kontakt.html">Kontakt</a></li>
+
+        <li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
+
+    </ul>
+
+</nav>
 
 <body>
     <div class="groen"></div>
     <div class="lyseroed"></div>
     <div class="blaa"></div>
+    <div class="gul"></div>
+    <div class="vl1"></div>
+    <div class="vl2"></div>
+    <div class="vl3"></div>
     <section id="kontakt_os">
-        <div id="sectionwrapper">
+        <div id="sectionwrapper1">
             <div class=form>
-               
+
                 <h1>KONTAKT OS</h1>
                 <p>Send os en mail via kontaktformularen, så svarer vi dig hurtigst muligt - ofte inden for et døgn.</p>
-                <form action="" name="kontakt" netlify>
-                    <div class="form_felt">
-                        <label for="navn">
-                            <input placeholder="DIT NAVN" type="text" name="name" required>
-                        </label>
-                    </div>
+                <form action="" name="kontakt" netlify action="besked.html">
+                    <div class="form_oevre">
+                        <div class="left">
+                            <div class="form_felt">
+                                <label for="navn">
+                                    <input placeholder="DIT NAVN" type="text" name="name" required>
+                                </label>
+                            </div>
+                        </div>
 
-                    <div class="form_felt">
-                        <label for="email">
-                            <input placeholder="DIN EMAIL ADRESSE" type="text" name="email" required>
-                        </label>
+                        <div class="right">
+                            <div class="form_felt">
+                                <label for="email">
+                                    <input placeholder="DIN EMAIL ADRESSE" type="text" name="email" required>
+                                </label>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="form_felt">
                         <label for="besked">
-                            <textarea placeholder="DIN BESKED" name="besked" rows="5"></textarea>
+                            <textarea placeholder="DIN BESKED" name="besked" rows="5" required></textarea>
                         </label>
                     </div>
                     <div id="skygge_knap"></div>
                     <div class="send">
-                        <button>SEND</button>
+                        <button type="submit">SEND</button>
 
                     </div>
 
                 </form>
             </div>
+
+            <div class="facade-container"><img class="facade" src="IMG_7509.jpg" alt="facade">
+            </div>
         </div>
-        <div class="facade-container"><img class="facade" src="IMG_7509.jpg" alt="facade"></div>
         <div class="info">
             <div class="aabningstider">
                 <div id="sectionwrapper">
@@ -77,13 +113,15 @@
                     </div>
                     <div class="col_ny">
                         <div class="col_left">
-                            <div><img src="ikoner/bus.png" alt=""></div>
-                            <div><img src="ikoner/bus.png" alt=""></div>
-                            <div><img src="ikoner/bus.png" alt=""></div>
+                            <div><img src="ikoner/adresse.png" alt=""></div>
+                            <div><img src="ikoner/tlf.png" alt=""></div>
+                            <div><img src="ikoner/mail.png" alt=""></div>
                         </div>
                         <div class="col_right">
                             <p>Rolighedsvej 19, <br>Frederiksberg 1958</p>
+                            <br>
                             <p>+4593938163</p>
+                            <br>
                             <p>info@wildorchid.dk</p>
                         </div>
                     </div>
@@ -132,7 +170,7 @@
             <a href="kontakt.html">Find vej</a><br>
             <a href="kontakt.html">Parkeringsmuligheder</a>
         </div>
-        <div id="kontakt_os" class="col">
+        <div id="footer_kontakt_os" class="col">
             <h5>Kontakt os</h5>
             <div id="kontakt">
                 <div>
