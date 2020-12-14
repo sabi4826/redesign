@@ -1,196 +1,419 @@
                     * {
-                    margin: 0;
-                    padding: 0;
-                }
-                header {
-                    position: absolute;
-                    background-color: #F8F0EE;
-                    width: 100vw;
-                    height: 10vw;
-                    top: 0vw;
-                    right: 0;
-                }
-                body {
-                    margin-top: 33vw;
-                }
-                h1 {
-                    font-family: 'Montserrat', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 8vw;
-                    text-align: center;
-                    padding-bottom: 7vw;
-                }
-                p {
-                    font-family: 'Playfair Display', serif;
-                    margin-left: 6vw;
-                    margin-right: 6vw;
-                    margin-bottom: 4vw;
-                    text-align: center;
-                    line-height: 7vw;
-                }
-                .skygge_section {
-                    position: relative;
-                    top: 13vw;
-                    left: 10vw;
-                    height: 165vw;
-                    width: 75vw;
-                    background-color: #F6D5CE;
-                }
-                .sectionwrapper {
-                    position: relative;
-                    top: -147vw;
-                    right: -15vw;
-                    height: 165vw;
-                    width: 75vw;
-                    background-color: #F8F0EE;
-                    display: grid;
-                    grid-template-columns: 3fr 1fr;
-                }
-                .col_left {
-                    font-family: 'Playfair Display', serif;
-                    margin-left: 6vw;
-                    margin-right: 6vw;
-                    margin-bottom: 4vw;
-                    text-align: left;
-                    line-height: 9vw;
-                    font-size: 3vw;
-                    margin-top: 4vw;
-                }
-                .col_left .linje {
-                    line-height: 3.5vw;
-                    padding-top: 2vw;
-                    padding-bottom: 2vw;
-                }
-                .col_right {
-                    font-family: 'Playfair Display', serif;
-                    margin-left: 6vw;
-                    margin-right: 6vw;
-                    margin-bottom: 4vw;
-                    text-align: right;
-                    line-height: 9vw;
-                    font-size: 3vw;
-                    margin-top: 4vw;
-                }
-                .col_right .linje {
-                    padding-top: 0.5vw;
-                    padding-bottom: 1.5vw;
-                }
-                .skygge_book_nu {
-                    position: relative;
-                    top: -152vw;
-                    left: 42vw;
-                    height: 13vw;
-                    width: 42vw;
-                    background-color: #F2AB9B;
-                }
-                .book_nu {
-                    position: relative;
-                    top: -167vw;
-                    left: 44vw;
-                    height: 13vw;
-                    width: 42vw;
-                    background-color: white;
-                    cursor: pointer;
-                }
-                .book_nu .tekst {
-                    font-family: 'Montserrat', sans-serif;
-                    text-transform: uppercase;
-                    text-align: center;
-                    padding-top: 4vw;
-                    color: black;
-                }
-                a:link {
-                    text-decoration: none;
-                }
-                @media only screen and (min-width: 800px) {
-                    h1 {
-                        font-size: 2.5vw;
-                        padding-bottom: 5vw;
-                    }
-                    body {
-                        margin-top: 15vw;
-                    }
-                    p {
-                        line-height: 3vw;
-                        font-size: 1.5vw;
-                        padding-left: 10vw;
-                        padding-right: 10vw;
-                        padding-bottom: 7vw;
-                    }
-                    .skygge_section {
-                        display: none;
-                    }
-                    .sectionwrapper {
-                        position: relative;
-                        top: 0vw;
-                        left: 12.5vw;
-                        width: 75vw;
-                        height: 52vw;
-                    }
-                    dl {
-                        line-height: 3vw;
-                        font-size: 1.2vw;
-                        padding-left: 10vw;
-                        padding-right: 10vw;
+                        margin: 0;
                         padding: 0;
                     }
-                    .col_left .linje {
-                        line-height: 3vw;
-                        padding-top: 0vw;
-                        padding-bottom: 0vw;
+                    nav {
+                        position: fixed;
+                        width: 100%;
+                        background-color: #F8F0EE;
+                        text-align: center;
+                        height: 100%;
+                        z-index: 99;
+                        top: 0;
                     }
-                    dt br {
+                    #menuburger {
+                        font-size: 8.5vw;
+                        text-align: right;
+                        color: #742E07;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    #menu li {
+                        display: block;
+                        margin: 2vw;
+                        padding: 2vw;
+                        width: 92%;
+                    }
+                    #menu a {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 5vw;
+                        color: black;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                    #menu a:hover {
+                        color: #F2AB9B;
+                    }
+                    .hidden {
                         display: none;
                     }
+                    .nav_hide {
+                        height: auto;
+                    }
+                    #logo {
+                        position: absolute;
+                        width: 17vw;
+                        left: 2vw;
+                        top: 0;
+                    }
+                    #behandlinger_knap {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 5vw;
+                        color: black;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        background-color: #F8F0EE;
+                        border: none;
+                    }
+                    #dropdown {
+                        position: relative;
+                        background-color: #F8F0EE;
+                        width: 112%;
+                    }
+                    #menu #dropdown li {
+                        position: relative;
+                        background-color: #F8F0EE;
+                        width: 80%;
+                        margin: 2vw;
+                    }
+                    #dropdown a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                    .behandlinger_knap:hover,
+                    #dropdown a:hover {
+                        color: #F2AB9B;
+                        cursor: pointer;
+                    }
+                    body {
+                        margin-top: 33vw;
+                    }
+                    h1 {
+                        font-family: 'Montserrat', sans-serif;
+                        text-transform: uppercase;
+                        font-size: 8vw;
+                        text-align: center;
+                        padding-bottom: 7vw;
+                    }
+                    p {
+                        font-family: 'Playfair Display', serif;
+                        margin-left: 6vw;
+                        margin-right: 6vw;
+                        margin-bottom: 4vw;
+                        text-align: center;
+                        line-height: 7vw;
+                    }
+                    .skygge_section {
+                        position: relative;
+                        top: 13vw;
+                        left: 10vw;
+                        height: 165vw;
+                        width: 75vw;
+                        background-color: #F6D5CE;
+                    }
+                    #negle .sectionwrapper {
+                        position: relative;
+                        top: -147vw;
+                        right: -15vw;
+                        height: 165vw;
+                        width: 75vw;
+                        background-color: #F8F0EE;
+                        display: grid;
+                        grid-template-columns: 3fr 1fr;
+                    }
+                    .col_left {
+                        font-family: 'Playfair Display', serif;
+                        margin-left: 6vw;
+                        margin-right: 6vw;
+                        margin-bottom: 4vw;
+                        text-align: left;
+                        line-height: 9vw;
+                        font-size: 3vw;
+                        margin-top: 4vw;
+                    }
+                    .col_left .linje {
+                        line-height: 3.5vw;
+                        padding-top: 2vw;
+                        padding-bottom: 2vw;
+                    }
+                    .col_right {
+                        font-family: 'Playfair Display', serif;
+                        margin-left: 6vw;
+                        margin-right: 6vw;
+                        margin-bottom: 4vw;
+                        text-align: right;
+                        line-height: 9vw;
+                        font-size: 3vw;
+                        margin-top: 4vw;
+                    }
                     .col_right .linje {
-                        line-height: 3vw;
-                        padding-top: 0vw;
-                        padding-bottom: 0vw;
+                        padding-top: 0.5vw;
+                        padding-bottom: 1.5vw;
                     }
                     .skygge_book_nu {
                         position: relative;
-                        top: -2vw;
-                        left: 64.5vw;
-                        height: 4vw;
-                        width: 17vw;
+                        top: -152vw;
+                        left: 42vw;
+                        height: 13vw;
+                        width: 42vw;
+                        background-color: #F2AB9B;
                     }
                     .book_nu {
                         position: relative;
-                        top: -7vw;
-                        left: 65.5vw;
-                        height: 4vw;
-                        width: 17vw;
+                        top: -167vw;
+                        left: 44vw;
+                        height: 13vw;
+                        width: 42vw;
+                        background-color: white;
+                        cursor: pointer;
                     }
                     .book_nu .tekst {
-                        font-size: 1.5vw;
+                        font-family: 'Montserrat', sans-serif;
+                        text-transform: uppercase;
+                        text-align: center;
+                        padding-top: 4vw;
+                        color: black;
                     }
-                    .orange {
-                        position: absolute;
-                        top: 30vw;
-                        right: 0vw;
-                        width: 24vw;
-                        height: 63vw;
-                        background-color: #F2AB9B;
-                        filter: opacity(50%);
+                    a:link {
+                        text-decoration: none;
                     }
-                    .blaa {
-                        position: absolute;
-                        top: 59.5vw;
-                        left: 11vw;
-                        width: 51vw;
-                        height: 33vw;
-                        background-color: #ACCCDB;
-                        filter: opacity(50%)
+                    footer {
+                        margin-top: 5vw;
+                        padding: 5vw;
+                        background-color: #F8EFED;
+                        margin: auto;
+                        max-width: 100%;
                     }
-                    .groen {
-                        position: absolute;
-                        top: 83vw;
-                        left: 0vw;
-                        width: 51vw;
-                        height: 38vw;
-                        background-color: #CAD2C6;
-                        filter: opacity(50%);
+                    h5 {
+                        font-family: 'Montserrat', sans-serif;
+                        text-transform: uppercase;
+                        font-size: 4vw;
                     }
-                    .book_nu .tekst {
-                        padding-top: 1vw;
+                    #gavekort {
+                        display: none;
+                    }
+                    footer p {
+                        padding-top: 2vw;
+                        padding-bottom: 2vw;
+                        padding-left: 0;
+                        padding-right: 0;
+                        text-align: left;
+                        margin: 0;
+                    }
+                    footer img {
+                        width: 10vw;
+                    }
+                    #aabningstider,
+                    #besoeg_os,
+                    #kontakt_os {
+                        display: none;
+                    }
+                    .all_rights_reserved {
+                        margin-top: 4vw;
+                        font-size: 2.5vw;
+                    }
+                    @media only screen and (min-width: 800px) {
+                        nav {
+                            padding: 2vw;
+                            height: auto;
+                        }
+                        .hidden {
+                            display: block;
+                        }
+                        #menu {
+                            text-align: right;
+                        }
+                        #menu li {
+                            display: inline;
+                            padding: 0.1vw;
+                            margin: 0;
+                            margin-right: 2vw;
+                        }
+                        #logo {
+                            width: 9vw;
+                        }
+                        #menuburger {
+                            display: none;
+                        }
+                        #menu a {
+                            font-family: 'Montserrat', sans-serif;
+                            padding: 1.3vw;
+                            font-size: 1vw;
+                            color: black;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                        #menu a:hover {
+                            color: #F2AB9B;
+                        }
+                        #behandlinger_knap {
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 1.1vw;
+                            color: black;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            background-color: #F8F0EE;
+                            border: none;
+                        }
+                        #dropdown {
+                            position: absolute;
+                            background-color: #F8F0EE;
+                            width: 20vw;
+                            height: 18vw;
+                            top: 0vw;
+                            right: 35.5vw;
+                            z-index: -1;
+                        }
+                        #dropdown a {
+                            text-decoration: none;
+                            color: black;
+                            padding: 1vw;
+                        }
+                        #dropdown li {
+                            top: 6vw;
+                        }
+                        #behandlinger_knap:hover,
+                        #dropdown a:hover {
+                            color: #F2AB9B;
+                            cursor: pointer;
+                        }
+                        h1 {
+                            font-size: 2.5vw;
+                            padding-bottom: 5vw;
+                        }
+                        body {
+                            margin-top: 15vw;
+                        }
+                        p {
+                            line-height: 3vw;
+                            font-size: 1.5vw;
+                            padding-left: 10vw;
+                            padding-right: 10vw;
+                            padding-bottom: 7vw;
+                        }
+                        .skygge_section {
+                            display: none;
+                        }
+                        #negle .sectionwrapper {
+                            position: relative;
+                            top: 0vw;
+                            left: 12.5vw;
+                            width: 75vw;
+                            height: 52vw;
+                        }
+                        dl {
+                            line-height: 3vw;
+                            font-size: 1.2vw;
+                            padding-left: 10vw;
+                            padding-right: 10vw;
+                            padding: 0;
+                        }
+                        .col_left .linje {
+                            line-height: 3vw;
+                            padding-top: 0vw;
+                            padding-bottom: 0vw;
+                        }
+                        dt br {
+                            display: none;
+                        }
+                        .col_right .linje {
+                            line-height: 3vw;
+                            padding-top: 0vw;
+                            padding-bottom: 0vw;
+                        }
+                        .skygge_book_nu {
+                            position: relative;
+                            top: -2vw;
+                            left: 64.5vw;
+                            height: 4vw;
+                            width: 17vw;
+                        }
+                        .book_nu {
+                            position: relative;
+                            top: -7vw;
+                            left: 65.5vw;
+                            height: 4vw;
+                            width: 17vw;
+                        }
+                        .book_nu .tekst {
+                            font-size: 1.5vw;
+                        }
+                        .orange {
+                            position: absolute;
+                            top: 30vw;
+                            right: 0vw;
+                            width: 24vw;
+                            height: 63vw;
+                            background-color: #F2AB9B;
+                            filter: opacity(50%);
+                        }
+                        .blaa {
+                            position: absolute;
+                            top: 59.5vw;
+                            left: 11vw;
+                            width: 51vw;
+                            height: 33vw;
+                            background-color: #ACCCDB;
+                            filter: opacity(50%)
+                        }
+                        .groen {
+                            position: absolute;
+                            top: 83vw;
+                            left: 0vw;
+                            width: 51vw;
+                            height: 38vw;
+                            background-color: #CAD2C6;
+                            filter: opacity(50%);
+                        }
+                        .book_nu .tekst {
+                            padding-top: 1vw;
+                        }
+                        #aabningstider,
+                        #besoeg_os,
+                        #kontakt_os {
+                            display: block;
+                        }
+                        footer .sectionwrapper {
+                            display: grid;
+                            grid-template-columns: 25% 25% 25% 25%;
+                            width: auto;
+                            margin: 0;
+                        }
+                        .col {
+                            margin: 1vw;
+                        }
+                        h5 {
+                            font-size: 2vw;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        #kontakt {
+                            display: grid;
+                            grid-template-columns: 1fr 4fr;
+                            padding-top: 2vw;
+                            padding-bottom: 2vw;
+                        }
+                        #kontakt img,
+                        #kontakt a {
+                            margin-right: 1vw;
+                        }
+                        footer #some img {
+                            margin-right: 1vw;
+                            width: 5vw;
+                        }
+                        footer address,
+                        footer a {
+                            margin-top: 2vw;
+                            margin-bottom: 2vw;
+                            font-family: 'Playfair Display', serif;
+                            font-style: normal;
+                            color: black;
+                            text-decoration: none;
+                        }
+                        footer a:hover {
+                            color: #F2AB9B;
+                        }
+                        .all_rights_reserved {
+                            margin-top: 4vw;
+                            font-size: 1.2vw;
+                            padding-top: 2vw;
+                            padding-bottom: 2vw;
+                        }
+                        footer p {
+                            padding: 0vw;
+                            text-align: left;
+                            line-height: 2.3vw;
+                            font-size: 1.1vw;
+                            padding-top: 2vw;
+                            padding-bottom: 2vw;
+                        }
                     }
