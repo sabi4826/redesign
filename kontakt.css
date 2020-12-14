@@ -816,6 +816,7 @@ footer #kontakt_os {
     footer #kontakt img,
     footer #kontakt a {
         margin-right: 1vw;
+        width: 2vw;
     }
 
     footer #some img {
