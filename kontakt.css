@@ -1,0 +1,339 @@
+p {
+    font-family: 'Playfair Display', serif;
+    line-height: 6.5vw;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 8vw;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    font-size: 8vw;
+    padding: 2vw;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    padding: 2vw;
+}
+
+.aabningstider h3 {
+    color: #742E07;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+hr {
+    width: 270px;
+}
+
+button {
+    position: absolute;
+    width: 86px;
+    height: 27px;
+    right: 49px;
+    top: 375px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+#skygge_knap {
+    position: absolute;
+    background-color: #F2AB9B;
+    width: 86px;
+    height: 27px;
+    top: 378px;
+    right: 52px;
+}
+
+#kontakt_os {
+    text-align: center;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 4vw;
+}
+
+.form_felt {
+    margin: 2vw;
+}
+
+textarea {
+    width: 100%;
+    background-color: #F8EFED;
+    box-sizing: border-box;
+    color: gray;
+    border-color: black;
+    height: 100px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    background-color: #F8EFED;
+    box-sizing: border-box;
+    color: gray;
+    border-color: black;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 7px;
+}
+
+.info {
+    background-color: #F8EFED;
+    height: 380px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 45px;
+}
+
+.groen {
+    position: absolute;
+    background-color: #CAD2C6;
+    width: 33vw;
+    height: 95vw;
+    top: 372vw;
+    left: 0px;
+    z-index: -1;
+}
+
+.blaa {
+    position: absolute;
+    background-color: #ACCCDB;
+    width: 83vw;
+    height: 123vw;
+    top: 120vw;
+    left: 20px;
+    z-index: -1;
+}
+
+.lyseroed {
+    position: absolute;
+    background-color: #F2AB9B;
+    width: 58%;
+    height: 42vw;
+    top: 517vw;
+    right: 0px;
+    z-index: -1;
+}
+
+.find_vej {
+    z-index: 50;
+}
+
+.facade {
+    width: 84vw;
+    margin-bottom: 10vw;
+    margin-top: 7vw;
+}
+
+.col_ny {
+    top: 110vw;
+    right: 10vw;
+    height: 125vw;
+    width: 75vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.col_left {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    float: left;
+    line-height: 10vw;
+    top: 325vw;
+    right: 75vw;
+}
+
+.col_left img {
+    height: 10vw;
+    width: 10vw;
+}
+
+.col_left div {
+    margin: -17vw;
+}
+
+.col_right {
+    position: absolute;
+    top: 306vw;
+    right: 8vw;
+    font-family: 'Playfair Display', serif;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 4vw;
+    float: right;
+    line-height: 10vw;
+    margin-top: 4vw;
+    text-align: left;
+}
+
+@media only screen and (min-width: 800px) {
+
+    p {
+        line-height: 2.3vw;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    .facade-container {
+        width: 10%;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    textarea {
+        width: 100%;
+        background-color: white;
+        box-sizing: border-box;
+        color: black;
+        border-color: gray;
+        height: 100px;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        background-color: white;
+        box-sizing: border-box;
+        color: black;
+        border-color: gray;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 7px;
+    }
+
+    #kontakt_os {
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-bottom: 4vw;
+    }
+
+    .find_vej #sectionwrapper {
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        width: 90%;
+    }
+
+    .aabningstider #sectionwrapper {
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        width: 90%;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*.aabningstider{
+        width: 90%;
+    }*/
+
+    .groen {
+        position: absolute;
+        background-color: #CAD2C6;
+        width: 33vw;
+        height: 40vw;
+        top: 160vw;
+        left: 67.25vw;
+        z-index: -1;
+    }
+
+    .lyseroed {
+        position: absolute;
+        background-color: #F2AB9B;
+        width: 40%;
+        height: 23vw;
+        top: 189vw;
+        right: 80px;
+        z-index: -1;
+    }
+
+    .blaa {
+        position: absolute;
+        background-color: #ACCCDB;
+        width: 25vw;
+        height: 41vw;
+        top: 200vw;
+        left: 0;
+        z-index: -1;
+    }
+
+    .col_left img {
+        height: 5vw;
+        width: 5vw;
+    }
+
+    .col_left {
+        font-family: 'Playfair Display', serif;
+        float: left;
+        line-height: 10vw;
+        position: absolute;
+        top: 13vw;
+        right: 31vw;
+    }
+
+    .col_ny {
+        width: 75vw;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .col_right {
+        position: absolute;
+        top: 3vw;
+        right: -4vw;
+        font-family: 'Playfair Display', serif;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        margin-bottom: 4vw;
+        float: right;
+        line-height: 10vw;
+        margin-top: 4vw;
+        text-align: left;
+    }
+    .facade{
+        position: absolute;
+        width: 30%;
+        top: 5vw;
+    }
+    .form{
+        height: 50vw;
+    }
+}
