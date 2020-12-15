@@ -1,133 +1,121 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 #om_os_video,
 #om_os_billede {
-	display: none;
+    display: none;
 }
-
 .hidden {
-	display: none;
+    display: none;
 }
 
 /* Menu mobil */
+
 nav {
-	position: fixed;
-	width: 100%;
-	background-color: #F8F0EE;
-	text-align: center;
-	height: 100%;
-	z-index: 99;
+    position: fixed;
+    width: 100%;
+    background-color: #F8F0EE;
+    text-align: center;
+    height: 100%;
+    z-index: 99;
 }
-
 #menuburger {
-	font-size: 8.5vw;
-	text-align: right;
-	color: #742E07;
-	font-family: 'Montserrat', sans-serif;
+    font-size: 8.5vw;
+    text-align: right;
+    color: #742E07;
+    font-family: 'Montserrat', sans-serif;
 }
-
 #menu li {
-	display: block;
-	margin: 2vw;
-	padding: 2vw;
-	width: 80%;
+    display: block;
+    margin: 2vw;
+    padding: 2vw;
+    width: 80%;
+    transform: translate(10%);
 }
-
 #menu a {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 5vw;
-	color: black;
-	text-decoration: none;
-	text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
 #menu a:hover {
-	color: #F2AB9B;
+    color: #F2AB9B;
 }
-
 .hidden {
-	display: none;
+    display: none;
 }
-
 .nav_hide {
-	height: auto;
+    height: auto;
 }
-
 #logo {
-	position: absolute;
-	width: 17vw;
-	left: 2vw;
-	top: 0;
+    position: absolute;
+    width: 17vw;
+    left: 2vw;
+    top: 0;
 }
-
 #behandlinger_knap {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 5vw;
-	color: black;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #F8F0EE;
-	border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #F8F0EE;
+    border: none;
 }
-
 #dropdown {
-	position: absolute;
-	background-color: #F8F0EE;
-	width: 100%;
-	height: 100%;
-	top: 30vw;
+    position: absolute;
+    background-color: #F8F0EE;
+    width: 100%;
+    height: 100%;
+    top: 25vw;
+    transform: translate(10%);
 }
-
 #dropdown li {
-	position: relative;
-	background-color: #F8F0EE;
-	width: 80%;
-	margin: 2vw;
-	list-style: none;
+    position: relative;
+    background-color: #F8F0EE;
+    width: 80%;
+    margin: 2vw;
+    list-style: none;
 }
-
 #dropdown a {
-	text-decoration: none;
-	color: black;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 5vw;
-	color: black;
-	text-decoration: none;
-	text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
 .behandlinger_knap:hover,
 #dropdown a:hover {
-	color: #F2AB9B;
-	cursor: pointer;
+    color: #F2AB9B;
+    cursor: pointer;
 }
 
 /*Menu slut*/
 
+
 /*OPSÆTNING*/
+
 img {
-	max-width: 85%;
+    max-width: 85%;
 }
-
 header {
-	position: fixed;
-	background-color: #F8F0EE;
-	width: 100vw;
-	height: 10vw;
-	top: 0vw;
-	right: 0;
-	z-index: 1;
+    position: fixed;
+    background-color: #F8F0EE;
+    width: 100vw;
+    height: 10vw;
+    top: 0vw;
+    right: 0;
+    z-index: 1;
 }
-
 body {
-	margin-top: 33vw;
+    margin-top: 33vw;
 }
-
 .h1_perfektionist {
-	margin-top: 7vw;
+    margin-top: 7vw;
 }
 
 /*p {
@@ -141,405 +129,346 @@ body {
 }*/
 
 .blaa {
-	position: absolute;
-	background-color: #ACCCDB;
-	width: 50vw;
-	height: 145vw;
-	top: 25vw;
-	z-index: -2;
+    position: absolute;
+    background-color: #ACCCDB;
+    width: 50vw;
+    height: 145vw;
+    top: 25vw;
+    z-index: -2;
 }
 
 /*BOKSE*/
+
 .green {
-	position: absolute;
-	background-color: #CAD2C6;
-	width: 70vw;
-	height: 35vw;
-	top: 212vw;
-	right: 0;
+    position: absolute;
+    background-color: #CAD2C6;
+    width: 70vw;
+    height: 35vw;
+    top: 212vw;
+    right: 0;
 }
-
 .yellow {
-	position: absolute;
-	background-color: #F4DAA8;
-	width: 40vw;
-	height: 70vw;
-	top: 270vw;
-	z-index: -1;
+    position: absolute;
+    background-color: #F4DAA8;
+    width: 40vw;
+    height: 70vw;
+    top: 270vw;
+    z-index: -1;
 }
-
 #om_os {
-	position: relative;
-	width: 100%;
-	text-align: center;
-	margin-top: 10vw;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vw;
 }
-
 .mobil_julia_1 {
-	box-shadow: #F6D5CE 20px 20px 0;
+    box-shadow: #F6D5CE 20px 20px 0;
 }
-
 .mobil_julia_2 {
-	box-shadow: #F6D5CE -20px 20px 0;
-	margin-top: 5vw;
+    box-shadow: #F6D5CE -20px 20px 0;
+    margin-top: 5vw;
 }
 
 /*FOOTER*/
+
 footer {
-	position: absolute;
-	top: 400vw;
-	width: 90%;
-	margin-top: 5vw;
-	padding: 5vw;
-	background-color: #F8EFED;
-	margin: 0;
-	max-width: 100%;
+    position: absolute;
+    top: 400vw;
+    width: 90%;
+    margin-top: 5vw;
+    padding: 5vw;
+    background-color: #F8EFED;
+    margin: 0;
+    max-width: 100%;
 }
-
 footer p {
-	padding-top: 0vw;
-	padding-bottom: 0vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
 }
-
 footer img {
-	width: 10vw;
+    width: 10vw;
 }
-
 #aabningstider,
 #besoeg_os,
 #kontakt_os {
-	display: none;
+    display: none;
 }
-
 .all_rights_reserved {
-	margin-top: 4vw;
-	font-size: 2.5vw;
+    margin-top: 4vw;
+    font-size: 2.5vw;
 }
 
 /*STYLETILE MOBIL*/
 
 H1 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-size: 2rem;
-	color: #742E07;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #742E07;
 }
-
 H2 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1vw;
-	font-size: 1.5rem;
-	padding: 2vw;
-	color: black
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    font-size: 1.5rem;
+    padding: 2vw;
+    color: black
 }
-
 H3 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.2vw;
-	font-size: 1.1rem;
-	padding: 2vw;
-	color: #742E07;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    font-size: 1.1rem;
+    padding: 2vw;
+    color: #742E07;
 }
-
 H4 {}
-
 H5 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
 }
-
 p {
-	font-family: 'Playfair Display', serif;
-	line-height: 1.2rem;
-	font-size: 0.7rem;
-	color: black
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+    color: black
 }
-
 a {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
 }
 
 /*MEDIA QUERIES*/
 
 @media (min-width: 800px) {
-
-	/*MENUEN*/
-	nav {
-		padding: 2vw;
-		height: auto;
-	}
-
-	.hidden {
-		display: block;
-	}
-
-	#menu {
-		text-align: right;
-	}
-
-	#menu li {
-		display: inline;
-		padding: 0.1vw;
-		margin: 0;
-		margin-right: 2vw;
-	}
-
-	#logo {
-		width: 9vw;
-	}
-
-	#menuburger {
-		display: none;
-	}
-
-	#menu a {
-		font-family: 'Montserrat', sans-serif;
-		padding: 1.3vw;
-		font-size: 1vw;
-		color: black;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-
-	#menu a:hover {
-		color: #F2AB9B;
-	}
-
-	#behandlinger_knap {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 1.1vw;
-		color: black;
-		text-decoration: none;
-		text-transform: uppercase;
-		background-color: #F8F0EE;
-		border: none;
-	}
-
-	#dropdown {
-		position: absolute;
-		background-color: #F8F0EE;
-		width: 20vw;
-		height: 18vw;
-		top: 0vw;
-		right: 35.5vw;
-		z-index: -1;
-	}
-
-	#dropdown a {
-		text-decoration: none;
-		color: black;
-		padding: 1vw;
-	}
-
-	#dropdown li {
-		top: 6vw;
-	}
-
-	#behandlinger_knap:hover,
-	#dropdown a:hover {
-		color: #F2AB9B;
-		cursor: pointer;
-	}
-
-	.hide {
-		display: none;
-	}
-
-	/*OPSÆTNING*/
-
-	header {
-		height: 12vw;
-	}
-
-	#om_os {
-		display: none;
-	}
-
-	#om_os_video,
-	#om_os_billede {
-		display: initial;
-		position: relative;
-	}
-
-	#om_os_billede {
-		margin-top: 10vw;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-auto-rows: 1fr 1fr 1fr 1fr;
-	}
-
-	.h1_om_os {
-		text-align: center;
-	}
-
-	video {
-		max-width: 70%;
-		align-content: center;
-		margin-left: 20%;
-	}
-
-	.green {
-		display: none;
-	}
-
-	.yellow {
-		display: none;
-	}
-
-	.blaa {
-		top: 20vw;
-		height: 175vw;
-		width: 35vw;
-		right: 0;
-		z-index: -3;
-	}
-
-	.video_1 {
-		top: 10px;
-		margin-top: 0;
-		box-shadow: #CAD2C6 20px 20px 0;
-	}
-
-	.billede_div {
-		top: 110vw;
-		overflow: hidden;
-		grid-column-start: 1;
-		grid-row: 1;
-		grid-column-end: span 3;
-		grid-row-end: span 3;
-	}
-
-	.billede_1 {
-		height: auto;
-		width: 100%;
-		object-fit: cover;
-		box-shadow: #F4DAA8 20px 20px 0;
-		z-index: -1;
-	}
-
-	.tekst_1 {
-		background-color: #F8EFED;
-		top: 80vw;
-		margin-top: 4vw;
-		margin-left: 10vw;
-		padding-top: 2%;
-		padding-left: 5%;
-		width: 45vw;
-		z-index: 1;
-		box-shadow: #F2AB9B 10px 10px 0;
-	}
-
-	.tekst_2 {
-		background-color: #F8EFED;
-		padding-top: 7%;
-		padding-left: 5%;
-		z-index: 2;
-		box-shadow: #F2AB9B -10px 10px 0;
-		grid-column-start: 3;
-		grid-row: 2;
-		grid-column-end: span 2;
-		grid-row-end: span 2;
-	}
-
-	/*FOOTER*/
-	footer {
-		width: 90%;
-		top: 210vw;
-	}
-
-	#aabningstider,
-	#besoeg_os,
-	#kontakt_os {
-		display: block;
-	}
-
-	footer .sectionwrapper {
-		display: grid;
-		grid-template-columns: 25% 25% 25% 25%;
-		width: auto;
-		margin: 0;
-	}
-
-	.col {
-		margin: 1vw;
-	}
-
-	#kontakt {
-		display: grid;
-		grid-template-columns: 1fr 4fr;
-		padding-top: 2vw;
-		padding-bottom: 2vw;
-	}
-
-	#kontakt img,
-	#kontakt a {
-		margin-right: 1vw;
-	}
-
-	footer #some img {
-		margin-right: 1vw;
-		width: 5vw;
-	}
-
-	footer address,
-	footer a {
-		margin-top: 2vw;
-		margin-bottom: 2vw;
-		font-family: 'Playfair Display',
-			serif;
-		font-style: normal;
-		color: black;
-		text-decoration: none;
-		line-height: 2.3vw;
-		font-size: 0.9rem;
-	}
-
-	footer a:hover {
-		color: #F2AB9B;
-	}
-
-	.all_rights_reserved {
-		margin-top: 4vw;
-		font-size: 0.6rem;
-	}
+    /*MENUEN*/
+    nav {
+        padding: 2vw;
+        height: auto;
+    }
+    .hidden {
+        display: block;
+    }
+    #menu {
+        text-align: right;
+    }
+    #menu li {
+        display: inline;
+        padding: 0.1vw;
+        margin: 0;
+        margin-right: 2vw;
+    }
+    #logo {
+        width: 9vw;
+    }
+    #menuburger {
+        display: none;
+    }
+    #menu a {
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.3vw;
+        font-size: 1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #menu a:hover {
+        color: #F2AB9B;
+    }
+    #behandlinger_knap {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #F8F0EE;
+        border: none;
+    }
+    #dropdown {
+        position: absolute;
+        background-color: #F8F0EE;
+        width: 20vw;
+        height: 18vw;
+        top: 0vw;
+        right: 35.5vw;
+        z-index: -1;
+    }
+    #dropdown a {
+        text-decoration: none;
+        color: black;
+        padding: 1vw;
+    }
+    #dropdown li {
+        top: 6vw;
+    }
+    #behandlinger_knap:hover,
+    #dropdown a:hover {
+        color: #F2AB9B;
+        cursor: pointer;
+    }
+    .hide {
+        display: none;
+    }
+    /*OPSÆTNING*/
+    header {
+        height: 12vw;
+    }
+    #om_os {
+        display: none;
+    }
+    #om_os_video,
+    #om_os_billede {
+        display: initial;
+        position: relative;
+    }
+    #om_os_billede {
+        margin-top: 10vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr;
+    }
+    .h1_om_os {
+        text-align: center;
+    }
+    video {
+        max-width: 70%;
+        align-content: center;
+        margin-left: 20%;
+    }
+    .green {
+        display: none;
+    }
+    .yellow {
+        display: none;
+    }
+    .blaa {
+        top: 20vw;
+        height: 175vw;
+        width: 35vw;
+        right: 0;
+        z-index: -3;
+    }
+    .video_1 {
+        top: 10px;
+        margin-top: 0;
+        box-shadow: #CAD2C6 20px 20px 0;
+    }
+    .billede_div {
+        top: 110vw;
+        overflow: hidden;
+        grid-column-start: 1;
+        grid-row: 1;
+        grid-column-end: span 3;
+        grid-row-end: span 3;
+    }
+    .billede_1 {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: #F4DAA8 20px 20px 0;
+        z-index: -1;
+    }
+    .tekst_1 {
+        background-color: #F8EFED;
+        top: 80vw;
+        margin-top: 4vw;
+        margin-left: 10vw;
+        padding-top: 2%;
+        padding-left: 5%;
+        width: 45vw;
+        z-index: 1;
+        box-shadow: #F2AB9B 10px 10px 0;
+    }
+    .tekst_2 {
+        background-color: #F8EFED;
+        padding-top: 7%;
+        padding-left: 5%;
+        z-index: 2;
+        box-shadow: #F2AB9B -10px 10px 0;
+        grid-column-start: 3;
+        grid-row: 2;
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+    }
+    /*FOOTER*/
+    footer {
+        width: 90%;
+        top: 210vw;
+    }
+    #aabningstider,
+    #besoeg_os,
+    #kontakt_os {
+        display: block;
+    }
+    footer .sectionwrapper {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: auto;
+        margin: 0;
+    }
+    .col {
+        margin: 1vw;
+    }
+    #kontakt {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    #kontakt img,
+    #kontakt a {
+        margin-right: 1vw;
+    }
+    footer #some img {
+        margin-right: 1vw;
+        width: 5vw;
+    }
+    footer address,
+    footer a {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        color: black;
+        text-decoration: none;
+        line-height: 2.3vw;
+        font-size: 0.9rem;
+    }
+    footer a:hover {
+        color: #F2AB9B;
+    }
+    .all_rights_reserved {
+        margin-top: 4vw;
+        font-size: 0.6rem;
+    }
 }
-
 @media only screen and (min-width: 1000px) {
-
-	img {
-		max-width: 65%;
-	}
-
-	header {
-		height: 9vw;
-	}
-
-	.blaa {
-		height: 95vw;
-	}
+    img {
+        max-width: 65%;
+    }
+    header {
+        height: 9vw;
+    }
+    .blaa {
+        height: 95vw;
+    }
 }
 
 /*STYLETILE TEKST*/
 
 H1 {
-	font-size: 4.5rem;
+    font-size: 4.5rem;
 }
-
 H2 {
-	font-size: 2.5rem;
+    font-size: 2.5rem;
 }
-
 H5 {
-	font-size: 1.1rem
+    font-size: 1.1rem
 }
-
 p {
-	line-height: 2.4rem;
-	font-size: 0.9rem;
+    line-height: 2.4rem;
+    font-size: 0.9rem;
 }
