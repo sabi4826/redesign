@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/*Menu mobil*/
+
 nav {
     position: fixed;
     width: 100%;
@@ -55,34 +58,46 @@ nav {
     border: none;
 }
 #dropdown {
-    position: relative;
+    position: absolute;
     background-color: #F8F0EE;
-    width: 112%;
+    width: 100%;
+    height: 100%;
+    top: 30vw;
 }
-#menu #dropdown li {
+#dropdown li {
     position: relative;
     background-color: #F8F0EE;
     width: 80%;
     margin: 2vw;
+    list-style: none;
 }
 #dropdown a {
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .behandlinger_knap:hover,
 #dropdown a:hover {
     color: #F2AB9B;
     cursor: pointer;
 }
+
+/*Menu slut*/
+
 body {
     margin-top: 33vw;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 8vw;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 7vw;
+    color: #742E07;
 }
 p {
     font-family: 'Playfair Display', serif;
@@ -90,7 +105,8 @@ p {
     margin-right: 6vw;
     margin-bottom: 4vw;
     text-align: center;
-    line-height: 7vw;
+    line-height: 1.2rem;
+    font-size: 0.7rem;
 }
 .skygge_section {
     position: relative;
@@ -166,6 +182,12 @@ p {
 a:link {
     text-decoration: none;
 }
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
 footer {
     margin-top: 5vw;
     padding: 5vw;
@@ -202,6 +224,7 @@ footer img {
     font-size: 2.5vw;
 }
 @media only screen and (min-width: 800px) {
+    /*    Menu desktop */
     nav {
         padding: 2vw;
         height: auto;
@@ -234,6 +257,7 @@ footer img {
     }
     #menu a:hover {
         color: #F2AB9B;
+        background-image:
     }
     #behandlinger_knap {
         font-family: 'Montserrat', sans-serif;
@@ -247,19 +271,22 @@ footer img {
     #dropdown {
         position: absolute;
         background-color: #F8F0EE;
-        width: 20vw;
-        height: 18vw;
+        width: 21vw;
+        height: 24vw;
         top: 0vw;
-        right: 35.5vw;
+        left: 47.2vw;
         z-index: -1;
+        text-align: left;
     }
-    #dropdown a {
-        text-decoration: none;
-        color: black;
-        padding: 1vw;
+    #dropdown ul {
+        padding: 0;
     }
     #dropdown li {
-        top: 6vw;
+        top: 3vw;
+        display: block;
+    }
+    #dropdown a {
+        font-size: 1vw;
     }
     #behandlinger_knap:hover,
     #dropdown a:hover {
@@ -269,19 +296,19 @@ footer img {
     .hide {
         display: none;
     }
+    /*    Menu slut */
     h1 {
-        font-size: 2.5vw;
+        font-size: 4.5rem;
         padding-bottom: 5vw;
+    }
+    p {
+        line-height: 2.4rem;
+        font-size: 0.9vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     body {
         margin-top: 15vw;
-    }
-    p {
-        line-height: 3vw;
-        font-size: 1.5vw;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        padding-bottom: 7vw;
     }
     .skygge_section {
         display: none;
@@ -338,15 +365,17 @@ footer img {
         height: 49vw;
         background-color: #F4DAA8;
         filter: opacity(0.3);
+        z-index: -99;
     }
     .orange {
         position: absolute;
-        top: 66vw;
+        top: 50vw;
         left: 11vw;
         width: 73vw;
         height: 16vw;
         background-color: #F2AB9B;
-        filter: opacity(0.3)
+        filter: opacity(0.3);
+        z-index: -99;
     }
     .groen {
         position: absolute;
@@ -356,6 +385,7 @@ footer img {
         height: 33vw;
         background-color: #CAD2C6;
         filter: opacity(0.3);
+        z-index: -99;
     }
     .book_nu .tekst {
         padding-top: 1vw;
