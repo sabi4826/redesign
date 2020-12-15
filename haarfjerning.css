@@ -14,18 +14,23 @@ nav {
     z-index: 99;
     top: 0;
 }
+
 #menuburger {
     font-size: 8.5vw;
     text-align: right;
     color: #742E07;
     font-family: 'Montserrat', sans-serif;
 }
+
 #menu li {
     display: block;
     margin: 2vw;
     padding: 2vw;
     width: 92%;
+    line-height: 0;
 }
+
+
 #menu a {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -33,21 +38,26 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 #menu a:hover {
     color: #F2AB9B;
 }
+
 .hidden {
     display: none;
 }
+
 .nav_hide {
     height: auto;
 }
+
 #logo {
     position: absolute;
     width: 17vw;
     left: 2vw;
     top: 0;
 }
+
 #behandlinger_knap {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -57,6 +67,7 @@ nav {
     background-color: #F8F0EE;
     border: none;
 }
+
 #dropdown {
     position: absolute;
     background-color: #F8F0EE;
@@ -64,13 +75,16 @@ nav {
     height: 100%;
     top: 30vw;
 }
+
 #dropdown li {
     position: relative;
     background-color: #F8F0EE;
     width: 80%;
     margin: 2vw;
     list-style: none;
+    line-height: 0;
 }
+
 #dropdown a {
     text-decoration: none;
     color: black;
@@ -79,7 +93,9 @@ nav {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    line-height: 1.2rem;
 }
+
 .behandlinger_knap:hover,
 #dropdown a:hover {
     color: #F2AB9B;
@@ -91,9 +107,11 @@ nav {
 body {
     margin-top: 33vw;
 }
+
 li {
     list-style: none;
 }
+
 .stjerne {
     font-size: 2.2vw;
     line-height: 2.5vw;
@@ -101,6 +119,7 @@ li {
     margin: 0;
     margin-top: 3vw;
 }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -109,6 +128,7 @@ h1 {
     padding-bottom: 7vw;
     color: #742E07;
 }
+
 p {
     font-family: 'Playfair Display', serif;
     margin-left: 6vw;
@@ -118,6 +138,7 @@ p {
     line-height: 1.2rem;
     font-size: 0.7rem;
 }
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -129,6 +150,7 @@ h3 {
     letter-spacing: 0.2vw;
     color: #742E07;
 }
+
 #sugaring h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -136,6 +158,7 @@ h3 {
     text-align: center;
     padding-bottom: 7vw;
 }
+
 #sugaring .skygge_section {
     /*
     position: absolute;
@@ -148,6 +171,7 @@ h3 {
     margin-left: 5vw;
 */
 }
+
 #sugaring .sectionwrapper {
     /*
             position: relative;
@@ -165,6 +189,7 @@ h3 {
     margin-right: 5vw;
     box-shadow: -5vw -5vw #F6D5CE;
 }
+
 #sugaring .overskrifter {
     /*
             position: absolute;
@@ -182,6 +207,7 @@ h3 {
     text-align: center;
     text-decoration: underline;
 }
+
 #sugaring .col_left {
     font-family: 'Playfair Display', serif;
     margin-left: 6vw;
@@ -192,11 +218,13 @@ h3 {
     font-size: 3vw;
     margin-top: 5vw;
 }
+
 #sugaring .col_left .linje {
     line-height: 3.5vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
+
 #sugaring .col_right {
     font-family: 'Playfair Display', serif;
     margin-bottom: 4vw;
@@ -206,10 +234,12 @@ h3 {
     margin-top: 4vw;
     margin-top: 5vw;
 }
+
 #sugaring .col_right .linje {
     padding-top: 0.5vw;
     padding-bottom: 1.5vw;
 }
+
 #sugaring .col_middle {
     font-family: 'Playfair Display', serif;
     margin-bottom: 4vw;
@@ -219,10 +249,12 @@ h3 {
     margin-top: 4vw;
     margin-top: 5vw;
 }
+
 #sugaring .col_middle .linje {
     padding-top: 0.5vw;
     padding-bottom: 1.5vw;
 }
+
 #sugaring .skygge_book_nu {
     /*
             position: relative;
@@ -235,6 +267,7 @@ h3 {
 */
     background-color: #F2AB9B;
 }
+
 #sugaring .book_nu {
     position: relative;
     top: -7vw;
@@ -247,6 +280,7 @@ h3 {
     margin-left: 51vw;
     margin-bottom: 10vw;
 }
+
 #sugaring .book_nu .tekst {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -254,21 +288,25 @@ h3 {
     padding-top: 4vw;
     color: black;
 }
+
 a:link {
     text-decoration: none;
 }
+
 a {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
+
 #voks .rubrik {
     /*
             position: relative;
             top: 17vw;
 */
 }
+
 #voks h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -276,6 +314,7 @@ a {
     text-align: center;
     padding-bottom: 7vw;
 }
+
 #voks .skygge_section {
     /*
             position: relative;
@@ -287,6 +326,7 @@ a {
             width: 75vw;
 */
 }
+
 #voks .sectionwrapper {
     margin-left: 10vw;
     margin-right: 5vw;
@@ -304,6 +344,7 @@ a {
     grid-template-columns: 2fr 1.5fr 1fr;
     box-shadow: -5vw -5vw #F6D5CE;
 }
+
 #voks .overskrifter {
     /*
             position: absolute;
@@ -321,11 +362,13 @@ a {
     text-align: center;
     text-decoration: underline;
 }
+
 #voks .col_left .linje {
     line-height: 3.5vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
+
 #voks .col_left {
     font-family: 'Playfair Display', serif;
     margin-left: 6vw;
@@ -336,6 +379,7 @@ a {
     font-size: 3vw;
     margin-top: 5vw;
 }
+
 #voks .col_middle {
     font-family: 'Playfair Display', serif;
     margin-bottom: 4vw;
@@ -344,6 +388,7 @@ a {
     font-size: 3vw;
     margin-top: 5vw;
 }
+
 #voks .col_right {
     font-family: 'Playfair Display', serif;
     margin-bottom: 4vw;
@@ -352,16 +397,19 @@ a {
     font-size: 3vw;
     margin-top: 5vw;
 }
+
 #voks .linje {
     padding-top: 0.5vw;
     padding-bottom: 1.5vw;
 }
+
 #voks .linje2 {
     padding-top: 0vw;
     padding-bottom: 1vw;
     line-height: 3.5vw;
     margin-top: 2.5vw;
 }
+
 #voks .linje3 {
     padding-bottom: -0.5vw;
     line-height: 9vw;
@@ -369,6 +417,7 @@ a {
     margin-top: 4.5vw;
     margin-left: 0.5vw;
 }
+
 #voks .linje4 {
     padding-bottom: -0.5vw;
     line-height: 9vw;
@@ -376,6 +425,7 @@ a {
     margin-top: 4.5vw;
     margin-left: 0.5vw;
 }
+
 #voks .skygge_book_nu {
     /*
             position: relative;
@@ -388,6 +438,7 @@ a {
 */
     background-color: #F2AB9B;
 }
+
 #voks .book_nu {
     position: relative;
     top: -7vw;
@@ -404,6 +455,7 @@ a {
     margin-left: 51vw;
     margin-bottom: 10vw;
 }
+
 #voks .book_nu .tekst {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -411,6 +463,7 @@ a {
     padding-top: 4vw;
     color: black;
 }
+
 footer {
     margin-top: 5vw;
     padding: 5vw;
@@ -418,14 +471,17 @@ footer {
     margin: auto;
     max-width: 100%;
 }
+
 h5 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 4vw;
 }
+
 #gavekort {
     display: none;
 }
+
 footer p {
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -434,42 +490,53 @@ footer p {
     text-align: left;
     margin: 0;
 }
+
 footer img {
     width: 10vw;
 }
+
 #aabningstider,
 #besoeg_os,
 #kontakt_os {
     display: none;
 }
+
 .all_rights_reserved {
     margin-top: 4vw;
     font-size: 2.5vw;
 }
+
 @media only screen and (min-width: 800px) {
+
     /*    Menu desktop */
     nav {
         padding: 2vw;
         height: auto;
     }
+
     .hidden {
         display: block;
     }
+
     #menu {
         text-align: right;
     }
+
     #menu li {
         display: inline;
         padding: 0.1vw;
         margin: 0;
         margin-right: 2vw;
     }
+
     #logo {
         width: 9vw;
     }
+
     #menuburger {
         display: none;
     }
+
     #menu a {
         font-family: 'Montserrat', sans-serif;
         padding: 1.3vw;
@@ -478,10 +545,12 @@ footer img {
         text-decoration: none;
         text-transform: uppercase;
     }
+
     #menu a:hover {
         color: #F2AB9B;
         background-image:
     }
+
     #behandlinger_knap {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.1vw;
@@ -491,6 +560,7 @@ footer img {
         background-color: #F8F0EE;
         border: none;
     }
+
     #dropdown {
         position: absolute;
         background-color: #F8F0EE;
@@ -501,46 +571,57 @@ footer img {
         z-index: -1;
         text-align: left;
     }
+
     #dropdown ul {
         padding: 0;
     }
+
     #dropdown li {
         top: 3vw;
         display: block;
     }
+
     #dropdown a {
         font-size: 1vw;
     }
+
     #behandlinger_knap:hover,
     #dropdown a:hover {
         color: #F2AB9B;
         cursor: pointer;
     }
+
     .hide {
         display: none;
     }
+
     /*    Menu slut */
     h1 {
         font-size: 4.5rem;
         padding-bottom: 5vw;
     }
+
     p {
         line-height: 2.4rem;
         font-size: 0.9vw;
         padding-left: 10vw;
         padding-right: 10vw;
     }
+
     #sugaring h2 {
         font-size: 1.1rem;
         padding-bottom: 5vw;
     }
+
     #voks h2 {
         font-size: 1.1rem;
         padding-bottom: 5vw;
     }
+
     body {
         margin-top: 15vw;
     }
+
     li {
         line-height: 3vw;
         font-size: 1.2vw;
@@ -548,12 +629,15 @@ footer img {
         padding-right: 10vw;
         padding: 0;
     }
+
     li br {
         display: none;
     }
+
     li {
         list-style: none;
     }
+
     #sugaring .sectionwrapper {
         /*
         position: relative;
@@ -569,44 +653,55 @@ footer img {
         margin-left: 10vw;
         box-shadow: -3vw -3vw #F6D5CE;
     }
+
     #sugaring .col_left {}
+
     #sugaring .col_middle {}
+
     #sugaring .col_right {}
+
     #voks .col_middle .linje3 {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #voks .col_middle .linje4 {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #voks .col_right .linje3 {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #voks .col_right .linje4 {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #sugaring .col_left .linje {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #sugaring .col_middle .linje {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #sugaring .col_right .linje {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #sugaring .skygge_book_nu {
         /*
         position: relative;
@@ -618,6 +713,7 @@ footer img {
         width: 17vw;
 */
     }
+
     #sugaring .book_nu {
         /*
         position: relative;
@@ -629,16 +725,19 @@ footer img {
         width: 17vw;
         box-shadow: -1vw 1vw #F6D5CE;
     }
+
     #sugaring .book_nu .tekst {
         font-size: 1.5vw;
         padding-top: 1vw;
     }
+
     #voks {
         /*
         position: relative;
  top: 98vw;
 */
     }
+
     /*
     #voks .rubrik {
         top: -102vw;
@@ -648,6 +747,7 @@ footer img {
     #voks h2 {
         padding-bottom: 5vw;
     }
+
     #voks .sectionwrapper {
         /*
         position: relative;
@@ -662,6 +762,7 @@ height: 72vw;
         grid-template-columns: 3fr 1fr 1fr;
         box-shadow: -3vw -3vw #F6D5CE;
     }
+
     #voks p {
         /*
         position: relative;
@@ -669,46 +770,56 @@ height: 72vw;
         left 0vw;
 */
     }
+
     #voks .col_left {
         /*        margin-top: 10vw;*/
     }
+
     #voks .col_middle {
         /*        margin-top: 10vw;*/
     }
+
     #voks .col_right {
         /*        margin-top: 10vw;*/
     }
+
     #voks .col_left .linje {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #voks .col_middle .linje {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #voks .col_right .linje {
         line-height: 3vw;
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
+
     #voks .linje2 {
         line-height: 3vw;
         margin: 0vw;
         padding: 0vw;
     }
+
     #voks .linje3 {
         line-height: 3vw;
         margin: 0vw;
         padding: 0vw;
     }
+
     #voks .linje4 {
         line-height: 3vw;
         margin: 0vw;
         padding-top: 1.5vw;
         padding-bottom: 1.5vw;
     }
+
     #voks .skygge_book_nu {
         /*
         position: relative;
@@ -718,6 +829,7 @@ height: 72vw;
         width: 17vw;
 */
     }
+
     #voks .book_nu {
         /*
         position: relative;
@@ -732,14 +844,17 @@ height: 72vw;
         width: 17vw;
         box-shadow: -1vw 1vw #F6D5CE;
     }
+
     #voks .book_nu .tekst {
         font-size: 1.5vw;
         padding-top: 1vw;
     }
+
     .stjerne {
         padding: 0;
         font-size: 1vw;
     }
+
     .blaa {
         position: absolute;
         top: 6vw;
@@ -750,6 +865,7 @@ height: 72vw;
         filter: opacity(0.3);
         z-index: -99;
     }
+
     .orange {
         position: absolute;
         top: 91vw;
@@ -760,6 +876,7 @@ height: 72vw;
         filter: opacity(0.3);
         z-index: -99;
     }
+
     .gul {
         position: absolute;
         top: 148.5vw;
@@ -770,70 +887,88 @@ height: 72vw;
         filter: opacity(0.3);
         z-index: -99;
     }
+
     .book_nu .tekst {
         padding-top: 1vw;
     }
+
+    h5 {
+        font-size: 1.1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    footer p {
+        margin-left: 0;
+        font-size: 0.9rem;
+    }
+
     #aabningstider,
     #besoeg_os,
     #kontakt_os {
         display: block;
     }
+
     footer .sectionwrapper {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         width: auto;
         margin: 0;
     }
+
     .col {
         margin: 1vw;
     }
-    h5 {
-        font-size: 1.1rem;
-        margin: 0;
-        padding: 0;
-    }
+
     #kontakt {
         display: grid;
         grid-template-columns: 1fr 4fr;
         padding-top: 2vw;
         padding-bottom: 2vw;
     }
+
     #kontakt img,
     #kontakt a {
-        margin-right: 1vw;
+        display: flex;
+        margin: 0;
+        width: 2.5vw;
     }
-    #kontakt_os #kontakt img {
-        width: 1.5vw;
-        height: 1.5vw;
-    }
+
     footer #some img {
         margin-right: 1vw;
-        width: 5vw;
+        width: 3vw;
     }
+
     footer address,
     footer a {
         margin-top: 2vw;
         margin-bottom: 2vw;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Playfair Display',
+            serif;
         font-style: normal;
         color: black;
         text-decoration: none;
+        line-height: 2.3vw;
+        font-size: 0.9rem;
+        text-transform: none;
     }
+
+    footer a:link {
+        text-transform: none;
+    }
+
+
     footer a:hover {
         color: #F2AB9B;
     }
+
+
+
     .all_rights_reserved {
         margin-top: 4vw;
-        font-size: 1.2vw;
-        padding-top: 2vw;
-        padding-bottom: 2vw;
+        font-size: 0.6rem;
     }
-    footer p {
-        padding: 0vw;
-        text-align: left;
-        line-height: 2.3vw;
-        font-size: 1.1vw;
-        padding-top: 2vw;
-        padding-bottom: 2vw;
-    }
+
+    /*    Footer slut */
 }
