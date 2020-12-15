@@ -72,7 +72,7 @@ nav {
     background-color: #F8F0EE;
     width: 100%;
     height: 100%;
-    top: 25vw;
+    top: 24vw;
     transform: translate(10%);
 }
 
@@ -94,6 +94,7 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .behandlinger_knap:hover,
