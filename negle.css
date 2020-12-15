@@ -266,6 +266,9 @@
                             color: #F2AB9B;
                             cursor: pointer;
                         }
+                        .hide {
+                            display: none;
+                        }
                         h1 {
                             font-size: 2.5vw;
                             padding-bottom: 5vw;
@@ -385,6 +388,10 @@
                         #kontakt img,
                         #kontakt a {
                             margin-right: 1vw;
+                        }
+                        #kontakt_os #kontakt img {
+                            width: 1.5vw;
+                            height: 1.5vw;
                         }
                         footer #some img {
                             margin-right: 1vw;

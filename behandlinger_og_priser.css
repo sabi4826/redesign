@@ -10,7 +10,6 @@ nav {
     height: 100%;
     z-index: 99;
     top: 0;
-    left: 0;
 }
 #menuburger {
     font-size: 8.5vw;
@@ -22,6 +21,7 @@ nav {
     display: block;
     margin: 2vw;
     padding: 2vw;
+    width: 92%;
 }
 #menu a {
     font-family: 'Montserrat', sans-serif;
@@ -45,23 +45,52 @@ nav {
     left: 2vw;
     top: 0;
 }
+#behandlinger_knap {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #F8F0EE;
+    border: none;
+}
+#dropdown {
+    position: relative;
+    background-color: #F8F0EE;
+    width: 112%;
+}
+#menu #dropdown li {
+    position: relative;
+    background-color: #F8F0EE;
+    width: 80%;
+    margin: 2vw;
+}
+#dropdown a {
+    text-decoration: none;
+    color: black;
+}
+.behandlinger_knap:hover,
+#dropdown a:hover {
+    color: #F2AB9B;
+    cursor: pointer;
+}
 #splash_behandlinger {
     position: relative;
-    width: 100%;
 }
 #splash_billede {
     position: absolute;
     width: 100%;
     height: 896px;
-    background-color: beige;
+    background-position: 50% 10%;
 }
 #velkommen {
     position: relative;
     margin: auto;
-    top: 80vw;
+    top: 93vw;
     width: 100%;
     height: 896px;
     text-align: center;
+    color: white;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -254,17 +283,42 @@ footer img {
     #menu a:hover {
         color: #F2AB9B;
     }
+    #behandlinger_knap {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #F8F0EE;
+        border: none;
+    }
+    #dropdown {
+        position: absolute;
+        background-color: #F8F0EE;
+        width: 20vw;
+        height: 18vw;
+        top: 0vw;
+        right: 35.5vw;
+        z-index: -1;
+    }
+    #dropdown a {
+        text-decoration: none;
+        color: black;
+        padding: 1vw;
+    }
+    #dropdown li {
+        top: 6vw;
+    }
+    #behandlinger_knap:hover,
+    #dropdown a:hover {
+        color: #F2AB9B;
+        cursor: pointer;
+    }
+    .hide {
+        display: none;
+    }
     #velkommen {
-        top: 10vw;
-    }
-    #splash_behandlinger {
-        width: 90vw;
-        height: 40vw;
-        margin: 5vw;
-    }
-    #splash_billede {
-        width: 90vw;
-        height: 40vw;
+        top: 20vw;
     }
     h1 {
         font-size: 2.5vw;
@@ -487,6 +541,10 @@ footer img {
     #kontakt img,
     #kontakt a {
         margin-right: 1vw;
+    }
+    #kontakt_os #kontakt img {
+        width: 1.5vw;
+        height: 1.5vw;
     }
     footer #some img {
         margin-right: 1vw;
