@@ -18,20 +18,20 @@
 			<div id="menuburger">☰</div>
 			<a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
 			<ul id="menu" class="hidden">
-				<li><button id="behandlinger_knap" href="behandlinger_og_priser.html">Behandlinger og priser ⌄</button></li>
-				<div id="dropdown" class="hidden hide">
-					<ul>
-						<li><a href="behandlinger_og_priser.html">Alle behandlinger</a></li>
-						<li><a href="bryn_og_vipper.html">Bryn og vipper</a></li>
-						<li><a href="haarfjerning.html">Hårfjerning</a></li>
-						<li><a href="negle.html">Negle</a></li>
-						<li><a href="spraytan.html">Spraytan</a></li>
-					</ul>
-				</div>
+				<li><button id="behandlinger_knap">Behandlinger og priser ⌄</button></li>
 				<li><a href="om_os.html">Om os</a></li>
 				<li><a href="kontakt.html">Kontakt</a></li>
 				<li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
 			</ul>
+			<div id="dropdown" class="hidden hide">
+				<ul>
+					<li><a href="behandlinger_og_priser.html">Alle behandlinger</a></li>
+					<li><a href="bryn_og_vipper.html">Bryn og vipper</a></li>
+					<li><a href="haarfjerning.html">Hårfjerning</a></li>
+					<li><a href="negle.html">Negle</a></li>
+					<li><a href="spraytan.html">Spraytan</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 
@@ -57,7 +57,7 @@
 		<img class="mobil_julia_2" src="billeder/julia_portraet_2.png" alt="Julia, ejer af Wild Orchid">
 	</section>
 	<section id="om_os_video">
-		<h1>Om os</h1>
+		<h1 class="h1_om_os">Om os</h1>
 		<div>
 			<video class="video_1" src="http://sophiespang.dk/kea/05_content/wild_orchid_indhold/interview/interview_video.mp4" controls></video>
 		</div>
@@ -74,7 +74,6 @@
 			<img class="billede_1" src="billeder/julia_portraet_1.png" alt="Julia Kurkova, ejer af Wild Orchid">
 		</div>
 	</section>
-	<script src="javascript/script.js"></script>
 	<footer>
 		<section id="footer"></section>
 		<div class="sectionwrapper">
@@ -96,8 +95,8 @@
 				<h5>Kontakt os</h5>
 				<div id="kontakt">
 					<div>
-						<img src="" alt="Mail">
-						<img src="" alt="Tlf">
+						<img src="ikoner/mail.png" alt="Mail">
+						<img src="ikoner/tlf.png" alt="Tlf">
 					</div>
 					<div>
 						<a href="mailto:info@wildorchid.dk">info@wildorchid.dk</a>
@@ -114,9 +113,12 @@
 				</div>
 			</div>
 		</div>
+
 		<hr>
 		<p class="all_rights_reserved">© 2020 WILD ORCHID, ALL RIGHTS RESERVED</p>
 	</footer>
+	<script src="javascript/script.js"></script>
+	<script src="javascript/index.js"></script>
 </body>
 
 </html>
