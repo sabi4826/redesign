@@ -504,16 +504,16 @@ a {
     }
     .groen {
         position: absolute;
-        top: 37vw;
+        top: 45vw;
         right: 0vw;
         width: 28vw;
         height: 60vw;
-        background-color: #CAD2C6;
+        background-color: #F4DAA8;
         filter: opacity(0.3)
     }
     .blaa {
         position: absolute;
-        top: 99vw;
+        top: 120vw;
         left: 0vw;
         width: 45vw;
         height: 53vw;
@@ -521,19 +521,9 @@ a {
         filter: opacity(0.3);
         z-index: -99;
     }
-    .orange2 {
-        position: absolute;
-        top: 120vw;
-        left: 75.5vw;
-        width: 15vw;
-        height: 16vw;
-        background-color: #F2AB9B;
-        filter: opacity(0.3);
-        z-index: -99;
-    }
     .gul2 {
         position: absolute;
-        top: 144vw;
+        top: 195vw;
         left: 9.5vw;
         width: 52vw;
         height: 20vw;

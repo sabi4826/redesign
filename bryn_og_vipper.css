@@ -309,7 +309,6 @@ a {
         font-size: 0.9vw;
         padding-left: 10vw;
         padding-right: 10vw;
-        padding-bottom: 7vw;
     }
     .skygge_section {
         display: none;
@@ -360,7 +359,7 @@ a {
     }
     .blaa {
         position: absolute;
-        top: 30vw;
+        top: 20vw;
         left: 0vw;
         width: 24vw;
         height: 63vw;
@@ -370,12 +369,11 @@ a {
     }
     .orange {
         position: absolute;
-        top: 53.5vw;
+        top: 42vw;
         left: 11vw;
         width: 50vw;
         height: 24vw;
         background-color: #F2AB9B;
-        filter: opacity(0.3);
         z-index: -99;
     }
     .gul {

@@ -300,11 +300,10 @@ footer img {
         margin-top: 15vw;
     }
     p {
-        line-height: 1.4rem;
+        line-height: 2.4rem;
         font-size: 0.9rem;
         padding-left: 10vw;
         padding-right: 10vw;
-        padding-bottom: 7vw;
     }
     .skygge_section {
         display: none;
@@ -359,19 +358,17 @@ footer img {
         right: 0vw;
         width: 24vw;
         height: 63vw;
-        background-color: #F2AB9B;
+        background-color: #ACCCDB;
         filter: opacity(0.3);
         z-index: -99;
     }
     .blaa {
         position: absolute;
-        top: 59.5vw;
+        top: 46.5vw;
         left: 11vw;
         width: 51vw;
         height: 33vw;
-        background-color: #ACCCDB;
-        filter: opacity(0.3);
-        z-index: -99;
+        background-color: #F2AB9B;
     }
     .groen {
         position: absolute;
