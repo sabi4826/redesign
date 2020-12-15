@@ -110,28 +110,14 @@ p {
     line-height: 1.2rem;
     font-size: 0.7rem;
 }
-
-/*
-.skygge_section {
-    position: relative;
-    top: 18vw;
-    left: 10vw;
-    height: 125vw;
-    width: 75vw;
-    background-color: #F6D5CE;
-}
-*/
-
 #bryn_og_vipper .sectionwrapper {
-    position: relative;
-    top: -103vw;
-    right: -14vw;
     height: 125vw;
     width: 75vw;
     background-color: #F8F0EE;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    box-shadow: -1vw -1vw #F2AB9B;
+    box-shadow: -2vw -2vw #F2AB9B;
+    margin-left: 15vw;
 }
 .col_left {
     font-family: 'Playfair Display', serif;
@@ -162,22 +148,15 @@ p {
     padding-top: 0.5vw;
     padding-bottom: 1.5vw;
 }
-.skygge_book_nu {
-    position: relative;
-    top: -109vw;
-    left: 41vw;
-    height: 13vw;
-    width: 42vw;
-    background-color: #F2AB9B;
-}
 .book_nu {
     position: relative;
-    top: -124vw;
+    top: -7vw;
     left: 43vw;
     height: 13vw;
     width: 42vw;
     background-color: white;
     cursor: pointer;
+    box-shadow: -2vw 2vw #F2AB9B;
 }
 .book_nu .tekst {
     font-family: 'Montserrat', sans-serif;
@@ -206,7 +185,6 @@ h5 {
 }
 footer p {
     padding-top: 2vw;
-    padding-bottom: 2vw;
     padding-left: 0;
     padding-right: 0;
     text-align: left;
@@ -222,7 +200,7 @@ footer img {
 }
 .all_rights_reserved {
     margin-top: 4vw;
-    font-size: 2.5vw;
+    font-size: 0.5rem;
 }
 a {
     text-transform: uppercase;
@@ -317,13 +295,7 @@ a {
         padding-left: 10vw;
         padding-right: 10vw;
     }
-    .skygge_section {
-        display: none;
-    }
     #bryn_og_vipper .sectionwrapper {
-        position: relative;
-        top: 0vw;
-        left: 12.5vw;
         width: 75vw;
         height: 43vw;
     }
@@ -347,19 +319,13 @@ a {
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
-    .skygge_book_nu {
-        position: relative;
-        top: -2vw;
-        left: 64.5vw;
-        height: 4vw;
-        width: 17vw;
-    }
     .book_nu {
         position: relative;
-        top: -7vw;
+        top: -3vw;
         left: 65.5vw;
         height: 4vw;
         width: 17vw;
+        box-shadow: -1vw 1vw #F2AB9B;
     }
     .book_nu .tekst {
         font-size: 1.5vw;

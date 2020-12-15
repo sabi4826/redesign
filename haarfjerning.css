@@ -141,45 +141,15 @@ h3 {
     text-align: center;
     padding-bottom: 7vw;
 }
-#sugaring .skygge_section {
-    /*
-    position: absolute;
-    top: 172vw;
-    height: 198vw;
-    width: 82vw;
-*/
-    /*
-    background-color: #F6D5CE;
-    margin-left: 5vw;
-*/
-}
 #sugaring .sectionwrapper {
-    /*
-            position: relative;
-            top: -165vw;
-            right: -15vw;
-*/
-    /*
-    height: 170vw;
-    width: 75vw;
-*/
     background-color: #F8F0EE;
     display: grid;
     grid-template-columns: 2fr 1.5fr 1fr;
     margin-left: 10vw;
     margin-right: 5vw;
-    box-shadow: -5vw -5vw #F6D5CE;
+    box-shadow: -2vw -2vw #F4DAA8;
 }
 #sugaring .overskrifter {
-    /*
-            position: absolute;
-            top: 4vw;
-            right: 0vw;
-*/
-    /*
-    height: 50vw;
-    width: 78vw;
-*/
     font-family: 'Playfair Display', serif;
     display: grid;
     grid-template-columns: 3fr 2.5fr 3fr;
@@ -229,20 +199,11 @@ h3 {
     padding-bottom: 1.5vw;
 }
 #sugaring .skygge_book_nu {
-    /*
-            position: relative;
-            top: -171vw;
-            left: 42vw;
-*/
-    /*
-    height: 13vw;
-    width: 42vw;
-*/
     background-color: #F2AB9B;
 }
 #sugaring .book_nu {
     position: relative;
-    top: -7vw;
+    top: -2vw;
     left: -2vw;
     height: 13vw;
     width: 42vw;
@@ -268,12 +229,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
-#voks .rubrik {
-    /*
-            position: relative;
-            top: 17vw;
-*/
-}
+#voks .rubrik {}
 #voks h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -281,44 +237,15 @@ a {
     text-align: center;
     padding-bottom: 7vw;
 }
-#voks .skygge_section {
-    /*
-            position: relative;
-            top: 14vw;
-            left: 10vw;
-*/
-    /*
-            height: 240vw;
-            width: 75vw;
-*/
-}
 #voks .sectionwrapper {
     margin-left: 10vw;
     margin-right: 5vw;
-    /*
-            position: relative;
-            top: -221vw;
-            right: -15vw;
-*/
-    /*
-            height: 240vw;
-            width: 75vw;
-*/
     background-color: #F8F0EE;
     display: grid;
     grid-template-columns: 2fr 1.5fr 1fr;
-    box-shadow: -5vw -5vw #F6D5CE;
+    box-shadow: -2vw -2vw #F4DAA8;
 }
 #voks .overskrifter {
-    /*
-            position: absolute;
-            top: 4vw;
-            right: 0vw;
-*/
-    /*
-            height: 50vw;
-            width: 78vw;
-*/
     font-family: 'Playfair Display', serif;
     display: grid;
     grid-template-columns: 3fr 2.5fr 3fr;
@@ -382,25 +309,12 @@ a {
     margin-left: 0.5vw;
 }
 #voks .skygge_book_nu {
-    /*
-            position: relative;
-            top: -226vw;
-            left: 42vw;
-*/
-    /*
-            height: 13vw;
-            width: 42vw;
-*/
     background-color: #F2AB9B;
 }
 #voks .book_nu {
     position: relative;
-    top: -7vw;
+    top: -2vw;
     left: -2vw;
-    /*
-            height: 13vw;
-            width: 42vw;
-*/
     height: 13vw;
     width: 42vw;
     background-color: white;
@@ -433,7 +347,6 @@ h5 {
 }
 footer p {
     padding-top: 2vw;
-    padding-bottom: 2vw;
     padding-left: 0;
     padding-right: 0;
     text-align: left;
@@ -449,7 +362,7 @@ footer img {
 }
 .all_rights_reserved {
     margin-top: 4vw;
-    font-size: 2.5vw;
+    font-size: 0.5rem;
 }
 @media only screen and (min-width: 800px) {
     /*    Menu desktop */
@@ -560,19 +473,10 @@ footer img {
         list-style: none;
     }
     #sugaring .sectionwrapper {
-        /*
-        position: relative;
-        top: -3vw;
-        left: 12.5vw;
-*/
-        /*
-        width: 75vw;
-  height: 50vw;
-*/
         display: grid;
         grid-template-columns: 3fr 1fr 1fr;
         margin-left: 6vw;
-        box-shadow: -1.5vw -1.5vw #F2AB9B;
+        box-shadow: -1.5vw -1.5vw #F4DAA8;
     }
     #sugaring .col_left {}
     #sugaring .col_middle {}
@@ -612,22 +516,8 @@ footer img {
         padding-top: 0vw;
         padding-bottom: 0vw;
     }
-    #sugaring .skygge_book_nu {
-        /*
-        position: relative;
-        top: -4vw;
-*/
-        /*
-        left: 64.5vw;
-        height: 4vw;
-        width: 17vw;
-*/
-    }
+    #sugaring .skygge_book_nu {}
     #sugaring .book_nu {
-        /*
-        position: relative;
-        top: -9vw;
-*/
         top: -2.5vw;
         left: 22.5vw;
         height: 4vw;
@@ -638,52 +528,16 @@ footer img {
         font-size: 1.5vw;
         padding-top: 1vw;
     }
-    #voks {
-        /*
-        position: relative;
- top: 98vw;
-*/
-    }
-    /*
-    #voks .rubrik {
-        top: -102vw;
-        left: 0vw;
-    }
-*/
     #voks h2 {
         padding-bottom: 5vw;
     }
     #voks .sectionwrapper {
-        /*
-        position: relative;
-        top: -98vw;
-        left: 12.5vw;
-*/
-        /*
-        width: 75vw;
-height: 72vw;
-*/
         display: grid;
         grid-template-columns: 3fr 1fr 1fr;
-        box-shadow: -1.5vw -1.5vw #F2AB9B;
+        box-shadow: -1.5vw -1.5vw #F4DAA8;
         margin-left: 6vw;
     }
-    #voks p {
-        /*
-        position: relative;
-        top: -101vw;
-        left 0vw;
-*/
-    }
-    #voks .col_left {
-        /*        margin-top: 10vw;*/
-    }
-    #voks .col_middle {
-        /*        margin-top: 10vw;*/
-    }
-    #voks .col_right {
-        /*        margin-top: 10vw;*/
-    }
+    #voks p {}
     #voks .col_left .linje {
         line-height: 3vw;
         padding-top: 0vw;
@@ -715,23 +569,8 @@ height: 72vw;
         padding-top: 1.5vw;
         padding-bottom: 1.5vw;
     }
-    #voks .skygge_book_nu {
-        /*
-        position: relative;
-        top: -99vw;
-        left: 64.5vw;
-        height: 4vw;
-        width: 17vw;
-*/
-    }
+    #voks .skygge_book_nu {}
     #voks .book_nu {
-        /*
-        position: relative;
-        top: -104vw;
-        left: 65.5vw;
-        height: 4vw;
-        width: 17vw;
-*/
         top: -2.5vw;
         left: 22.5vw;
         height: 4vw;

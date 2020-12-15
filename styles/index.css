@@ -681,7 +681,6 @@ H5 {
         height: 30vw;
         top: 20vw;
         right: 11vw;
-        filter: opacity(0.3);
     }
 
     #behandleren_img {
@@ -765,7 +764,6 @@ H5 {
         height: 10vw;
         top: -1vw;
         left: 11vw;
-        filter: opacity(0.3);
     }
 
     #skygge_gavekort_2 {

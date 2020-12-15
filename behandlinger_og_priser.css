@@ -14,21 +14,18 @@ nav {
     z-index: 99;
     top: 0;
 }
-
 #menuburger {
     font-size: 8.5vw;
     text-align: right;
     color: #742E07;
     font-family: 'Montserrat', sans-serif;
 }
-
 #menu li {
     display: block;
     margin: 2vw;
     padding: 2vw;
     width: 92%;
 }
-
 #menu a {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -36,26 +33,21 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 #menu a:hover {
     color: #F2AB9B;
 }
-
 .hidden {
     display: none;
 }
-
 .nav_hide {
     height: auto;
 }
-
 #logo {
     position: absolute;
     width: 17vw;
     left: 2vw;
     top: 0;
 }
-
 #behandlinger_knap {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -65,7 +57,6 @@ nav {
     background-color: #F8F0EE;
     border: none;
 }
-
 #dropdown {
     position: absolute;
     background-color: #F8F0EE;
@@ -74,7 +65,6 @@ nav {
     top: 25vw;
     transform: translate(10%);
 }
-
 #dropdown li {
     position: relative;
     background-color: #F8F0EE;
@@ -82,7 +72,6 @@ nav {
     margin: 2vw;
     list-style: none;
 }
-
 #dropdown a {
     text-decoration: none;
     color: black;
@@ -92,7 +81,6 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 .behandlinger_knap:hover,
 #dropdown a:hover {
     color: #F2AB9B;
@@ -105,13 +93,11 @@ nav {
     position: relative;
     overflow: hidden;
 }
-
 #splash_billede {
     position: absolute;
     width: auto;
     height: 100%;
 }
-
 #velkommen {
     position: relative;
     margin: auto;
@@ -121,7 +107,6 @@ nav {
     text-align: center;
     color: white;
 }
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -133,7 +118,6 @@ h1 {
     width: 80%;
     margin: auto;
 }
-
 p {
     font-family: 'Playfair Display', serif;
     margin-left: 6vw;
@@ -143,7 +127,6 @@ p {
     line-height: 1.2rem;
     font-size: 0.7rem;
 }
-
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -155,85 +138,63 @@ h3 {
     letter-spacing: 0.2vw;
     color: #742E07;
 }
-
 .brynogvipper_ikon {
     height: 27vw;
     width: 43vw;
     padding-top: 5vw;
     padding-left: 15vw;
 }
-
 .haarfjerning_ikon {
     height: 32vw;
     width: 43vw;
     padding-left: 20vw;
 }
-
 .spraytan_ikon {
     height: 42vw;
     width: 45vw;
     padding-left: 16vw;
     padding-top: 3vw;
 }
-
 .spraytan_container h3 {
     padding: 1vw;
 }
-
 .negle_ikon {
     height: 40vw;
     width: 25vw;
     padding-left: 25vw;
 }
-
 .brynogvipper_container {
     position: relative;
     background-color: #F8F0EE;
     margin: 10vw;
     margin-bottom: 20vw;
     height: auto;
-    box-shadow: #CAD2C6 1vw 1vw;
+    box-shadow: #CAD2C6 -1vw -1vw;
 }
-
 .haarfjerning_container {
     position: relative;
     background-color: #F8F0EE;
     margin: 10vw;
     margin-bottom: 20vw;
     height: auto;
-    box-shadow: #F4DAA8 1vw 1vw;
+    box-shadow: #F4DAA8 -1vw -1vw;
 }
-
 .spraytan_container {
     position: relative;
     background-color: #F8F0EE;
     margin: 10vw;
     margin-bottom: 20vw;
     height: auto;
-    box-shadow: #ACCCDB 1vw 1vw;
+    box-shadow: #ACCCDB -1vw -1vw;
 }
-
 .negle_container {
     position: relative;
     background-color: #F8F0EE;
     margin: 10vw;
     margin-bottom: 20vw;
     height: auto;
-    box-shadow: #CAD2C6 1vw 1vw;
+    box-shadow: #CAD2C6 -1vw -1vw;
 }
-
-/*
-.right_skygge_laes_mere {
-    position: relative;
-    top: 4vw;
-    left: 28vw;
-    height: 13vw;
-    width: 42vw;
-    z-index: 1;
-    background-color: #F2AB9B;
-}
-*/
-
 .right_laes_mere {
     position: relative;
     top: 6vw;
@@ -244,7 +205,6 @@ h3 {
     z-index: 2;
     box-shadow: #F2AB9B -1vw 1vw;
 }
-
 .right_laes_mere a,
 .left_laes_mere a {
     color: black;
@@ -252,20 +212,6 @@ h3 {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-/*
-.left_skygge_laes_mere {
-    position: relative;
-    top: 6vw;
-    left: 28vw;
-    height: 13vw;
-    width: 42vw;
-    background-color: #F2AB9B;
-    z-index: 1;
-}
-*/
-
 .left_laes_mere {
     position: relative;
     top: 6vw;
@@ -276,7 +222,6 @@ h3 {
     z-index: 2;
     box-shadow: #F2AB9B -1vw 1vw;
 }
-
 .tekst {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -285,11 +230,9 @@ h3 {
     color: black;
     cursor: pointer;
 }
-
 a:link {
     text-decoration: none;
 }
-
 footer {
     margin-top: 5vw;
     padding: 5vw;
@@ -297,79 +240,63 @@ footer {
     margin: auto;
     max-width: 100%;
 }
-
 h5 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 4vw;
 }
-
 #gavekort {
     display: none;
 }
-
 footer p {
     padding-top: 2vw;
-    padding-bottom: 2vw;
     padding-left: 0;
     padding-right: 0;
     text-align: left;
     margin: 0;
 }
-
 footer img {
     width: 10vw;
 }
-
 #aabningstider,
 #besoeg_os,
 #kontakt_os {
     display: none;
 }
-
 .all_rights_reserved {
     margin-top: 4vw;
-    font-size: 2.5vw;
+    font-size: 0.5rem;
 }
-
 a {
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
-
 @media only screen and (min-width: 800px) {
-
     /*    Menu desktop */
     nav {
         padding: 2vw;
         height: auto;
     }
-
     .hidden {
         display: block;
     }
-
     #menu {
         text-align: right;
     }
-
     #menu li {
         display: inline;
         padding: 0.1vw;
         margin: 0;
         margin-right: 2vw;
     }
-
     #logo {
         width: 9vw;
     }
-
     #menuburger {
         display: none;
     }
-
     #menu a {
         font-family: 'Montserrat', sans-serif;
         padding: 1.3vw;
@@ -378,12 +305,10 @@ a {
         text-decoration: none;
         text-transform: uppercase;
     }
-
     #menu a:hover {
         color: #F2AB9B;
         background-image:
     }
-
     #behandlinger_knap {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.1vw;
@@ -393,7 +318,6 @@ a {
         background-color: #F8F0EE;
         border: none;
     }
-
     #dropdown {
         position: absolute;
         background-color: #F8F0EE;
@@ -404,35 +328,28 @@ a {
         z-index: -1;
         text-align: left;
     }
-
     #dropdown ul {
         padding: 0;
     }
-
     #dropdown li {
         top: 3vw;
         display: block;
     }
-
     #dropdown a {
         font-size: 1vw;
     }
-
     #behandlinger_knap:hover,
     #dropdown a:hover {
         color: #F2AB9B;
         cursor: pointer;
     }
-
     .hide {
         display: none;
     }
-
     /*    Menu slut */
     #velkommen {
         top: 20vw;
     }
-
     h1 {
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
@@ -440,18 +357,15 @@ a {
         color: #742E07;
         width: 60%;
     }
-
     p {
         line-height: 2.4rem;
         font-size: 0.9vw;
         padding-left: 10vw;
         padding-right: 10vw;
     }
-
     #splash_billede {
         margin-left: 3.3vw;
     }
-
     .billedtekst {
         line-height: 3vw;
         font-size: 1.5vw;
@@ -459,91 +373,77 @@ a {
         padding-right: 10vw;
         padding-bottom: 7vw;
     }
-
     .brynogvipper_container {
         height: 20vw;
         display: grid;
         grid-template-columns: 1fr 3fr;
         margin-bottom: 5vw;
     }
-
     .brynogvipper_container .right {
         border-left: 0.1vw solid #742E07;
         margin-top: 1.5vw;
         margin-bottom: 1.5vw;
     }
-
     #behandlinger .brynogvipper_container .right p {
         margin-bottom: 3.5vw;
     }
-
     .haarfjerning_container {
         height: 20vw;
         display: grid;
         grid-template-columns: 3fr 1fr;
         margin-bottom: 5vw;
     }
-
     .haarfjerning_container .right {
         border-right: 0.1vw solid #742E07;
         margin-top: 1.5vw;
         margin-bottom: 1.5vw;
     }
-
     .spraytan_container {
         height: 20vw;
         display: grid;
         grid-template-columns: 1fr 3fr;
         margin-bottom: 5vw;
     }
-
     .spraytan_container .right {
         border-left: 0.1vw solid #742E07;
         margin-top: 1.5vw;
         margin-bottom: 1.5vw;
     }
-
     .negle_container {
         height: 20vw;
         display: grid;
         grid-template-columns: 3fr 1fr;
         margin-bottom: 5vw;
     }
-
     .negle_container .right {
         border-right: 0.1vw solid #742E07;
         margin-top: 1.5vw;
         margin-bottom: 1.5vw;
     }
-
     .brynogvipper_ikon {
         height: 10vw;
         width: 17vw;
         padding-top: 5vw;
         padding-left: 1vw;
     }
-
     .haarfjerning_ikon {
         height: 13vw;
         width: 18vw;
         padding-left: 0;
         padding-top: 4vw;
     }
-
     .spraytan_ikon {
         height: 15vw;
         width: 15vw;
         padding-left: 2vw;
         padding-top: 2.5vw;
     }
-
     .negle_ikon {
         height: 15vw;
         width: 9vw;
         padding-left: 5vw;
         padding-top: 2.5vw;
     }
-
     h3 {
         font-size: 2vw;
         padding: 0vw;
@@ -552,49 +452,24 @@ a {
         margin-top: 1.5vw;
         color: #742E07;
     }
-
     .spraytan_container h3 {
         padding: 0vw;
     }
-
-    /*
-    .right_skygge_laes_mere {
-        position: relative;
-        top: -3vw;
-        left: 40.5vw;
-        height: 4vw;
-        width: 17vw;
-    }
-*/
-
     .right_laes_mere {
         top: 0;
         left: 60vw;
         height: 5vw;
         width: 17vw;
     }
-
-    /*
-    .left_skygge_laes_mere {
-        position: relative;
-        top: -2.5vw;
-        left: 23vw;
-        height: 4vw;
-        width: 17vw;
-    }
-*/
-
     .left_laes_mere {
         top: 0vw;
         left: 4vw;
         height: 5vw;
         width: 17vw;
     }
-
     .tekst {
         padding-top: 1.5vw;
     }
-
     #behandlinger p {
         margin: 0;
         margin-top: -2.5vw;
@@ -604,7 +479,6 @@ a {
         padding-right: 2vw;
         padding-left: 2vw;
     }
-
     .orange {
         position: absolute;
         top: 3.5vw;
@@ -614,7 +488,6 @@ a {
         background-color: #F2AB9B;
         filter: opacity(0.3);
     }
-
     .groen {
         position: absolute;
         top: 45vw;
@@ -624,7 +497,6 @@ a {
         background-color: #F4DAA8;
         filter: opacity(0.3)
     }
-
     .blaa {
         position: absolute;
         top: 120vw;
@@ -635,7 +507,6 @@ a {
         filter: opacity(0.3);
         z-index: -99;
     }
-
     .gul2 {
         position: absolute;
         top: 195vw;
@@ -646,30 +517,25 @@ a {
         filter: opacity(0.3);
         z-index: -99;
     }
-
     #aabningstider,
     #besoeg_os,
     #kontakt_os {
         display: block;
     }
-
     footer .sectionwrapper {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         width: auto;
         margin: 0;
     }
-
     .col {
         margin: 1vw;
     }
-
     h5 {
         font-size: 1.1rem;
         margin: 0;
         padding: 0;
     }
-<<<<<<< HEAD
     footer p {
         margin-left: 0;
         font-size: 1rem;
@@ -687,37 +553,27 @@ a {
     .col {
         margin: 1vw;
     }
-=======
-
->>>>>>> origin/main
     #kontakt {
         display: grid;
         grid-template-columns: 1fr 4fr;
         padding-top: 2vw;
         padding-bottom: 2vw;
     }
-
     #kontakt img,
     #kontakt a {
-<<<<<<< HEAD
         display: flex;
         margin: 0;
         width: 2.5vw;
-=======
         margin-right: 1vw;
     }
-
     #kontakt_os #kontakt img {
         width: 1.5vw;
         height: 1.5vw;
->>>>>>> origin/main
     }
-
     footer #some img {
         margin-right: 1vw;
         width: 3vw;
     }
-
     footer address,
     footer a {
         margin-top: 2vw;
@@ -733,21 +589,16 @@ a {
     footer a:link {
         text-transform: none;
     }
-
     footer a:hover {
         color: #F2AB9B;
     }
-
     .all_rights_reserved {
         margin-top: 4vw;
-<<<<<<< HEAD
         font-size: 0.6rem;
-=======
         font-size: 1.2vw;
         padding-top: 2vw;
         padding-bottom: 2vw;
     }
-
     footer p {
         padding: 0vw;
         text-align: left;
@@ -756,6 +607,5 @@ a {
         padding-top: 1vw;
         padding-bottom: 0.5vw;
         margin-left: 0;
->>>>>>> origin/main
     }
 }
