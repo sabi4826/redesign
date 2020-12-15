@@ -392,7 +392,6 @@ footer {
 
 footer p {
     padding-top: 2vw;
-    padding-bottom: 2vw;
 }
 
 footer img {
@@ -872,6 +871,8 @@ H5 {
 
     footer p {
         margin-left: 0;
+        line-height: 2.3vw;
+        font-size: 1.1vw;
     }
 
     #aabningstider,
