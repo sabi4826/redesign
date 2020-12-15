@@ -920,7 +920,13 @@ H5 {
         text-decoration: none;
         line-height: 2.3vw;
         font-size: 0.9rem;
+        text-transform: none;
     }
+
+    footer a:link {
+        text-transform: none;
+    }
+
 
     footer a:hover {
         color: #F2AB9B;
