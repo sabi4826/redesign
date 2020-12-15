@@ -46,7 +46,8 @@ h5 {
     font-size: 4vw;
 }
 
-#sectionwrapper2 hr, #sectionwrapper3 hr {
+#sectionwrapper2 hr,
+#sectionwrapper3 hr {
     width: 270px;
 }
 
@@ -198,7 +199,8 @@ input[type=text] {
     z-index: -1;
 }
 
-#sectionwrapper2 hr, #sectionwrapper3 hr {
+#sectionwrapper2 hr,
+#sectionwrapper3 hr {
     width: 328px;
 }
 
@@ -406,6 +408,127 @@ footer #kontakt_os {
     font-size: 2.5vw;
 }
 
+/* Menu mobil */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #F8F0EE;
+    text-align: center;
+    height: 100%;
+    z-index: 99;
+}
+
+
+
+#menuburger {
+    font-size: 8.5vw;
+    text-align: right;
+    color: #742E07;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#menu li {
+    display: block;
+    margin: 2vw;
+    padding: 2vw;
+    width: 80%;
+}
+
+
+
+#menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+#menu a:hover {
+    color: #F2AB9B;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+
+
+.nav_hide {
+    height: auto;
+}
+
+
+
+#logo {
+    position: absolute;
+    width: 17vw;
+    left: 2vw;
+    top: 0;
+}
+
+
+
+#behandlinger_knap {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #F8F0EE;
+    border: none;
+}
+
+
+
+#dropdown {
+    position: absolute;
+    background-color: #F8F0EE;
+    width: 100%;
+    height: 100%;
+    top: 30vw;
+}
+
+
+
+#dropdown li {
+    position: relative;
+    background-color: #F8F0EE;
+    width: 80%;
+    margin: 2vw;
+    list-style: none;
+}
+
+
+
+#dropdown a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.behandlinger_knap:hover,
+#dropdown a:hover {
+    color: #F2AB9B;
+    cursor: pointer;
+}
+
+
+
+/*Menu slut*/
+
 @media only screen and (min-width: 800px) {
     /****************************************************************** DESKTOP ***************************************************************************/
 
@@ -447,7 +570,8 @@ footer #kontakt_os {
         width: 10%;
     }
 
-    #sectionwrapper2 hr, #sectionwrapper3 hr {
+    #sectionwrapper2 hr,
+    #sectionwrapper3 hr {
         visibility: hidden;
     }
 
@@ -567,9 +691,9 @@ footer #kontakt_os {
     }
 
     .aabningstider #sectionwrapper2 .col p {
-    line-height: 3.5vw;
-    margin-top: 2vw;
-}
+        line-height: 3.5vw;
+        margin-top: 2vw;
+    }
 
     .col_left img {
         height: 5vw;
@@ -607,8 +731,7 @@ footer #kontakt_os {
     }
 
     /*************************** Find vej ********************************/
-    .find_vej{
-    }
+    .find_vej {}
 
     .find_vej #sectionwrapper {
         position: relative;
@@ -843,5 +966,122 @@ footer #kontakt_os {
         margin-top: 4vw;
         font-size: 1.2vw;
     }
+
+    /*    Menu desktop */
+    nav {
+        padding: 2vw;
+        height: auto;
+    }
+
+
+
+    .hidden {
+        display: block;
+    }
+
+
+
+    #menu {
+        text-align: right;
+    }
+
+
+
+    #menu li {
+        display: inline;
+        padding: 0.1vw;
+        margin: 0;
+        margin-right: 2vw;
+    }
+
+
+
+    #logo {
+        width: 9vw;
+    }
+
+
+
+    #menuburger {
+        display: none;
+    }
+
+
+
+    #menu a {
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.3vw;
+        font-size: 1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+
+    #menu a:hover {
+        color: #F2AB9B;
+        background-image:
+    }
+
+
+
+    #behandlinger_knap {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #F8F0EE;
+        border: none;
+    }
+
+
+
+    #dropdown {
+        position: absolute;
+        background-color: #F8F0EE;
+        width: 21vw;
+        height: 24vw;
+        top: 0vw;
+        left: 47.2vw;
+        z-index: -1;
+        text-align: left;
+    }
+
+
+
+    #dropdown ul {
+        padding: 0;
+    }
+
+
+
+    #dropdown li {
+        top: 3vw;
+        display: block;
+    }
+
+
+
+    #dropdown a {
+        font-size: 1vw;
+    }
+
+
+
+    #behandlinger_knap:hover,
+    #dropdown a:hover {
+        color: #F2AB9B;
+        cursor: pointer;
+    }
+
+
+
+    .hide {
+        display: none;
+    }
+
+    /*    Menu slut */
 
 }
