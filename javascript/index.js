@@ -10,7 +10,7 @@ function sidenVises() {
     document.querySelector("#pil").addEventListener("click", visPopop);
 
     // Vis pop op efter 15 sekunder (hvis nu brugeren ikke bruger "pil"-knappen)
-    setTimeout(visPopop, 30000);
+    setTimeout(visPopop, 15000);
 }
 
 function visPopop() {
