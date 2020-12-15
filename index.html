@@ -4,18 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wild Orchid, forside.</title>
+    <title>Wild Orchid, forside</title>
     <link rel="stylesheet" href="styles/index.css">
     <!--    fonte -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<header>
-    <nav id="nav" class="nav_hide">
-        <div id="menuburger">☰</div>
-        <a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
-        <ul id="menu" class="hidden">
-            <li><button id="behandlinger_knap" href="behandlinger_og_priser.html">Behandlinger og priser ⌄</button></li>
+
+
+<body>
+    <header>
+        <nav id="nav" class="nav_hide">
+            <div id="menuburger">☰</div>
+            <a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
+            <ul id="menu" class="hidden">
+                <li><button id="behandlinger_knap">Behandlinger og priser ⌄</button></li>
+                <li><a href="om_os.html">Om os</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
+            </ul>
             <div id="dropdown" class="hidden hide">
                 <ul>
                     <li><a href="behandlinger_og_priser.html">Alle behandlinger</a></li>
@@ -25,16 +32,10 @@
                     <li><a href="spraytan.html">Spraytan</a></li>
                 </ul>
             </div>
-            <li><a href="om_os.html">Om os</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
-        </ul>
-    </nav>
-</header>
-
-<body>
+        </nav>
+    </header>
     <section id="splash">
-        <video id="video_splash" poster="" autoplay muted loop src="http://sophiespang.dk/kea/05_content/wild_orchid_indhold/stemningsvideo/desktop/stemningsvideo.mp4">
+        <video id="video_splash" autoplay muted loop src="http://sophiespang.dk/kea/05_content/wild_orchid_indhold/stemningsvideo/desktop/stemningsvideo.mp4">
         </video>
         <img id="billede" src="http://sophiespang.dk/kea/05_content/wild_orchid_indhold/splash.jpg" alt="">
         <a href="#forside_behandlinger"><img id="pil" src="ikoner/pil.png" alt="pil"></a>
@@ -108,28 +109,28 @@
                 <img class="kundebillede" src="ikoner/kunde.png" alt="">
                 <p class="kunde_info"> Anja, 28 år
                 </p>
-                <p id="kunde_anmeldelse">”.Jeg anbefaler varmt Julia, hun er en fantastisk person, skaber en hyggelig atmosfære under behandlingen og udfører alle behandlinger til perfektion. Har gået til hende i flere år og fået lavet øjenbryn, voks, sugaring og negle. Hun giver både anbefalinger og lytter til ens egne ønsker, så man går fra klinikken mere end tilfreds hver gang!“</p>
+                <p class="kunde_anmeldelse">”.Jeg anbefaler varmt Julia, hun er en fantastisk person, skaber en hyggelig atmosfære under behandlingen og udfører alle behandlinger til perfektion. Har gået til hende i flere år og fået lavet øjenbryn, voks, sugaring og negle. Hun giver både anbefalinger og lytter til ens egne ønsker, så man går fra klinikken mere end tilfreds hver gang!“</p>
             </div>
 
             <div class="kunde">
                 <img class="kundebillede" src="ikoner/kunde.png" alt="">
                 <p class="kunde_info"> Sofie, 26 år
                 </p>
-                <p id="kunde_anmeldelse">”Jeg har prøvet sugaring andre steder før, men jeg har aldrig oplevet det bedre end hos Julia. Hun er dygtig, grundig og altid sød og imødekommende, så man føler sig i trygge hænder hele vejen igennem. De varmeste anbefalinger herfra!</p>
+                <p class="kunde_anmeldelse">”Jeg har prøvet sugaring andre steder før, men jeg har aldrig oplevet det bedre end hos Julia. Hun er dygtig, grundig og altid sød og imødekommende, så man føler sig i trygge hænder hele vejen igennem. De varmeste anbefalinger herfra!</p>
             </div>
 
             <div class="kunde">
                 <img class="kundebillede" src="ikoner/kunde.png" alt="">
                 <p class="kunde_info"> Anne, 34 år
                 </p>
-                <p id="kunde_anmeldelse">”I have been visiting Wild Orchid more than year already.I always enjoy not only the welcoming, nice atmosphere but the service which is really on a high level.Everything done in 100%+ Julia is a wonderful master who is focusing on doing her job a bit more then perfect. I never had my skin that soft and nice. Effect after sugaring lost for me more than 6 weeks.I really believe every woman might be happy to visiting this salon."</p>
+                <p class="kunde_anmeldelse">”I have been visiting Wild Orchid more than year already.I always enjoy not only the welcoming, nice atmosphere but the service which is really on a high level.Everything done in 100%+ Julia is a wonderful master who is focusing on doing her job a bit more then perfect. I never had my skin that soft and nice. Effect after sugaring lost for me more than 6 weeks.I really believe every woman might be happy to visiting this salon."</p>
             </div>
 
             <div class="kunde">
                 <img class="kundebillede" src="ikoner/kunde.png" alt="">
                 <p class="kunde_info"> Karina, 30 år
                 </p>
-                <p id="kunde_anmeldelse">”Jeg har fået en sugaring behandling af hele ben hos Julia i Wild Orchid og har været rigtig glad for resultatet af mine glatte og bløde ben. Julia er imødekommende og møder altid en med et smil. Jeg kommer helt sikkert igen!"</p>
+                <p class="kunde_anmeldelse">”Jeg har fået en sugaring behandling af hele ben hos Julia i Wild Orchid og har været rigtig glad for resultatet af mine glatte og bløde ben. Julia er imødekommende og møder altid en med et smil. Jeg kommer helt sikkert igen!"</p>
             </div>
 
             <div class="kunde">
@@ -149,7 +150,7 @@
         <div id="skygge_gavekort_2"></div>
         <div class="sectionwrapper">
             <div class="col border">
-                <form name="gavekort" netlify action="gavekort.html">
+                <form name="gavekort" action="gavekort.html" netlify>
                     <div class="form_felt"> <input type="text" name="fulde_navn" placeholder="DIN FULDE NAVN"></div>
                     <div class="form_felt"> <input type="email" name="email" placeholder="DIN MAIL"></div>
                     <div class="form_felt">
@@ -172,53 +173,53 @@
             <p>Psst.. Som studerende får du 10% i studierabat....</p>
         </div>
     </section>
+    <footer>
+        <section id="footer"></section>
+        <div class="sectionwrapper">
+            <div id="aabningstider" class="col">
+                <h5>Åbningstider</h5>
+                <p>Tirsdag-Torsdag: 11.00 - 19.00
+                    <br>Fredag: 9.00 - 17.00
+                    <br>Lørdag: 9.00 - 16.00
+                    <br>Søndag-Mandag: Lukket
+                </p>
+            </div>
+            <div id="besoeg_os" class="col">
+                <h5>Besøg os</h5>
+                <address>Rolighedsvej 19, Frederikberg 1958</address>
+                <a href="kontakt.html">Find vej</a><br>
+                <a href="kontakt.html">Parkeringsmuligheder</a>
+            </div>
+            <div id="kontakt_os" class="col">
+                <h5>Kontakt os</h5>
+                <div id="kontakt">
+                    <div>
+                        <img src="ikoner/mail.png" alt="Mail">
+                        <img src="ikoner/tlf.png" alt="Tlf">
+                    </div>
+                    <div>
+                        <a href="mailto:info@wildorchid.dk">info@wildorchid.dk</a>
+                        <a href="tel:+4593938163">+4593938163</a>
+                    </div>
+                </div>
+            </div>
+            <div id="foelg_os" class="col">
+                <h5 class="foelg_os">Følg os</h5>
+                <p>Du kan finde Wild Orchid på både Facebook og Instagram.</p>
+                <div id="some">
+                    <a href="https://www.facebook.com/WildOrchidDk/" target="_blank"><img id="facebook" src="ikoner/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/wildorchiddk/" target="_blank"> <img id="instagram" src="ikoner/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
 
+        <hr>
+        <p class="all_rights_reserved">© 2020 WILD ORCHID, ALL RIGHTS RESERVED</p>
+    </footer>
     <script src="javascript/script.js"></script>
     <script src="javascript/index.js"></script>
 </body>
 
-<footer>
-    <section id="footer"></section>
-    <div class="sectionwrapper">
-        <div id="aabningstider" class="col">
-            <h5>Åbningstider</h5>
-            <p>Tirsdag-Torsdag: 11.00 - 19.00
-                <br>Fredag: 9.00 - 17.00
-                <br>Lørdag: 9.00 - 16.00
-                <br>Søndag-Mandag: Lukket
-            </p>
-        </div>
-        <div id="besoeg_os" class="col">
-            <h5>Besøg os</h5>
-            <address>Rolighedsvej 19, Frederikberg 1958</address>
-            <a href="kontakt.html">Find vej</a><br>
-            <a href="kontakt.html">Parkeringsmuligheder</a>
-        </div>
-        <div id="kontakt_os" class="col">
-            <h5>Kontakt os</h5>
-            <div id="kontakt">
-                <div>
-                    <img src="ikoner/mail.png" alt="Mail">
-                    <img src="ikoner/tlf.png" alt="Tlf">
-                </div>
-                <div>
-                    <a href="mailto:info@wildorchid.dk">info@wildorchid.dk</a>
-                    <a href="tel:+4593938163">+4593938163</a>
-                </div>
-            </div>
-        </div>
-        <div id="foelg_os" class="col">
-            <h5 class="foelg_os">Følg os</h5>
-            <p>Du kan finde Wild Orchid på både Facebook og Instagram.</p>
-            <div id="some">
-                <a href="https://www.facebook.com/WildOrchidDk/" target="_blank"><img id="facebook" src="ikoner/facebook.png" alt="facebook"></a>
-                <a href="https://www.instagram.com/wildorchiddk/" target="_blank"> <img id="instagram" src="ikoner/instagram.png" alt="instagram"></a>
-            </div>
-        </div>
-    </div>
 
-    <hr>
-    <p class="all_rights_reserved">© 2020 WILD ORCHID, ALL RIGHTS RESERVED</p>
-</footer>
 
 </html>
