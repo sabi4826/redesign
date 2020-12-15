@@ -17,7 +17,9 @@
             <div id="menuburger">☰</div>
             <a href="index.html"> <img id="logo" src="ikoner/logo.png" alt="logo"></a>
             <ul id="menu" class="hidden">
-                <li><button id="behandlinger_knap">Behandlinger og priser ⌄</button></li>
+                <li>
+                    <button id="behandlinger_knap">Behandlinger og priser ⌄</button>
+                </li>
                 <li><a href="om_os.html">Om os</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
                 <li><a href="https://wildorchid.onlinebooq.dk/">Online booking</a></li>
@@ -43,9 +45,11 @@
             </p>
         </div>
     </section>
+    <!--
     <div id="groen"></div>
     <div id="gul"></div>
     <div id="blaa"></div>
+-->
     <section id="forside_behandlinger">
         <h2>Behandlinger</h2>
         <div id="skygge_behandlinger"></div>
@@ -149,12 +153,18 @@
         <div class="sectionwrapper">
             <div class="col border">
                 <form name="gavekort" data-netlify="true" action="gavekort.html">
-                    <div class="form_felt"> <input type="text" name="fulde_navn" placeholder="DIN FULDE NAVN"></div>
-                    <div class="form_felt"> <input type="email" name="email" placeholder="DIN MAIL"></div>
+                    <div class="form_felt">
+                        <input type="text" name="fulde_navn" placeholder="DIN FULDE NAVN">
+                    </div>
+                    <div class="form_felt">
+                        <input type="email" name="email" placeholder="DIN MAIL">
+                    </div>
                     <div class="form_felt">
                         <input type="number" name="beløb" placeholder="BELØB">
                     </div>
-                    <div class="form_felt"><button class="send">Send</button></div>
+                    <div class="form_felt">
+                        <button class="send">Send</button>
+                    </div>
                 </form>
             </div>
             <div class="col">
@@ -185,7 +195,8 @@
             <div id="besoeg_os" class="col">
                 <h5>Besøg os</h5>
                 <address>Rolighedsvej 19, Frederikberg 1958</address>
-                <a href="kontakt.html">Find vej</a><br>
+                <a href="kontakt.html">Find vej</a>
+                <br>
                 <a href="kontakt.html">Parkeringsmuligheder</a>
             </div>
             <div id="kontakt_os" class="col">
