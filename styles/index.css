@@ -869,6 +869,10 @@ H5 {
 
     /*    Footer desktop */
 
+    footer p {
+        margin-left: 0;
+    }
+
     #aabningstider,
     #besoeg_os,
     #kontakt_os {
@@ -895,12 +899,14 @@ H5 {
 
     #kontakt img,
     #kontakt a {
-        margin-right: 1vw;
+        display: flex;
+        margin: 0;
+        width: 2.5vw;
     }
 
     footer #some img {
         margin-right: 1vw;
-        width: 5vw;
+        width: 3vw;
     }
 
     footer address,
