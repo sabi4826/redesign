@@ -6,8 +6,8 @@ function sidenVises() {
     // Gem pop op
     document.querySelector("#popop").classList.add("hide");
 
-    // Vis pop op når man trykker på pil
-    document.querySelector("#pil").addEventListener("click", visPopop);
+//    // Vis pop op når man trykker på pil
+//    document.querySelector("#pil").addEventListener("click", visPopop);
 
     // Vis pop op efter 15 sekunder (hvis nu brugeren ikke bruger "pil"-knappen)
     setTimeout(visPopop, 15000);
@@ -16,8 +16,8 @@ function sidenVises() {
 function visPopop() {
     console.log("visPopop");
 
-    // Ryd op
-    document.querySelector("#pil").removeEventListener("click", visPopop);
+//    // Ryd op
+ //    document.querySelector("#pil").removeEventListener("click", visPopop);
 
     // Vis pop op
     document.querySelector("#popop").classList.remove("hide");
