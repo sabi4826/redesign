@@ -27,7 +27,6 @@ nav {
     margin: 2vw;
     padding: 2vw;
     width: 92%;
-    transform: translate(10%);
 }
 
 #menu a {
@@ -131,7 +130,7 @@ h1 {
     color: #742E07;
     background-color: #F8F0EE;
     padding: 2vw;
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -439,6 +438,7 @@ a {
         text-transform: uppercase;
         font-size: 2rem;
         color: #742E07;
+        width: 60%;
     }
 
     p {
