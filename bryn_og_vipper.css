@@ -240,6 +240,7 @@ a {
         padding: 0.1vw;
         margin: 0;
         margin-right: 2vw;
+        transform: translate(10%);
     }
     #logo {
         width: 9vw;
@@ -277,6 +278,7 @@ a {
         left: 47.2vw;
         z-index: -1;
         text-align: left;
+        transform: translate(10%);
     }
     #dropdown ul {
         padding: 0;

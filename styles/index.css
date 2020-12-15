@@ -734,8 +734,8 @@ H5 {
     /*    Footer desktop */
     footer p {
         margin-left: 0;
-        line-height: 2.3vw;
-        font-size: 1.1vw;
+        line-height: 2rem;
+        font-size: 1rem;
     }
     #aabningstider,
     #besoeg_os,

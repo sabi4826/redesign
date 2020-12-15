@@ -784,7 +784,10 @@ height: 72vw;
     }
     footer p {
         margin-left: 0;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        line-height: 2rem;
     }
     #aabningstider,
     #besoeg_os,
@@ -837,6 +840,10 @@ height: 72vw;
     .all_rights_reserved {
         margin-top: 4vw;
         font-size: 0.6rem;
+        /*
+        margin-bottom: 0;
+        padding-bottom: 0;
+*/
     }
     /*    Footer slut */
 }
