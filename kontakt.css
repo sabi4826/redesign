@@ -46,7 +46,7 @@ h5 {
     font-size: 4vw;
 }
 
-#sectionwrapper hr {
+#sectionwrapper2 hr, #sectionwrapper3 hr {
     width: 270px;
 }
 
@@ -198,7 +198,7 @@ input[type=text] {
     z-index: -1;
 }
 
-#sectionwrapper hr {
+#sectionwrapper2 hr, #sectionwrapper3 hr {
     width: 328px;
 }
 
@@ -423,7 +423,7 @@ footer #kontakt_os {
         font-size: 2vw;
     }
 
-    .aabningstider #sectionwrapper .col p {
+    .aabningstider #sectionwrapper2 .col p {
         line-height: 3.5vw;
         margin-top: -1vw;
     }
@@ -447,7 +447,7 @@ footer #kontakt_os {
         width: 10%;
     }
 
-    #sectionwrapper hr {
+    #sectionwrapper2 hr, #sectionwrapper3 hr {
         visibility: hidden;
     }
 
@@ -553,7 +553,7 @@ footer #kontakt_os {
 
     /************************************* Info *****************************/
 
-    .aabningstider #sectionwrapper {
+    .aabningstider #sectionwrapper2 {
         position: relative;
         margin: auto;
         display: grid;
@@ -566,7 +566,7 @@ footer #kontakt_os {
         margin-top: 3vw;
     }
 
-    .aabningstider #sectionwrapper .col p {
+    .aabningstider #sectionwrapper2 .col p {
     line-height: 3.5vw;
     margin-top: 2vw;
 }
