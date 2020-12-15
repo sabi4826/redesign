@@ -645,7 +645,7 @@ H5 {
     #behandleren {
         margin-left: 15%;
         width: 50%;
-        height: 35vw;
+        height: 45vw;
     }
 
     #behandleren h3 {
@@ -696,7 +696,7 @@ H5 {
     #behandleren_img {
         position: relative;
         background-color: seashell;
-        top: -36vw;
+        top: -43.5vw;
         left: 58vw;
         width: 30%;
         height: 40vw;
@@ -935,7 +935,7 @@ H5 {
     }
 
     p {
-        line-height: 1.4rem;
+        line-height: 2.4rem;
         font-size: 0.9rem;
     }
 }
