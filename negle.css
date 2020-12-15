@@ -111,6 +111,8 @@ p {
     font-size: 0.7rem;
     color: black;
 }
+
+/*
 .skygge_section {
     position: relative;
     top: 13vw;
@@ -119,6 +121,8 @@ p {
     width: 75vw;
     background-color: #F6D5CE;
 }
+*/
+
 #negle .sectionwrapper {
     position: relative;
     top: -147vw;
@@ -128,6 +132,7 @@ p {
     background-color: #F8F0EE;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    box-shadow: -1vw -1vw #F2AB9B;
 }
 .col_left {
     font-family: 'Playfair Display', serif;
@@ -404,6 +409,27 @@ footer img {
         margin: 0;
         padding: 0;
     }
+    footer p {
+        margin-left: 0;
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        line-height: 2rem;
+    }
+    #aabningstider,
+    #besoeg_os,
+    #kontakt_os {
+        display: block;
+    }
+    footer .sectionwrapper {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: auto;
+        margin: 0;
+    }
+    .col {
+        margin: 1vw;
+    }
     #kontakt {
         display: grid;
         grid-template-columns: 1fr 4fr;
@@ -412,15 +438,13 @@ footer img {
     }
     #kontakt img,
     #kontakt a {
-        margin-right: 1vw;
-    }
-    #kontakt_os #kontakt img {
-        width: 1.5vw;
-        height: 1.5vw;
+        display: flex;
+        margin: 0;
+        width: 2.5vw;
     }
     footer #some img {
         margin-right: 1vw;
-        width: 5vw;
+        width: 3vw;
     }
     footer address,
     footer a {
@@ -430,22 +454,18 @@ footer img {
         font-style: normal;
         color: black;
         text-decoration: none;
+        line-height: 2.3vw;
+        font-size: 0.9rem;
+        text-transform: none;
+    }
+    footer a:link {
+        text-transform: none;
     }
     footer a:hover {
         color: #F2AB9B;
     }
     .all_rights_reserved {
         margin-top: 4vw;
-        font-size: 1.2vw;
-        padding-top: 2vw;
-        padding-bottom: 2vw;
-    }
-    footer p {
-        padding: 0vw;
-        text-align: left;
-        line-height: 2.3vw;
-        font-size: 1.1vw;
-        padding-top: 2vw;
-        padding-bottom: 2vw;
+        font-size: 0.6rem;
     }
 }
