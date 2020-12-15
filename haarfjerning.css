@@ -657,6 +657,10 @@
             #kontakt a {
                 margin-right: 1vw;
             }
+            #kontakt_os #kontakt img {
+                width: 1.5vw;
+                height: 1.5vw;
+            }
             footer #some img {
                 margin-right: 1vw;
                 width: 5vw;
