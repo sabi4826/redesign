@@ -378,6 +378,7 @@ a {
     #om_os_billede {
         display: initial;
         position: relative;
+        top: 20vh;
     }
 
     #om_os_billede {
