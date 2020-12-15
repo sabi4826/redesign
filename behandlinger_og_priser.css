@@ -27,6 +27,7 @@ nav {
     margin: 2vw;
     padding: 2vw;
     width: 92%;
+    transform: translate(10%);
 }
 
 #menu a {
@@ -71,7 +72,8 @@ nav {
     background-color: #F8F0EE;
     width: 100%;
     height: 100%;
-    top: 30vw;
+    top: 25vw;
+    transform: translate(10%);
 }
 
 #dropdown li {
