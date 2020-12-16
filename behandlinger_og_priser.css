@@ -369,7 +369,7 @@ a {
     }
     p {
         line-height: 2.4rem;
-        font-size: 0.9vw;
+        font-size: 1rem;
         padding-left: 10vw;
         padding-right: 10vw;
     }
@@ -384,7 +384,7 @@ a {
         padding-bottom: 7vw;
     }
     .brynogvipper_container {
-        height: 20vw;
+        height: 25vw;
         display: grid;
         grid-template-columns: 1fr 3fr;
         margin-bottom: 5vw;
@@ -398,7 +398,7 @@ a {
         margin-bottom: 3.5vw;
     }
     .haarfjerning_container {
-        height: 20vw;
+        height: 100%;
         display: grid;
         grid-template-columns: 3fr 1fr;
         margin-bottom: 5vw;
@@ -409,7 +409,7 @@ a {
         margin-bottom: 1.5vw;
     }
     .spraytan_container {
-        height: 20vw;
+        height: 100%;
         display: grid;
         grid-template-columns: 1fr 3fr;
         margin-bottom: 5vw;
@@ -420,7 +420,7 @@ a {
         margin-bottom: 1.5vw;
     }
     .negle_container {
-        height: 20vw;
+        height: 100%;
         display: grid;
         grid-template-columns: 3fr 1fr;
         margin-bottom: 5vw;
@@ -466,7 +466,7 @@ a {
         padding: 0vw;
     }
     .right_laes_mere {
-        top: -2vw;
+        top: 1vw;
         left: 45vw;
         height: 5vw;
         width: 17vw;
@@ -483,7 +483,7 @@ a {
     #behandlinger p {
         margin: 0;
         margin-top: -2.5vw;
-        line-height: 2vw;
+        line-height: 2rem;
         margin-right: 0vw;
         margin-left: 0vw;
         padding-right: 2vw;

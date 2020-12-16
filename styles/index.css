@@ -462,8 +462,8 @@ H5 {
     }
     /*    Menu slut */
     p {
-        line-height: 2.3vw;
-        font-size: 1.3vw;
+        line-height: 2.4rem;
+        font-size: 1.2rem;
     }
     /*    Splash */
     #video_splash {
@@ -806,6 +806,6 @@ H5 {
     }
     p {
         line-height: 2.4rem;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 }
