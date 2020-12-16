@@ -1,15 +1,18 @@
 * {
     margin: 0;
 }
+
 #nav {
     top: 0;
 }
+
 H1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
     color: #742E07;
 }
+
 H2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -18,6 +21,7 @@ H2 {
     padding: 2vw;
     color: black;
 }
+
 H3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -26,20 +30,24 @@ H3 {
     padding: 2vw;
     color: #742E07;
 }
+
 H5 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 4vw;
 }
+
 .aabningstider h3 {
     color: #742E07;
 }
+
 p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.2rem;
     font-size: 0.7rem;
     color: black
 }
+
 a {
     text-transform: uppercase;
     text-decoration: none;
@@ -82,39 +90,42 @@ a {
     height: auto;
     margin: auto;
 }
+
 #formular {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    top: 10vw;
-    position: relative;
+    margin-top: 15vw;
 }
+
 #billede {
-    width: 30vw;
+    width: 95%;
     height: 40vw;
-    background-color: #F8EFED;
     overflow: hidden;
     box-shadow: #CAD2C6 -1vw 1vw;
-    margin: 2vw;
+    margin: auto;
+    margin-bottom: 5vw;
 }
+
 #kontaktformular {
     margin: 2vw;
     padding: 2vw;
     background-color: #F8EFED;
 }
+
 .form_felt {
     margin: 2vw;
 }
+
 input {
-    width: 20vw;
+    width: 100%;
     height: 2.5vh;
     border: 0;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
 #kontaktformular textarea {
-    width: 20vw;
-    max-width: 30vw;
+    width: 100%;
+    max-width: 100%;
     background-color: white;
     box-sizing: border-box;
     border: none;
@@ -123,21 +134,22 @@ input {
     text-align: center;
     font-size: 0.7rem;
 }
+
 .send {
     color: black;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    width: 8vw;
-    height: 2vw;
+    width: 100%;
+    height: auto;
+    padding: 1vw;
     background-color: white;
     border: none;
+    box-shadow: #F2AB9B -1vw 1vw;
 }
+
 .send:hover {
-    background-color: #F2AB9B;
     cursor: pointer;
     border: none;
-    width: 8vw;
-    height: 2vw;
 }
 
 /*
@@ -176,26 +188,32 @@ input[type=text] {
     height: auto;
     padding-bottom: 2vw;
 }
+
 #info .col {
     text-align: center;
 }
+
 #info h3 {
     padding: 3vw;
 }
+
 #adresse {
     display: grid;
     grid-template-columns: 10% 90%;
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
+
 .col_ny {
     display: grid;
     text-align: center;
 }
+
 #adresse .col_ny {
     text-align: left;
 }
+
 .col_ny img {
     height: 3VW;
     width: 3vw;
@@ -212,8 +230,18 @@ input[type=text] {
 */
 
 .find_vej {
+    text-align: center;
     z-index: 50;
+    width: 90%;
+    margin: auto;
+    margin-top: 2vw;
 }
+
+.find_vej img {
+    padding: 4vw;
+    width: 14vw;
+}
+
 
 /*
 .facade {
@@ -230,6 +258,7 @@ input[type=text] {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
 .col_left {
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -238,11 +267,14 @@ input[type=text] {
     top: 309vw;
     right: 69vw;
 }
+
 .col_left img {
     height: 10vw;
     width: 10vw;
 }
+
 .col_left div {}
+
 .col_right {
     position: absolute;
     top: 304vw;
@@ -268,6 +300,7 @@ input[type=text] {
     left: 0px;
     z-index: -1;
 }
+
 .blaa {
     position: absolute;
     background-color: #ACCCDB;
@@ -277,6 +310,7 @@ input[type=text] {
     left: 20px;
     z-index: -1;
 }
+
 .lyseroed {
     position: absolute;
     background-color: #F2AB9B;
@@ -286,6 +320,7 @@ input[type=text] {
     right: 0px;
     z-index: -1;
 }
+
 #sectionwrapper2 hr,
 #sectionwrapper3 hr {
     width: 328px;
@@ -308,12 +343,14 @@ nav {
     height: 100%;
     z-index: 99;
 }
+
 #menuburger {
     font-size: 8.5vw;
     text-align: right;
     color: #742E07;
     font-family: 'Montserrat', sans-serif;
 }
+
 #menu li {
     display: block;
     margin: 2vw;
@@ -321,6 +358,7 @@ nav {
     width: 80%;
     transform: translate(10%);
 }
+
 #menu a {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -328,21 +366,26 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 #menu a:hover {
     color: #F2AB9B;
 }
+
 .hidden {
     display: none;
 }
+
 .nav_hide {
     height: auto;
 }
+
 #logo {
     position: absolute;
     width: 17vw;
     left: 2vw;
     top: 0;
 }
+
 #behandlinger_knap {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -352,21 +395,25 @@ nav {
     background-color: #F8F0EE;
     border: none;
 }
+
 #dropdown {
     position: relative;
     background-color: #F8F0EE;
     width: 80%;
 }
+
 #dropdown li {
     position: relative;
     background-color: #F8F0EE;
     width: 80%;
     margin: 2vw;
 }
+
 #dropdown a {
     text-decoration: none;
     color: black;
 }
+
 .behandlinger_knap:hover,
 #dropdown a:hover {
     color: #F2AB9B;
@@ -382,18 +429,24 @@ footer {
     margin: auto;
     max-width: 100%;
 }
+
 footer p {
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
+
 footer img {
     width: 10vw;
 }
+
 footer #aabningstider,
 #besoeg_os,
-footer #kontakt_os {
+#footer_kontakt_os {
     display: none;
 }
+
+
+
 .all_rights_reserved {
     margin-top: 4vw;
     font-size: 2.5vw;
@@ -409,18 +462,21 @@ nav {
     height: 100%;
     z-index: 99;
 }
+
 #menuburger {
     font-size: 8.5vw;
     text-align: right;
     color: #742E07;
     font-family: 'Montserrat', sans-serif;
 }
+
 #menu li {
     display: block;
     margin: 2vw;
     padding: 2vw;
     width: 80%;
 }
+
 #menu a {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -428,21 +484,26 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 #menu a:hover {
     color: #F2AB9B;
 }
+
 .hidden {
     display: none;
 }
+
 .nav_hide {
     height: auto;
 }
+
 #logo {
     position: absolute;
     width: 17vw;
     left: 2vw;
     top: 0;
 }
+
 #behandlinger_knap {
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
@@ -452,6 +513,7 @@ nav {
     background-color: #F8F0EE;
     border: none;
 }
+
 #dropdown {
     position: absolute;
     background-color: #F8F0EE;
@@ -460,6 +522,7 @@ nav {
     top: 25vw;
     transform: translate(10%);
 }
+
 #dropdown li {
     position: relative;
     background-color: #F8F0EE;
@@ -467,6 +530,7 @@ nav {
     margin: 2vw;
     list-style: none;
 }
+
 #dropdown a {
     text-decoration: none;
     color: black;
@@ -476,6 +540,7 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .behandlinger_knap:hover,
 #dropdown a:hover {
     color: #F2AB9B;
@@ -485,39 +550,115 @@ nav {
 /*Menu slut*/
 
 @media only screen and (min-width: 800px) {
+
     /****************************************************************** DESKTOP ***************************************************************************/
     /************************** Fonts ********************************/
     H1 {
         font-size: 4.5rem;
     }
+
     H2 {
         font-size: 2.5rem;
     }
+
     H5 {
         font-size: 1.1rem
     }
+
     p {
         line-height: 2.4rem;
         font-size: 1.2rem;
     }
+
     .find_vej p {
         text-align: center;
     }
+
     .aabningstider p {
         font-size: 2vw;
     }
+
     .aabningstider #sectionwrapper2 .col p {
         line-height: 3.5vw;
         margin-top: -1vw;
     }
+
     .facade-container {
         width: 10%;
     }
+
     #sectionwrapper2 hr,
     #sectionwrapper3 hr {
         visibility: hidden;
     }
+
     /******************************** Form ****************************/
+
+    #formular {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 10vw;
+    }
+
+    #billede {
+        width: 30vw;
+        height: 40vw;
+        background-color: #F8EFED;
+        overflow: hidden;
+        box-shadow: #CAD2C6 -1vw 1vw;
+        margin: 2vw;
+    }
+
+    #kontaktformular {
+        margin: 2vw;
+        padding: 2vw;
+        background-color: #F8EFED;
+    }
+
+    .form_felt {
+        margin: 2vw;
+    }
+
+    input {
+        width: 20vw;
+        height: 2.5vh;
+        border: 0;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    #kontaktformular textarea {
+        width: 20vw;
+        max-width: 30vw;
+        background-color: white;
+        box-sizing: border-box;
+        border: none;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .send {
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        width: 8vw;
+        height: auto;
+        background-color: white;
+        border: none;
+        box-shadow: none;
+    }
+
+    .send:hover {
+        background-color: #F2AB9B;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    /*
     #sectionwrapper1 {
         position: relative;
         margin: auto;
@@ -525,6 +666,7 @@ nav {
         grid-template-columns: repeat(2, 50%);
         width: 100%;
     }
+*/
     /*
     .form {
         text-align: left;
@@ -596,6 +738,7 @@ nav {
         margin-top: 70px;
     }
 */
+    /*
     .send button {
         position: absolute;
         width: 7vw;
@@ -615,39 +758,52 @@ nav {
         top: 36.5vw;
         right: 46vw;
     }
+*/
     /************************************* Info *****************************/
     #info {
         background-color: #F8EFED;
         height: auto;
         width: 70%;
-        padding: 2.2vw;
+        padding: 2.4vw;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 15vw;
+        margin-top: 5vw;
     }
+
     #info h3 {
         text-align: center;
     }
+
     #adresse {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 4fr;
         margin: auto;
+        padding-left: 6vw;
     }
+
     .col_ny {
         display: grid;
         padding: 0.4vw;
         text-align: left;
     }
+
+    .col_ny p {
+        margin-bottom: 2vw;
+    }
+
     .col_ny img {
         height: 3VW;
         width: 3vw;
-        padding: 0.2vw;
+        padding: 0vw;
         margin: auto;
+        margin-bottom: 1.6vw;
     }
+
     .border {
         border-left: 0.1vw solid #742E07;
     }
+
     /*
     .aabningstider #sectionwrapper2 {
         position: relative;
@@ -705,6 +861,7 @@ nav {
 */
     /*************************** Find vej ********************************/
     .find_vej {}
+
     .find_vej #sectionwrapper3 {
         position: relative;
         margin: auto;
@@ -713,18 +870,32 @@ nav {
         width: 100%;
         margin-bottom: 13vw;
     }
-    .col {
+
+    .findvej .col {
         display: flex;
         flex-direction: column;
     }
+
+    .find_vej p {
+        margin: 2vw;
+    }
+
+    .find_vej img {
+        margin: 0;
+        width: 7vw;
+    }
+
+
     /********************************** Billede **************************/
     .facade-container {
         display: flex;
         flex-direction: column;
     }
+
     .facade {
         width: 22vw;
     }
+
     /************************* Skygger *******************************/
     .groen {
         position: absolute;
@@ -735,6 +906,7 @@ nav {
         left: 67vw;
         z-index: -1;
     }
+
     .lyseroed {
         position: absolute;
         background-color: #F2AB9B;
@@ -744,6 +916,7 @@ nav {
         right: 80px;
         z-index: -1;
     }
+
     .blaa {
         position: absolute;
         background-color: #ACCCDB;
@@ -753,6 +926,7 @@ nav {
         left: 0;
         z-index: -1;
     }
+
     .gul {
         position: absolute;
         background-color: #F4DAA8;
@@ -761,6 +935,7 @@ nav {
         top: 15vw;
         right: 26.5vw;
     }
+
     /*
     *************************** Vertikale linjer ***************************
     .vl1 {
@@ -792,24 +967,30 @@ nav {
         padding: 2vw;
         height: auto;
     }
+
     .hidden {
         display: block;
     }
+
     #menu {
         text-align: right;
     }
+
     #menu li {
         display: inline;
         padding: 0.1vw;
         margin: 0;
         margin-right: 2vw;
     }
+
     #logo {
         width: 9vw;
     }
+
     #menuburger {
         display: none;
     }
+
     #menu a {
         font-family: 'Montserrat', sans-serif;
         padding: 1.3vw;
@@ -818,9 +999,11 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
     }
+
     #menu a:hover {
         color: #F2AB9B;
     }
+
     #behandlinger_knap {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.1vw;
@@ -830,6 +1013,7 @@ nav {
         background-color: #F8F0EE;
         border: none;
     }
+
     #dropdown {
         position: absolute;
         background-color: #F8F0EE;
@@ -839,55 +1023,67 @@ nav {
         right: 35.5vw;
         z-index: -1;
     }
+
     #dropdown a {
         text-decoration: none;
         color: black;
         padding: 1vw;
     }
+
     #dropdown li {
         top: 6vw;
     }
+
     #behandlinger_knap:hover,
     #dropdown a:hover {
         color: #F2AB9B;
         cursor: pointer;
     }
+
     .hide {
         display: none;
     }
+
     /********************************** Footer ***********************************/
     footer #aabningstider,
     #besoeg_os,
     footer #footer_kontakt_os {
         display: block;
     }
+
     footer .sectionwrapper {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         width: auto;
         margin: 0;
     }
+
     footer .col {
         margin: 1vw;
     }
+
     footer h5 {
         font-size: 2vw;
     }
+
     footer #kontakt {
         display: grid;
         grid-template-columns: 1fr 4fr;
         padding-top: 2vw;
         padding-bottom: 2vw;
     }
+
     footer #kontakt img,
     footer #kontakt a {
         margin-right: 1vw;
         width: 2vw;
     }
+
     footer #some img {
         margin-right: 1vw;
         width: 5vw;
     }
+
     footer address,
     footer a {
         margin-top: 2vw;
@@ -897,36 +1093,45 @@ nav {
         color: black;
         text-decoration: none;
     }
+
     footer a:hover {
         color: #F2AB9B;
     }
+
     .all_rights_reserved {
         margin-top: 4vw;
         font-size: 1.2vw;
     }
+
     /*    Menu desktop */
     nav {
         padding: 2vw;
         height: auto;
     }
+
     .hidden {
         display: block;
     }
+
     #menu {
         text-align: right;
     }
+
     #menu li {
         display: inline;
         padding: 0.1vw;
         margin: 0;
         margin-right: 2vw;
     }
+
     #logo {
         width: 9vw;
     }
+
     #menuburger {
         display: none;
     }
+
     #menu a {
         font-family: 'Montserrat', sans-serif;
         padding: 1.3vw;
@@ -935,10 +1140,12 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
     }
+
     #menu a:hover {
         color: #F2AB9B;
         background-image:
     }
+
     #behandlinger_knap {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.1vw;
@@ -948,6 +1155,7 @@ nav {
         background-color: #F8F0EE;
         border: none;
     }
+
     #dropdown {
         position: absolute;
         background-color: #F8F0EE;
@@ -958,23 +1166,29 @@ nav {
         z-index: -1;
         text-align: left;
     }
+
     #dropdown ul {
         padding: 0;
     }
+
     #dropdown li {
         top: 3vw;
         display: block;
     }
+
     #dropdown a {
         font-size: 1vw;
     }
+
     #behandlinger_knap:hover,
     #dropdown a:hover {
         color: #F2AB9B;
         cursor: pointer;
     }
+
     .hide {
         display: none;
     }
+
     /*    Menu slut */
 }
