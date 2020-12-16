@@ -127,7 +127,7 @@ nav {
     color: #742E07;
 }
 .billedtekst {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     /*    text-align: center;*/
 }
 #groen {
@@ -377,7 +377,7 @@ H3 {
     color: #742E07;
 }
 p {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.1rem;
     font-size: 0.7rem;
     color: black
@@ -776,7 +776,7 @@ H5 {
     footer a {
         margin-top: 2vw;
         margin-bottom: 2vw;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         color: black;
         text-decoration: none;

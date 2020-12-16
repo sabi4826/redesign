@@ -102,7 +102,7 @@ h1 {
     color: #742E07;
 }
 p {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 6vw;
     margin-right: 6vw;
     margin-bottom: 4vw;
@@ -120,7 +120,7 @@ p {
     margin-left: 15vw;
 }
 .col_left {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 6vw;
     margin-right: 6vw;
     margin-bottom: 4vw;
@@ -135,7 +135,7 @@ p {
     padding-bottom: 2vw;
 }
 .col_right {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 6vw;
     margin-right: 6vw;
     margin-bottom: 4vw;
@@ -424,7 +424,7 @@ a {
     footer a {
         margin-top: 2vw;
         margin-bottom: 2vw;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         color: black;
         text-decoration: none;

@@ -233,7 +233,7 @@ H5 {
     font-size: 4vw;
 }
 p {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.2rem;
     font-size: 0.7rem;
     color: black
@@ -442,7 +442,7 @@ a {
     footer a {
         margin-top: 2vw;
         margin-bottom: 2vw;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         color: black;
         text-decoration: none;
