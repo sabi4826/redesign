@@ -433,10 +433,13 @@ a {
     #kontakt img,
     #kontakt a {
         margin-right: 1vw;
+        display: flex;
+        margin: 0;
+        width: 2.5vw;
     }
     footer #some img {
         margin-right: 1vw;
-        width: 5vw;
+        width: 3vw;
     }
     footer address,
     footer a {
@@ -448,6 +451,7 @@ a {
         text-decoration: none;
         line-height: 2.3vw;
         font-size: 0.9rem;
+        text-transform: none;
     }
     footer a:hover {
         color: #F2AB9B;
@@ -455,6 +459,14 @@ a {
     .all_rights_reserved {
         margin-top: 4vw;
         font-size: 0.6rem;
+    }
+    footer p {
+        margin-left: 0;
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        line-height: 2rem;
+        padding-top: 2vw;
     }
 }
 @media only screen and (min-width: 1000px) {
