@@ -88,12 +88,20 @@ a {
 }
 #billede {
     width: 95%;
-    height: 40vw;
+    height: 85vw;
     overflow: hidden;
     box-shadow: #CAD2C6 -1vw 1vw;
     margin: auto;
     margin-bottom: 5vw;
 }
+<<<<<<< HEAD
+=======
+
+#billede img {
+    width: 100%
+}
+
+>>>>>>> origin/main
 #kontaktformular {
     margin: 2vw;
     padding: 2vw;
