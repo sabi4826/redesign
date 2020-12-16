@@ -35,7 +35,7 @@ H2 {
 
     padding: 2vw;
 
-    color: black
+    color: black;
 }
 
 H3 {
@@ -153,13 +153,30 @@ input[type=text] {
     font-size: 3.5vw;
 }
 
-.info {
+#info {
     background-color: #F8EFED;
     height: 380px;
     padding-bottom: 20px;
     padding-top: 10px;
     margin-bottom: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+#info .col {
+    display: flex;
+    text-align: center;
+
+}
+
+/*
+.col_aabningstider {
+    grid-column-start: 1;
+    grid-row: 1;
+    grid-column-end: span 3;
+    grid-row-end: span 3;
+}
+*/
 
 .find_vej {
     z-index: 50;
@@ -171,7 +188,7 @@ input[type=text] {
     margin-top: 7vw;
 }
 
-.col_ny {
+#col_ny {
     top: 110vw;
     right: 10vw;
     height: 125vw;
@@ -247,9 +264,11 @@ input[type=text] {
     width: 328px;
 }
 
+/*
 .aabningstider hr {
     margin-top: 5vw;
 }
+*/
 
 /****************************** Header **********************************/
 
@@ -609,6 +628,45 @@ nav {
     }
 
     /************************************* Info *****************************/
+
+    #info {
+        background-color: #F8EFED;
+        height: auto;
+        width: 70%;
+        padding: 2.2vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #info h3 {
+        text-align: center;
+    }
+
+    #adresse {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: auto;
+    }
+
+    .col_ny {
+        display: grid;
+        padding: 0.4vw;
+        text-align: left;
+    }
+
+    .col_ny img {
+        height: 3VW;
+        width: 3vw;
+        padding: 0.2vw;
+        margin: auto;
+    }
+
+    .border {
+        border-left: 0.1vw solid #742E07;
+    }
+
+    /*
     .aabningstider #sectionwrapper2 {
         position: relative;
         margin: auto;
@@ -626,7 +684,9 @@ nav {
         line-height: 3.5vw;
         margin-top: 2vw;
     }
+*/
 
+    /*
     .col_left img {
         height: 5vw;
         width: 5vw;
@@ -661,6 +721,7 @@ nav {
         margin-top: 4vw;
         text-align: left;
     }
+*/
 
     /*************************** Find vej ********************************/
     .find_vej {}
@@ -729,7 +790,8 @@ nav {
         right: 26.5vw;
     }
 
-    /**************************** Vertikale linjer ****************************/
+    /*
+    *************************** Vertikale linjer ***************************
     .vl1 {
         top: 57vw;
         right: 50vw;
@@ -753,6 +815,7 @@ nav {
         height: 282px;
         position: absolute;
     }
+*/
 
     /****************************** Header ***************************/
     nav {
