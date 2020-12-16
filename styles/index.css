@@ -716,6 +716,11 @@ H5 {
         height: 30vw;
     }
 
+    .kunde_anmeldelse {
+        width: 50%;
+        margin: auto;
+    }
+
     .frem,
     .tilbage {
         font-size: 50px;
